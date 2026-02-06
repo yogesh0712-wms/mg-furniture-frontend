@@ -23,8 +23,15 @@ import Wooden_ceiling from "./Shop/Wooden_celing";
 import Furniture_Reparation from "./Contracting/Furniture_Reparation";
 import Wedding_furniture from "./Contracting/Wedding_furniture";
 import Design_consultation from "./Contracting/Design_consultation";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    fetch("https://mg-furniture-backend.onrender.com/api/health").catch(
+      () => {},
+    );
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
