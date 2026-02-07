@@ -100,6 +100,7 @@ const items = [
   { type: "Wardrobe", number: 14 },
   { type: "Sofas", number: 72 },
   { type: "Dinning Table", number: 16 },
+  { type: "Dinning Table", number: 16 },
 ];
 
 function Counter({ target }) {
