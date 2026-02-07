@@ -7,6 +7,7 @@ const HeroSection = () => {
         bg-[#a7a8a3] w-full font-inter relative
         h-auto
         lg:h-[90vh]
+        overflow-hidden
       "
     >
       <div
@@ -45,12 +46,12 @@ const HeroSection = () => {
           </h1>
         </div>
 
-        {/* FLOATING IMAGE (DESKTOP ONLY POSITIONING) */}
+        {/* FLOATING IMAGE */}
         <img
           src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c1.jpg"
           alt="this is the sofa"
-          className="top-0 absolute right-1
-            h-72
+          className="
+            hidden
             lg:block lg:h-80 lg:absolute lg:top-0 lg:right-48
           "
         />
@@ -59,7 +60,7 @@ const HeroSection = () => {
         <div
           className="
             mt-8 rounded-2xl overflow-hidden
-            h-56 w-[60%]
+            w-full h-56
             lg:h-[19rem] lg:w-[35rem] lg:mt-[-30px]
           "
         >
@@ -71,7 +72,12 @@ const HeroSection = () => {
         </div>
 
         {/* CTA BUTTON */}
-        <div className="mt-6 right-10 bottom-20 absolute lg:right-[60vh] lg:top-[65vh]">
+        <div
+          className="
+            mt-6 flex justify-center
+            lg:absolute lg:right-[60vh] lg:top-[65vh]
+          "
+        >
           <a
             href="/shop"
             className="
@@ -130,7 +136,7 @@ const HeroSection2 = () => {
       >
         <div
           className="
-            flex gap-16 pl-16 py-10
+            grid grid-cols-2 gap-10 py-10
             lg:flex lg:items-center lg:gap-36 lg:py-16
           "
         >
