@@ -82,7 +82,7 @@ const HeroSection = () => {
             href="/shop"
             className="
               border-2 border-black
-              px-6 py-3 rounded-full text-base font-medium
+              px-6 py-3 mb-2 rounded-full text-base font-medium
               lg:p-4 lg:px-9 lg:text-lg lg:leading-loose
             "
           >
