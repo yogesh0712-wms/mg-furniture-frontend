@@ -130,26 +130,36 @@ function Header() {
 }
 
 export default Header;
-
 const Footer = () => {
   return (
-    <footer className=" h-[75%] w-full bg-[#EAEAC9] font-inter ">
-      <div className=" lg:w-3/4 mx-auto py-24 flex gap-10 pl-4 lg:gap-28 ">
+    <footer className="w-full bg-[#EAEAC9] font-inter">
+      <div
+        className="
+          lg:w-3/4 mx-auto py-24
+          flex flex-col gap-14
+          lg:flex-row lg:gap-28
+          px-4
+        "
+      >
+        {/* BRAND */}
         <div>
           <div className="font-medium text-lg">
             <p>MG FURNITURE</p>
           </div>
+
           <div className="font-light py-5">
             <p>
               Crafting comfort and style, <br /> designed to fit your life.
             </p>
           </div>
-          <div className=" pl-5">
+
+          <div className="pl-0 lg:pl-5">
             <NavLink to="/">
               <img src="/MG logo2.svg" className="h-16 w-auto object-contain" />
             </NavLink>
           </div>
-          <div className="flex ml-8 mt-5 gap-4 lg:gap-3">
+
+          <div className="flex mt-5 gap-4 lg:gap-3">
             <a className="text-white bg-blue-500 p-1 rounded-full">
               <FaFacebookF size={14} />
             </a>
@@ -161,10 +171,13 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+        {/* OFFICE */}
         <div>
           <div className="font-normal text-sm">
             <p>OFFICE</p>
           </div>
+
           <div className="font-light pt-5">
             <p>
               Amphitheatre Parkway,
@@ -172,46 +185,60 @@ const Footer = () => {
               <br /> 94043, USA.
             </p>
           </div>
+
           <div className="font-light pt-5">hello@mgfurniture.com</div>
-          <div className="font-light ">+91 9694463626</div>
+          <div className="font-light">+91 9694463626</div>
         </div>
+
+        {/* LINKS */}
         <div className="flex gap-10 lg:gap-24">
-          <div className=" flex flex-col ">
+          <div className="flex flex-col">
             <div className="font-medium text-sm pb-5">
               <p>MENU</p>
             </div>
 
-            <NavLink to="/shop" className="font-normal text-base ">
+            <NavLink to="/shop" className="text-base">
               Shop
             </NavLink>
-            <NavLink to="/services" className="font-normal text-base pt-2">
+            <NavLink to="/services" className="text-base pt-2">
               Services
             </NavLink>
-            <NavLink to="/contracting" className="font-normal text-base pt-2">
+            <NavLink to="/contracting" className="text-base pt-2">
               Contracting
             </NavLink>
           </div>
-          <div className=" flex flex-col ">
+
+          <div className="flex flex-col">
             <div className="font-medium text-sm pb-5">
               <p>LINKS</p>
             </div>
 
-            <NavLink to="/about-us" className="font-normal text-base ">
+            <NavLink to="/about-us" className="text-base">
               About Us
             </NavLink>
-            <NavLink to="/contact" className="font-normal text-base pt-2">
+            <NavLink to="/contact" className="text-base pt-2">
               Contact
             </NavLink>
-            <NavLink to="/testimonials" className="font-normal text-base pt-2">
+            <NavLink to="/testimonials" className="text-base pt-2">
               Testimonials
             </NavLink>
           </div>
         </div>
       </div>
-      <div className="">
-        <hr class="border-t border-gray-500 my-4 lg:w-3/4 mx-auto" />
-      </div>
-      <div className="w-3/4 mx-auto flex justify-between pb-5">
+
+      {/* DIVIDER */}
+      <hr className="border-t border-gray-500 my-4 lg:w-3/4 mx-auto" />
+
+      {/* BOTTOM BAR */}
+      <div
+        className="
+          lg:w-3/4 mx-auto
+          flex flex-col gap-3
+          lg:flex-row lg:justify-between
+          text-center lg:text-left
+          pb-5 px-4
+        "
+      >
         <p className="text-base font-thin">Powered by HM Global.</p>
         <p className="text-base font-thin">Privacy Policy | Our Terms</p>
       </div>
