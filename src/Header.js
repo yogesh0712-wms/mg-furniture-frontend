@@ -24,38 +24,38 @@ function Header() {
   return (
     <div>
       {/* ================= TOP BAR ================= */}
-      <div className="flex items-center justify-between px-4 py-2 text-sm lg:w-[75%] lg:mx-auto">
+      <div className="flex items-center justify-between px-4 py-2 text-xs lg:text-sm lg:w-[75%] lg:mx-auto">
         {/* Left: Phone + Email */}
-        <div className="flex flex-col md:flex-row md:gap-6">
+        <div className="flex flex-col leading-tight md:flex-row md:gap-6">
           <p>+91-7878658974</p>
           <p>hello@mgfurniture.com</p>
         </div>
 
         {/* Right: Social Icons */}
-        <div className="flex gap-3">
+        <div className="flex gap-2">
           <a className="text-white bg-blue-500 p-1 rounded-full">
-            <FaFacebookF size={14} />
+            <FaFacebookF size={13} />
           </a>
           <a className="text-white bg-pink-500 p-1 rounded-full">
-            <FaInstagram size={14} />
+            <FaInstagram size={13} />
           </a>
           <a className="text-white bg-green-500 p-1 rounded-full">
-            <FaWhatsapp size={14} />
+            <FaWhatsapp size={13} />
           </a>
         </div>
       </div>
 
       {/* Divider */}
       <div className="flex">
-        <div className="w-1/2 border-t border-gray-400"></div>
-        <div className="w-1/2 border-t border-gray-400"></div>
+        <div className="w-1/2 border-t border-gray-300"></div>
+        <div className="w-1/2 border-t border-gray-300"></div>
       </div>
 
       {/* ================= MOBILE HEADER ROW ================= */}
-      <div className="lg:hidden flex items-center justify-between bg-gradient-to-t from-blue-100 from-86% to-transparent px-4 py-3 relative border-b">
+      <div className="lg:hidden flex items-center justify-between bg-gradient-to-t from-blue-100 from-86% to-transparent px-4 py-2 relative">
         {/* Hamburger */}
         <button onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
+          {menuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
         </button>
 
         {/* Center Logo */}
@@ -63,24 +63,24 @@ function Header() {
           <img
             src="/Mg logo 3.svg"
             alt="MG Furniture"
-            className="h-14 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
         </NavLink>
 
-        {/* Spacer for symmetry */}
-        <div className="w-[22px]"></div>
+        {/* Spacer */}
+        <div className="w-[20px]"></div>
       </div>
 
       {/* ================= MOBILE MENU ================= */}
       {menuOpen && (
         <div className="lg:hidden bg-white shadow-md">
-          <div className="flex flex-col items-center gap-6 py-6">
+          <div className="flex flex-col items-center gap-4 py-5">
             {navItems.map((item) => (
               <NavLink
                 key={item.label}
                 to={item.to}
                 onClick={() => setMenuOpen(false)}
-                className="text-lg font-medium"
+                className="text-base font-medium"
               >
                 {item.label}
               </NavLink>
@@ -92,7 +92,6 @@ function Header() {
       {/* ================= DESKTOP NAV ================= */}
       <header className="hidden lg:block bg-gradient-to-t from-blue-100 from-86% to-transparent font-inter">
         <nav className="w-3/4 mx-auto flex items-center justify-between py-4">
-          {/* Left Nav */}
           <div className="flex gap-12">
             {navItems.slice(0, 3).map((item) => (
               <NavLink
@@ -105,16 +104,14 @@ function Header() {
             ))}
           </div>
 
-          {/* Logo */}
           <NavLink to="/">
             <img
               src="/Mg logo 3.svg"
-              className="h-20 w-auto mb-1 bg-blue-300 object-contain"
+              className="h-20 w-auto mb-1 object-contain"
               alt="MG Furniture"
             />
           </NavLink>
 
-          {/* Right Nav */}
           <div className="flex gap-12">
             {navItems.slice(3).map((item) => (
               <NavLink
