@@ -67,7 +67,7 @@ const FurnitureServices = () => {
         </div>
 
         {/* REPAIR SECTION */}
-        <p className="text-2xl text-center lg:text-3xl lg:ml-40 pt-12 font-poppins">
+        <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-40 pt-12 font-poppins">
           Furniture Repair Services
         </p>
 
@@ -103,7 +103,7 @@ const FurnitureServices = () => {
         </div>
 
         {/* FITTING SECTION */}
-        <p className="text-2xl text-center lg:text-3xl lg:ml-40 pt-12 font-poppins">
+        <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-40 pt-12 font-poppins">
           Furniture Fitting Services
         </p>
 
