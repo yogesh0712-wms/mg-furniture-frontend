@@ -173,7 +173,7 @@ const FurnitureServices = () => {
       <p className="text-4xl lg:text-3xl font-poppins font-medium mt-10 ml-5 lg:ml-40">
         Everything Your Furniture Needs, in One Place
       </p>
-      <div className="lg:mx-auto lg:w-[80%] lg:flex gap-10 mt-10 mb-10">
+      <div className="hidden lg:mx-auto lg:w-[80%] lg:flex gap-10 mt-10 mb-10">
         <div className="h-[900px] mb-2 lg:mb-0 lg:w-96 lg:h-[60vh] rounded-lg overflow-hidden">
           <img
             src="./image_collection/furniture service image.png"
