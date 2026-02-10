@@ -30,7 +30,7 @@ const FurnitureServices = () => {
 
       <div className="bg-[#EAEAC9] mt-5 pb-10">
         {/* SECTION TITLE */}
-        <p className="text-2xl text-center lg:text-3xl lg:ml-28 pt-10 font-poppins">
+        <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-28 pt-10 font-poppins">
           Complete Furniture Care & Services
         </p>
 
