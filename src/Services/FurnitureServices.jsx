@@ -170,7 +170,7 @@ const fittingTypes = [
 const FurnitureServices = () => {
   return (
     <div className="bg-slate-500 mt-10 pt-5">
-      <p className="text-4xl lg:text-3xl font-poppins font-medium mt-10 ml-5 lg:ml-40">
+      <p className="hidden text-4xl lg:text-3xl font-poppins font-medium mt-10 ml-5 lg:ml-40">
         Everything Your Furniture Needs, in One Place
       </p>
       <div className="hidden lg:mx-auto lg:w-[80%] lg:flex gap-10 mt-10 mb-10">
