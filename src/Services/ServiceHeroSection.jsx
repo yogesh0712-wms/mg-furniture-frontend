@@ -46,11 +46,11 @@ const ServiceHeroSection = () => {
         {/* IMAGE GRID */}
         <div
           className="
-            order-2 flex flex-wrap justify-center
-            gap-6 mt-6
-            lg:order-1 lg:w-[47%]
-            lg:grid lg:grid-cols-2 lg:pt-5 lg:gap-y-5 lg:gap-x-1
-          "
+    order-2 
+    grid grid-cols-2 gap-3 mt-6 px-4
+    lg:order-1 lg:w-[47%]
+    lg:grid lg:grid-cols-2 lg:pt-5 lg:gap-y-5 lg:gap-x-1
+  "
         >
           {[
             "service hero image 1.png",
@@ -61,11 +61,11 @@ const ServiceHeroSection = () => {
             <div
               key={i}
               className="
-                w-[90%] h-72 overflow-hidden
-                lg:w-[42vh] lg:h-[46vh]
-                lg:rounded-tl-xl lg:rounded-tr-xl
-                lg:ml-0 lg:mt-0
-              "
+        w-full h-40 overflow-hidden rounded-lg
+        lg:w-[42vh] lg:h-[46vh]
+        lg:rounded-tl-xl lg:rounded-tr-xl
+        lg:ml-0 lg:mt-0
+      "
             >
               <img
                 src={`./image_collection/services_image/${img}`}
