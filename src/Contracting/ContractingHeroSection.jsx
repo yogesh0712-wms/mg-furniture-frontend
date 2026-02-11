@@ -58,11 +58,11 @@ const ContractingHeroSection = ({
               <div className="absolute top-72 left-0 w-full h-[2px] bg-white"></div>
 
               {/* Vertical lines (desktop preserved) */}
-              <div className="hidden lg:block absolute ml-[28px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
-              <div className="hidden lg:block absolute ml-[96px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
-              <div className="hidden lg:block absolute ml-[130px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
-              <div className="hidden lg:block absolute ml-[190px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
-              <div className="hidden lg:block absolute ml-[260px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
+              <div className=" lg:block absolute ml-[28px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
+              <div className=" lg:block absolute ml-[96px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
+              <div className=" lg:block absolute ml-[130px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
+              <div className=" lg:block absolute ml-[190px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
+              <div className=" lg:block absolute ml-[260px] top-10 w-[800px] h-[2px] bg-white -translate-x-1/2 rotate-90"></div>
             </div>
 
             {/* Image */}
