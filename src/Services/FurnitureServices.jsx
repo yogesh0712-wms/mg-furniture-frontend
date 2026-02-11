@@ -82,11 +82,9 @@ const FurnitureServices = () => {
                 />
               </div>
 
-              <p className="text-lg font-poppins pt-3 text-center">
-                {item.type}
-              </p>
+              <p className="text-lg font-poppins pt-3 ">{item.type}</p>
 
-              <div className="border-2 border-black p-3 mt-3 w-[220px] rounded-full text-center">
+              <div className="border-2 border-black p-3 mt-3 w-[220px] rounded-full ">
                 <a
                   href="tel:917878658974"
                   className="mr-2 text-lg font-poppins"
