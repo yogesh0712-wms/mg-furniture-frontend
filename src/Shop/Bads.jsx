@@ -58,7 +58,6 @@ const Bads = () => {
     "/image_collection/shop/beds/beds9.png",
     "/image_collection/shop/beds/beds10.png",
     "/image_collection/shop/beds/beds11.png",
-    ,
   ];
 
   const changeSlide = useCallback(

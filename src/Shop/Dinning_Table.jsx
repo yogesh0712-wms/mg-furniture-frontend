@@ -61,7 +61,6 @@ const DinningTable = () => {
     "/image_collection/shop/dinning table/dinning12.png",
     "/image_collection/shop/dinning table/dinning13.png",
     "/image_collection/shop/dinning table/dinning14.png",
-    ,
   ];
 
   const changeSlide = useCallback(

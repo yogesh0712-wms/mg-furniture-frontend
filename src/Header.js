@@ -33,13 +33,22 @@ function Header() {
 
         {/* Right: Social Icons */}
         <div className="flex gap-2">
-          <a className="text-white bg-blue-500 p-1 rounded-full">
+          <a
+            className="text-white bg-blue-500 p-1 rounded-full"
+            href="https://facebook.com"
+          >
             <FaFacebookF size={13} />
           </a>
-          <a className="text-white bg-pink-500 p-1 rounded-full">
+          <a
+            className="text-white bg-pink-500 p-1 rounded-full"
+            href="https://facebook.com"
+          >
             <FaInstagram size={13} />
           </a>
-          <a className="text-white bg-green-500 p-1 rounded-full">
+          <a
+            className="text-white bg-green-500 p-1 rounded-full"
+            href="https://facebook.com"
+          >
             <FaWhatsapp size={13} />
           </a>
         </div>
@@ -155,18 +164,31 @@ const Footer = () => {
 
           <div className="pl-0 lg:pl-5">
             <NavLink to="/">
-              <img src="/MG logo2.svg" className="h-16 w-auto object-contain" />
+              <img
+                src="/MG logo2.svg"
+                alt="MG Furniture Logo"
+                className="h-16 w-auto object-contain"
+              />
             </NavLink>
           </div>
 
           <div className="flex mt-5 gap-4 lg:gap-3">
-            <a className="text-white bg-blue-500 p-1 rounded-full">
+            <a
+              className="text-white bg-blue-500 p-1 rounded-full"
+              href="https://facebook.com"
+            >
               <FaFacebookF size={14} />
             </a>
-            <a className="text-white bg-pink-500 p-1 rounded-full">
+            <a
+              className="text-white bg-pink-500 p-1 rounded-full"
+              href="https://facebook.com"
+            >
               <FaInstagram size={14} />
             </a>
-            <a className="text-white bg-green-500 p-1 rounded-full">
+            <a
+              className="text-white bg-green-500 p-1 rounded-full"
+              href="https://facebook.com"
+            >
               <FaWhatsapp size={14} />
             </a>
           </div>
