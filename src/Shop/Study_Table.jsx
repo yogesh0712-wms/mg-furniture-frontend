@@ -1,7 +1,7 @@
 import React from "react";
 import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
-import React, { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
