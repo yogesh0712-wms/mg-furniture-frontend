@@ -21,8 +21,6 @@ const Chairs = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
-  const totalSlides = slides.length; // or however you're defining it
-
   const slides = [
     {
       url: "/image_collection/shop/CHAIRS/chairs hero.png",
@@ -45,6 +43,8 @@ const Chairs = () => {
       caption: "Enchanted Forest",
     },
   ];
+
+  const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
     "/image_collection/shop/CHAIRS/chair 1.png",

@@ -20,7 +20,6 @@ const ChairsFAQs = [
 const Almiras = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const totalSlides = slides.length; // or however you're defining it
 
   const slides = [
     {
@@ -44,6 +43,7 @@ const Almiras = () => {
       caption: "Enchanted Forest",
     },
   ];
+  const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
     "/image_collection/shop/Almira/almira1.jpg",

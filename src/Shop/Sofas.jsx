@@ -1,7 +1,7 @@
 import React from "react";
 import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
@@ -44,6 +44,8 @@ const Sofas = () => {
     },
   ];
 
+  const totalSlides = slides.length; // or however you're defining it
+
   const chairImage = [
     "/image_collection/shop/sofas/sofa1.jpg",
     "/image_collection/shop/sofas/sofa2.jpg",
@@ -56,32 +58,33 @@ const Sofas = () => {
     "/image_collection/shop/sofas/sofa10.jpg",
   ];
 
-  const totalSlides = slides.length;
+  const changeSlide = useCallback(
+    (direction) => {
+      setCurrentSlide((prev) => {
+        if (direction === -1) {
+          return prev === 0 ? totalSlides - 1 : prev - 1;
+        } else {
+          return prev === totalSlides - 1 ? 0 : prev + 1;
+        }
+      });
+    },
+    [totalSlides],
+  );
 
-  const changeSlide = (direction) => {
-    setCurrentSlide((prev) => {
-      if (direction === -1) {
-        return prev === 0 ? totalSlides - 1 : prev - 1;
-      } else {
-        return prev === totalSlides - 1 ? 0 : prev + 1;
-      }
-    });
-  };
-
-  const goToSlide = (index) => {
+  const goToSlide = useCallback((index) => {
     setCurrentSlide(index);
-  };
+  }, []);
 
   // Auto-play functionality
   useEffect(() => {
-    if (!isPaused) {
-      const interval = setInterval(() => {
-        changeSlide(1);
-      }, 4000);
+    if (isPaused) return;
 
-      return () => clearInterval(interval);
-    }
-  });
+    const interval = setInterval(() => {
+      changeSlide(1);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [isPaused, changeSlide]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -92,7 +95,7 @@ const Sofas = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [changeSlide]);
 
   return (
     <div>
