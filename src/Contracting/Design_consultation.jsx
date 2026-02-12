@@ -83,7 +83,7 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const Design_consultation = () => {
+const Designconsultation = () => {
   return (
     <div>
       <Header />
@@ -102,4 +102,4 @@ const Design_consultation = () => {
   );
 };
 
-export default Design_consultation;
+export default Designconsultation;

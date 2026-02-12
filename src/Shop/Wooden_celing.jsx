@@ -1,7 +1,7 @@
 import React from "react";
 import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
-import { useState, useEffect } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
@@ -17,9 +17,11 @@ const ChairsFAQs = [
   },
 ];
 
-const Wooden_ceiling = () => {
+const Woodenceiling = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+
+  const totalSlides = slides.length; // or however you're defining it
 
   const slides = [
     {
@@ -56,32 +58,33 @@ const Wooden_ceiling = () => {
     "/image_collection/shop/ceiling/ceiling10.png",
   ];
 
-  const totalSlides = slides.length;
+  const changeSlide = useCallback(
+    (direction) => {
+      setCurrentSlide((prev) => {
+        if (direction === -1) {
+          return prev === 0 ? totalSlides - 1 : prev - 1;
+        } else {
+          return prev === totalSlides - 1 ? 0 : prev + 1;
+        }
+      });
+    },
+    [totalSlides],
+  );
 
-  const changeSlide = (direction) => {
-    setCurrentSlide((prev) => {
-      if (direction === -1) {
-        return prev === 0 ? totalSlides - 1 : prev - 1;
-      } else {
-        return prev === totalSlides - 1 ? 0 : prev + 1;
-      }
-    });
-  };
-
-  const goToSlide = (index) => {
+  const goToSlide = useCallback((index) => {
     setCurrentSlide(index);
-  };
+  }, []);
 
   // Auto-play functionality
   useEffect(() => {
-    if (!isPaused) {
-      const interval = setInterval(() => {
-        changeSlide(1);
-      }, 4000);
+    if (isPaused) return;
 
-      return () => clearInterval(interval);
-    }
-  });
+    const interval = setInterval(() => {
+      changeSlide(1);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [isPaused, changeSlide]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -92,7 +95,7 @@ const Wooden_ceiling = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [changeSlide]);
 
   return (
     <div>
@@ -293,4 +296,4 @@ const Wooden_ceiling = () => {
   );
 };
 
-export default Wooden_ceiling;
+export default Woodenceiling;

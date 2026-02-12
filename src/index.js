@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import Header from "./Header";
 
 // Evertyhing will render in this file al the file i create will came here
 
@@ -13,5 +12,5 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

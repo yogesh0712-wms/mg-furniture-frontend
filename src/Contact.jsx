@@ -2,7 +2,7 @@ import React from "react";
 import Header, { Footer } from "./Header";
 import ContractingHeroSection from "./Contracting/ContractingHeroSection";
 import { useState } from "react";
-import { LucideLocationEdit, Phone, PhoneCall, Mail } from "lucide-react";
+import { LucideLocationEdit, Phone, Mail } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

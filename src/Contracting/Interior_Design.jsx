@@ -86,7 +86,7 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const Interior_Design = () => {
+const InteriorDesign = () => {
   return (
     <div>
       <Header />
@@ -105,4 +105,4 @@ const Interior_Design = () => {
   );
 };
 
-export default Interior_Design;
+export default InteriorDesign;

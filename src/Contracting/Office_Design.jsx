@@ -85,7 +85,7 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const Office_Design = () => {
+const OfficeDesign = () => {
   return (
     <div>
       <Header />
@@ -104,4 +104,4 @@ const Office_Design = () => {
   );
 };
 
-export default Office_Design;
+export default OfficeDesign;

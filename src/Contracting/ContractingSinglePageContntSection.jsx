@@ -40,7 +40,11 @@ const ContractingSinglePageContntSection = ({ products }) => {
               />
             </div>
             <div className="w-[65vh] lg:w-[78vh]  mb-14">
-              <img src={Grp4img4} className="w-full h-full object-cover" />
+              <img
+                src={Grp4img4}
+                alt=""
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <p className="text-slate-600 text-xl leading-relaxed lg:text-lg">

@@ -86,7 +86,7 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const Wedding_furniture = () => {
+const Weddingfurniture = () => {
   return (
     <div>
       <Header />
@@ -105,4 +105,4 @@ const Wedding_furniture = () => {
   );
 };
 
-export default Wedding_furniture;
+export default Weddingfurniture;

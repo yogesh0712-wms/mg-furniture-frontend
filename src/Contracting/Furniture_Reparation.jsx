@@ -84,7 +84,7 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const Furniture_Reparation = () => {
+const FurnitureReparation = () => {
   return (
     <div>
       <Header />
@@ -103,4 +103,4 @@ const Furniture_Reparation = () => {
   );
 };
 
-export default Furniture_Reparation;
+export default FurnitureReparation;
