@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowUp } from "lucide-react";
 
 const ContrractingType = [
   {
