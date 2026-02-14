@@ -79,7 +79,7 @@ const Contact = () => {
           <img
             src="./image_collection/phone_swirrel_cable.png"
             alt=""
-            className="absolute -top-20 lg:-top-40 left-1/2 -translate-x-1/2 lg:translate-x-0"
+            className="absolute -top-24 lg:-top-40 left-1/2 -translate-x-1/2 lg:translate-x-0"
           />
         </div>
 
