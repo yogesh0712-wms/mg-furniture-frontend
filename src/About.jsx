@@ -60,7 +60,7 @@ const About = () => {
           </ul>
         </div>
 
-        <div className="w-full lg:w-72 h-72 lg:h-[80vh] overflow-hidden">
+        <div className="w-full lg:w-72 h-96 lg:h-[80vh] overflow-hidden">
           <img
             src="./image_collection/aboutus image 1.png"
             alt=""
@@ -112,24 +112,23 @@ const About = () => {
       </div>
 
       {/* Process Section */}
-      <section className="mt-20 lg:mt-40 mb-14 lg:mb-24">
+      <section className="mt-20 lg:mt-32 mb-14 lg:mb-24">
         <div className="text-center mx-auto w-[90%] lg:w-[45%]">
-          <p className="font-poppins font-semibold text-xl text-[#83857d]">
+          <p className="font-poppins font-semibold text-2xl text-[#83857d]">
             Experience
           </p>
           <p className="text-4xl mt-4 font-bold">Trust The Process We Do</p>
-          <p className="mt-8">Lorem ipsum dolor sit amet...</p>
+          <p className="text-lg mt-8">Lorem ipsum dolor sit amet.</p>
         </div>
 
         <div className="mx-auto w-[90%] mt-16 grid grid-cols-1 md:grid-cols-2 lg:flex gap-8 justify-center">
           {[1, 2, 3, 4].map((num, index) => (
             <div key={index} className="relative h-[308px] w-full md:w-[308px]">
-              <p className="text-5xl font-bold pt-8 pl-6">0{num}.</p>
-
+              <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
+                0{num}.
+              </p>
               <p className="text-2xl font-bold mt-3 pl-6">Brainstorming</p>
-
-              <p className="pl-6 pt-8 w-[80%]">Lorem ipsum dolor sit amet...</p>
-
+              <p className="pl-6 pt-8 w-[80%]">Lorem ipsum dolor sit amet.</p>
               {num !== 4 && (
                 <ArrowUp
                   size={40}
@@ -141,7 +140,6 @@ const About = () => {
           ))}
         </div>
       </section>
-
       <FAQSection title="Common Questions" faqs={contractFAQs} />
 
       <Footer />
