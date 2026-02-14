@@ -57,7 +57,8 @@ const ContractingSection = () => {
   return (
     <div>
       <section>
-        <div className="mx-auto w-[45%] text-center mt-40">
+        {/* HEADER TEXT */}
+        <div className="mx-auto w-[90%] lg:w-[45%] text-center mt-20 lg:mt-40">
           <p className="font-poppins text-2xl font-medium text-[#83857d] pb-5">
             Our Services
           </p>
@@ -67,105 +68,69 @@ const ContractingSection = () => {
           <p className="font-poppins text-4xl font-semibold pb-10">
             Start From Here
           </p>
-          <p className="text-slate-500 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam,.
+          <p className="text-slate-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div className="h-[100vh] mx-auto w-[86%] pl-10 flex flex-wrap">
-          {ContrractingType.map((item) => (
-            <div className="w-[53vh] mr-8 pt-20">
-              <div className="h-40 lg:h-32 w-[53vh] rounded-t-3xl overflow-hidden">
+
+        {/* CARDS */}
+        <div className="mx-auto w-[90%] lg:w-[86%] pl-0 lg:pl-10 flex flex-wrap">
+          {ContrractingType.map((item, index) => (
+            <div
+              key={index}
+              className="w-full lg:w-[53vh] mr-0 lg:mr-8 pt-12 lg:pt-20"
+            >
+              <div className="h-40 lg:h-32 w-full lg:w-[53vh] rounded-t-3xl overflow-hidden">
                 <img
                   src={item.image}
                   alt=""
                   className="w-full h-full object-cover"
                 />
               </div>
+
               <p className="font-poppins text-3xl font-semibold pt-7">
                 {item.type}
               </p>
+
               <p className="text-slate-500 pt-7 pb-4">{item.description}</p>
-              <Link to={item.to} className="font-poppins text-lg font-medium ">
+
+              <Link to={item.to} className="font-poppins text-lg font-medium">
                 Learn More
               </Link>
+
               <hr className="border-[1px] w-[100px] border-gray-600" />
             </div>
           ))}
         </div>
       </section>
-      <section className="mt-[1460px] lg:mt-32 mb-14 lg:mb-24">
-        <div className="text-center mx-auto w-[45%]">
+
+      {/* PROCESS SECTION */}
+      <section className="mt-20 lg:mt-32 mb-14 lg:mb-24">
+        <div className="text-center mx-auto w-[90%] lg:w-[45%]">
           <p className="font-poppins font-semibold text-2xl lg:text-xl text-[#83857d]">
             Experience
           </p>
           <p className="text-4xl mt-4 font-bold">Trust The Process We Do</p>
           <p className="text-lg lg:text-base mt-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
-            ad minim veniam.
+            Lorem ipsum dolor sit amet.
           </p>
         </div>
-        <div className="mx-auto h-full w-[85%] mt-20 grid grid-cols-2 lg:flex">
-          <div className=" h-[308px] w-[308px] mr-5">
-            <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
-              01.
-            </p>
-            <p className="text-2xl font-bold mt-3 pl-6">Brainstroming</p>
-            <p className="pl-6 pt-8 w-[80%] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ArrowUp
-              size={50}
-              strokeWidth={3}
-              color="#000000"
-              className="rotate-90 relative ml-56 -mt-[240px]"
-            />
-          </div>
-          <div className=" h-[308px] w-[308px] mr-5">
-            <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
-              02.
-            </p>
-            <p className="text-2xl font-bold mt-3 pl-6">Brainstroming</p>
-            <p className="pl-6 pt-8 w-[80%] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ArrowUp
-              size={50}
-              strokeWidth={3}
-              color="#000000"
-              className="rotate-90 relative ml-56 -mt-[240px]"
-            />
-          </div>
-          <div className="bg-[#83857d] h-[308px] w-[308px] mr-5">
-            <p className="text-5xl text-hollow font-bold pt-8 pl-6">03.</p>
-            <p className="text-2xl font-bold text-white mt-3 pl-6">
-              Brainstroming
-            </p>
-            <p className="pl-6 pt-8 w-[80%] text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ArrowUp
-              size={50}
-              strokeWidth={3}
-              color="#FFFFFF"
-              className="rotate-90 relative ml-56 -mt-[240px]"
-            />
-          </div>
-          <div className=" h-[308px] w-[308px]">
-            <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
-              04.
-            </p>
-            <p className="text-2xl font-bold  mt-3 pl-6">Brainstroming</p>
-            <p className="pl-6 pt-8 w-[80%] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
+
+        <div className="mx-auto h-full w-[90%] lg:w-[85%] mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:flex">
+          {[1, 2, 3, 4].map((num) => (
+            <div
+              key={num}
+              className="h-auto lg:h-[308px] w-full lg:w-[308px] p-6 mr-0 lg:mr-5 bg-white"
+            >
+              <p className="text-5xl text-hollow-black font-bold">
+                {`0${num}.`}
+              </p>
+              <p className="text-2xl font-bold mt-3">Brainstroming</p>
+              <p className="pt-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+          ))}
         </div>
       </section>
     </div>
