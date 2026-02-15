@@ -26,6 +26,7 @@ const ServiceHeroSection = () => {
           gap-x-4 gap-y-2 px-3 py-3
           bg-[#343E4C]
           lg:flex lg:gap-5 lg:mt-1 lg:pl-5
+          mt-2
         "
       >
         {Headitem.map((item, index) => (
