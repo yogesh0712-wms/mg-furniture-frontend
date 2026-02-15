@@ -75,7 +75,7 @@ const Contact = () => {
       {/* FORM SECTION */}
       <div className="mx-auto w-[95%] lg:w-[80%] mt-16 lg:mt-40 flex flex-col lg:flex-row gap-12 lg:gap-32">
         {/* LEFT SIDE IMAGE */}
-        <div className="h-[60vh] lg:h-[90vh] w-full lg:w-96 rounded-t-full bg-gradient-to-b from-[#8F9286] via-[#9A9D91] to-[#12140e] relative">
+        <div className="h-[70vh] lg:h-[90vh] w-full lg:w-96 rounded-t-full bg-gradient-to-b from-[#8F9286] via-[#9A9D91] to-[#12140e] relative">
           <img
             src="./image_collection/phone_swirrel_cable.png"
             alt=""
