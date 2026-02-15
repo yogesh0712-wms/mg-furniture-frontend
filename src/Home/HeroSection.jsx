@@ -127,6 +127,7 @@ const HeroSection2 = () => {
         bg-[#cfd8aa]
         h-auto
         lg:h-48
+        mt-4
       "
     >
       <div
