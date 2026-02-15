@@ -138,7 +138,10 @@ const Almiras = () => {
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
+            corrupti totam temporibus. Odit quae, pariatur ullam expedita
+            consequatur aliquid!
           </p>
 
           {/* Buttons */}
