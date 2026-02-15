@@ -8,7 +8,7 @@ const HeroSection = () => {
         h-auto
         lg:h-[90vh]
         overflow-hidden
-        mt-4
+        mt-2
       "
     >
       <div
