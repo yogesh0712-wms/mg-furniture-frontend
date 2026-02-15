@@ -165,7 +165,7 @@ const Footer = () => {
           <div className="pl-0 lg:pl-5">
             <NavLink to="/">
               <img
-                src="/MG logo2.svg"
+                src="/footerimage.png"
                 alt="MG Furniture Logo"
                 className="h-16 w-auto object-contain"
               />
