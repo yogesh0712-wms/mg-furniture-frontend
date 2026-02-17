@@ -70,7 +70,7 @@ function Header() {
         {/* Center Logo */}
         <NavLink to="/" className="absolute left-1/2 -translate-x-1/2">
           <img
-            src="/Mg logo 3.svg"
+            src="/mg-logo.svg"
             alt="MG Furniture"
             className="h-12 w-auto object-contain"
           />
