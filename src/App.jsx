@@ -47,7 +47,7 @@ function App() {
         element={<HomeLivingDesign />}
       />
       <Route
-        path="/contracting/furniture-reparation"
+        path="/contracting/furniture-repair"
         element={<FurnitureReparation />}
       />
       <Route
