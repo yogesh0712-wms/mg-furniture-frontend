@@ -64,8 +64,8 @@ function App() {
       <Route path="/shop/doors" element={<Doors />} />
       <Route path="/shop/windows" element={<Windows />} />
       <Route path="/shop/almiras" element={<Almiras />} />
-      <Route path="/shop/bads" element={<Bads />} />
-      <Route path="/shop/dinning-table" element={<DinningTable />} />
+      <Route path="/shop/beds" element={<Bads />} />
+      <Route path="/shop/dining-table" element={<DinningTable />} />
       <Route path="/shop/shoe-racks" element={<ShoeRacks />} />
       <Route path="/shop/study-table" element={<StudyTable />} />
       <Route path="/shop/wooden-ceiling" element={<Woodenceiling />} />
