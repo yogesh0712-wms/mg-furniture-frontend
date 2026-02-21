@@ -6,19 +6,6 @@ import Categories, { Collections } from "./Categories";
 import Products, { ProductsQuality } from "../Products";
 import { useEffect } from "react";
 
-useEffect(() => {
-  document.title =
-    "MG Furniture Jaipur | Custom Wooden Furniture & Contracting Services";
-
-  const metaDescription = document.querySelector('meta[name="description"]');
-  if (metaDescription) {
-    metaDescription.setAttribute(
-      "content",
-      "MG Furniture offers custom wooden furniture and complete contracting services in Jaipur. Crafted for durability, designed for real spaces.",
-    );
-  }
-}, []);
-
 const popularProducts = [
   {
     image: "image_collection/shop/Beds.png",
@@ -48,6 +35,19 @@ const popularProducts = [
 ];
 
 const HomePage = () => {
+  useEffect(() => {
+    document.title =
+      "MG Furniture Jaipur | Custom Wooden Furniture & Contracting Services";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "MG Furniture offers custom wooden furniture and complete contracting services in Jaipur. Crafted for durability, designed for real spaces.",
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />
