@@ -3,6 +3,20 @@ import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
+import { useEffect } from "react";
+
+useEffect(() => {
+  document.title =
+    "Wooden Doors in Jaipur | Custom Interior Doors | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Explore custom wooden doors in Jaipur designed for durability, security, and elegant interiors. MG Furniture crafts doors tailored to your space and style.",
+    );
+  }
+}, []);
 
 const ChairsFAQs = [
   {
