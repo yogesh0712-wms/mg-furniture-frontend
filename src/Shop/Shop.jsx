@@ -60,7 +60,7 @@ const popularProducts = [
     image: "image_collection/shop/dinning table.png",
     type: "Dinning Table",
     Descrip: "Premium wood tables built for everyday meals",
-    link: "/shop/dinning-table",
+    link: "/shop/dining-table",
   },
   {
     image: "image_collection/shop/Shoe rack.png",
