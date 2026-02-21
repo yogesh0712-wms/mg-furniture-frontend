@@ -3,7 +3,19 @@ import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
+import { useEffect } from "react";
 
+useEffect(() => {
+  document.title = "Wooden Beds in Jaipur | Custom Bedroom Beds | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Discover custom wooden beds in Jaipur crafted for durability and comfort. MG Furniture designs bedroom beds tailored to your space and style.",
+    );
+  }
+}, []);
 const ChairsFAQs = [
   {
     question: "Do you make furniture only on order?",
