@@ -2,6 +2,20 @@ import React from "react";
 import Header, { Footer } from "../Header";
 import ShopHeroSection from "./ShopHeroSection";
 import Products, { ProductsQuality } from "../Products";
+import { useEffect } from "react";
+
+useEffect(() => {
+  document.title =
+    "Furniture Store in Jaipur | Custom Wooden Furniture | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Explore custom wooden furniture in Jaipur including sofas, beds, dining tables, wardrobes and more. Designed for durability and crafted for real homes by MG Furniture.",
+    );
+  }
+}, []);
 
 const popularProducts = [
   {
