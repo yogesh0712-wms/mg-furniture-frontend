@@ -2,7 +2,20 @@ import React, { useState, useEffect, useCallback } from "react";
 import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import FAQSection from "../FAQSection";
+import { useEffect } from "react";
 
+useEffect(() => {
+  document.title =
+    "Wooden Almira in Jaipur | Custom Bedroom Wardrobes | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Explore custom wooden almira and bedroom wardrobes in Jaipur by MG Furniture. Built for durability, smart storage, and perfect space fitting.",
+    );
+  }
+}, []);
 const ChairsFAQs = [
   {
     question: "Do you make furniture only on order?",
