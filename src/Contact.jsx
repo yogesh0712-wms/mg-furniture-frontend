@@ -2,6 +2,20 @@ import React, { useState } from "react";
 import Header, { Footer } from "./Header";
 import ContractingHeroSection from "./Contracting/ContractingHeroSection";
 import { LucideLocationEdit, Phone, Mail } from "lucide-react";
+import { useEffect } from "react";
+
+useEffect(() => {
+  document.title =
+    "Contact MG Furniture Jaipur | Custom Furniture & Contracting Services";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Contact MG Furniture in Jaipur for custom wooden furniture and interior contracting services. Call us or send an enquiry for project discussions and site visits.",
+    );
+  }
+}, []);
 
 const Contact = () => {
   const [formData, setFormData] = useState({
