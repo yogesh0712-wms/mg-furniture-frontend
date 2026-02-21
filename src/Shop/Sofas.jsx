@@ -18,6 +18,18 @@ const ChairsFAQs = [
 ];
 
 const Sofas = () => {
+  useEffect(() => {
+    document.title = "Wooden Sofas in Jaipur | Custom Sofa Sets | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden sofas in Jaipur designed for comfort and durability. MG Furniture crafts modern and classic sofa sets tailored to your living space.",
+      );
+    }
+  }, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
