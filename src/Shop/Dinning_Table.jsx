@@ -3,6 +3,7 @@ import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
+import { useEffect } from "react";
 
 const ChairsFAQs = [
   {
@@ -18,6 +19,18 @@ const ChairsFAQs = [
 ];
 
 const DinningTable = () => {
+  useEffect(() => {
+    document.title =
+      "Wooden Dining Tables in Jaipur | Custom Dining Sets | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden dining tables in Jaipur crafted for durability and elegant dining spaces. MG Furniture designs dining sets tailored to your home.",
+      );
+    }
+  }, []);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 

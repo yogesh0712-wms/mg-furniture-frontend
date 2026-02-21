@@ -3,6 +3,7 @@ import Header, { Footer } from "./Header";
 import ContractingHeroSection from "./Contracting/ContractingHeroSection";
 import { ArrowUp } from "lucide-react";
 import FAQSection from "./FAQSection";
+import { useEffect } from "react";
 
 const contractFAQs = [
   {
@@ -28,6 +29,19 @@ const contractFAQs = [
 ];
 
 const About = () => {
+  useEffect(() => {
+    document.title =
+      "About MG Furniture Jaipur | Custom Furniture & Contracting Experts";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Learn about MG Furniture, a Jaipur-based custom furniture and contracting company known for quality craftsmanship, durable materials, and reliable project execution.",
+      );
+    }
+  }, []);
+
   return (
     <div className="overflow-x-hidden">
       <Header />
