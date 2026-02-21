@@ -4,19 +4,6 @@ import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
-useEffect(() => {
-  document.title =
-    "Wooden Shoe Racks in Jaipur | Custom Shoe Storage Cabinets | MG Furniture";
-
-  const metaDescription = document.querySelector('meta[name="description"]');
-  if (metaDescription) {
-    metaDescription.setAttribute(
-      "content",
-      "Explore custom wooden shoe racks in Jaipur designed for organized and space-efficient storage. MG Furniture crafts durable shoe storage cabinets tailored to your home.",
-    );
-  }
-}, []);
-
 const ChairsFAQs = [
   {
     question: "Do you make furniture only on order?",
@@ -31,6 +18,18 @@ const ChairsFAQs = [
 ];
 
 const ShoeRacks = () => {
+  useEffect(() => {
+    document.title =
+      "Wooden Shoe Racks in Jaipur | Custom Shoe Storage Cabinets | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden shoe racks in Jaipur designed for organized and space-efficient storage. MG Furniture crafts durable shoe storage cabinets tailored to your home.",
+      );
+    }
+  }, []);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
