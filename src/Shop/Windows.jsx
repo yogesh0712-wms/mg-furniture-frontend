@@ -18,6 +18,19 @@ const ChairsFAQs = [
 ];
 
 const Windows = () => {
+  useEffect(() => {
+    document.title =
+      "Wooden Windows in Jaipur | Custom Window Frames | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden windows in Jaipur crafted for durability, ventilation, and elegant interiors. MG Furniture designs window frames tailored to your space.",
+      );
+    }
+  }, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
