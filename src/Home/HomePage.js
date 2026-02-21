@@ -10,7 +10,7 @@ const popularProducts = [
     image: "image_collection/shop/Beds.png",
     type: "Beds",
     Descrip: "Solid wooden beds designed for rest and balance",
-    link: "/shop/bads",
+    link: "/shop/beds",
   },
   {
     image: "image_collection/shop/Almiras.png",
