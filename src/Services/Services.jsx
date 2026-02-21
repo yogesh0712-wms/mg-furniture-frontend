@@ -3,7 +3,19 @@ import Header, { Footer } from "../Header";
 import ServiceHeroSection from "./ServiceHeroSection";
 import FurnitureServices from "./FurnitureServices";
 import FAQSection from "../FAQSection";
+import { useEffect } from "react";
 
+useEffect(() => {
+  document.title = "Furniture Contracting Services in Jaipur | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Professional furniture contracting and interior woodwork services in Jaipur. MG Furniture delivers custom installations, residential projects, and reliable execution.",
+    );
+  }
+}, []);
 const servicesFAQs = [
   {
     question: "What does a complete furniture contract include?",
