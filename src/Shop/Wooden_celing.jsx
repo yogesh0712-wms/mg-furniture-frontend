@@ -18,6 +18,19 @@ const ChairsFAQs = [
 ];
 
 const Woodenceiling = () => {
+  useEffect(() => {
+    document.title =
+      "Wooden Ceiling in Jaipur | Custom Wood Ceiling Designs | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden ceiling designs in Jaipur crafted for modern interiors. MG Furniture delivers durable and elegant wood ceiling solutions tailored to your space.",
+      );
+    }
+  }, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
