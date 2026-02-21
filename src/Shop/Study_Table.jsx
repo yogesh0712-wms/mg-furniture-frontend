@@ -18,6 +18,19 @@ const ChairsFAQs = [
 ];
 
 const StudyTable = () => {
+  useEffect(() => {
+    document.title =
+      "Wooden Study Tables in Jaipur | Custom Study Desks | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Explore custom wooden study tables in Jaipur designed for students and home offices. MG Furniture crafts durable and space-efficient study desks tailored to your needs.",
+      );
+    }
+  }, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
