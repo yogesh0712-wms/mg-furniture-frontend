@@ -4,6 +4,9 @@ import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
+
+
+
 const ChairsFAQs = [
   {
     question: "Do you make furniture only on order?",
@@ -18,6 +21,20 @@ const ChairsFAQs = [
 ];
 
 const Chairs = () => {
+
+  useEffect(() => {
+  document.title =
+    "Wooden Chairs in Jaipur | Custom Dining & Living Chairs | MG Furniture";
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.setAttribute(
+      "content",
+      "Shop custom wooden chairs in Jaipur for dining rooms, living spaces, and offices. MG Furniture crafts durable and stylish chairs tailored to your needs."
+    );
+  }
+}, []);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
