@@ -3,7 +3,6 @@ import Header, { Footer } from "../Header";
 import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
-import { useEffect } from "react";
 
 const ChairsFAQs = [
   {
