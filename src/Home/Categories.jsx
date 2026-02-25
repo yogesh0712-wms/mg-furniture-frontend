@@ -21,14 +21,9 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
-                  src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/19.jpg"
-                  className="w-full lg:w-auto h-64 lg:h-80 relative z-10"
-                  alt=""
-                />
-                <img
                   src={home_image}
-                  className="hidden lg:block h-48 lg:mt-32"
-                  alt=""
+                  className="w-full lg:w-auto h-64 lg:h-80 relative z-10"
+                  alt="wooden furniture jaipur custom furniture jaipur best furniture jaipur mg furniture"
                 />
               </div>
             </div>
