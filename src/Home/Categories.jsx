@@ -141,7 +141,7 @@ const Categories = () => {
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
                   src={home_image3}
-                  className="w-full lg:w-auto h-64 lg:h-80 relative z-10"
+                  className="w-full lg:w-auto h-72 lg:h-80 relative z-10"
                   alt="Custom LED backlit wall panel and floating shelves installation in Jaipur home"
                 />
                 <img
