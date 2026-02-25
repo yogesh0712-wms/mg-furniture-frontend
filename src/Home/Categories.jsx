@@ -1,4 +1,5 @@
 import home_image from "../assets/images/home/home_image.webp";
+import home_image3 from "../assets/images/home/home_image3.webp";
 
 const Categories = () => {
   return (
@@ -139,9 +140,9 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
-                  src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/19.jpg"
+                  src={home_image3}
                   className="w-full lg:w-auto h-64 lg:h-80 relative z-10"
-                  alt=""
+                  alt="Custom LED backlit wall panel and floating shelves installation in Jaipur home"
                 />
                 <img
                   src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
