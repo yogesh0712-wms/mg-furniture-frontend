@@ -1,4 +1,4 @@
-import heroImage from "../assets/images/home/hero.webp";
+import home_image from "../assets/images/home/hero.webp";
 
 const Categories = () => {
   return (
@@ -26,7 +26,7 @@ const Categories = () => {
                   alt=""
                 />
                 <img
-                  src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
+                  src={home_image}
                   className="hidden lg:block h-48 lg:mt-32"
                   alt=""
                 />
