@@ -1,4 +1,4 @@
-import home_image from "../assets/images/home/hero.webp";
+import home_image from "../assets/images/home/home_image.webp";
 
 const Categories = () => {
   return (
