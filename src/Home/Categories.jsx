@@ -45,7 +45,10 @@ const Categories = () => {
             </p>
 
             <div className="pt-6 lg:pt-10">
-              <a href="/about" className="font-serif text-lg lg:text-xl mr-5">
+              <a
+                href="/about-us"
+                className="font-serif text-lg lg:text-xl mr-5"
+              >
                 ABOUT US
               </a>
               <a href="/shop" className="font-serif text-lg lg:text-xl">
