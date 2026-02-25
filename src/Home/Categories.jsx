@@ -1,4 +1,4 @@
-import home_image from "../assets/images/home/home_image.webp";
+import heroImage from "../assets/images/home/hero.webp";
 
 const Categories = () => {
   return (
@@ -14,9 +14,9 @@ const Categories = () => {
 
             <div className="mt-5 relative">
               <img
-                src={home_image}
-                alt="Custom wooden wardrobe installation in Jaipur home by MG Furniture"
+                src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c8.png"
                 className="hidden lg:block h-56 absolute -ml-24 mt-36"
+                alt=""
               />
 
               <div className="flex flex-wrap lg:flex-nowrap">
