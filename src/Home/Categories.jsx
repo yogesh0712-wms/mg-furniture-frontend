@@ -1,4 +1,4 @@
-import React from "react";
+import home_image from "../assets/images/home/hero.webp";
 
 const Categories = () => {
   return (
@@ -14,9 +14,9 @@ const Categories = () => {
 
             <div className="mt-5 relative">
               <img
-                src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c8.png"
+                src={home_image}
+                alt="Custom wooden furniture in Jaipur"
                 className="hidden lg:block h-56 absolute -ml-24 mt-36"
-                alt=""
               />
 
               <div className="flex flex-wrap lg:flex-nowrap">
