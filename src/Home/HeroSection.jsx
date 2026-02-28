@@ -62,7 +62,7 @@ const HeroSection = () => {
         <div
           className="
             mt-8 rounded-2xl overflow-hidden
-            w-full h-56
+            w-full h-80
             lg:h-[19rem] lg:w-[35rem] lg:mt-[-30px]
           "
         >
