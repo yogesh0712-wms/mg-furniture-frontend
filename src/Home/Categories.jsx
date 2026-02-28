@@ -1,6 +1,10 @@
 import home_image from "../assets/images/home/home_image.webp";
 import home_image3 from "../assets/images/home/home_image3.webp";
 import home_image2 from "../assets/images/home/home_image2.webp";
+import project1 from "../assets/images/home/1111.webp";
+import project2 from "../assets/images/home/1122.webp";
+import project3 from "../assets/images/home/11222.webp";
+import project4 from "../assets/images/home/112233.webp";
 
 const Categories = () => {
   return (
@@ -185,28 +189,28 @@ const Categories = () => {
 
 const divItems = [
   {
-    image:
-      "https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/28.jpg",
-    itemType: "Elegant Furniture",
-    productNO: "75 Products",
+    image: project1,
+    itemType: "Modern TV Units",
+    productNO: "120+ Projects",
+    alt: "installation by MG Furniture Jaipur",
   },
   {
-    image:
-      "https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c25.jpg",
-    itemType: "Elegant Furniture",
-    productNO: "75 Products",
+    image: project2,
+    itemType: "Custom Bedrooms",
+    productNO: "85+ Projects",
+    alt: "installation by MG Furniture Jaipur",
   },
   {
-    image:
-      "https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/19.jpg",
-    itemType: "Elegant Furniture",
-    productNO: "75 Products",
+    image: project3,
+    itemType: "Pooja Units",
+    productNO: "60+ Projects",
+    alt: "installation by MG Furniture Jaipur",
   },
   {
-    image:
-      "https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg",
-    itemType: "Elegant Furniture",
-    productNO: "75 Products",
+    image: project4,
+    itemType: "False Ceilings",
+    productNO: "150+ Installations",
+    alt: "installation by MG Furniture Jaipur",
   },
 ];
 
@@ -228,7 +232,7 @@ const Collections = () => {
           <div key={index} className="relative h-[320px] lg:h-[61vh]">
             <img
               src={item.image}
-              alt=""
+              alt={item.alt}
               className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="relative z-10 p-6 text-black">
