@@ -1,5 +1,6 @@
 import home_image from "../assets/images/home/home_image.webp";
 import home_image3 from "../assets/images/home/home_image3.webp";
+import home_image2 from "../assets/images/home/home_image2.webp";
 
 const Categories = () => {
   return (
@@ -79,9 +80,9 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
-                  src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/19.jpg"
+                  src={home_image2}
+                  alt="Kitchen cabinet installation work in Jaipur home by MG Furniture"
                   className="w-full lg:w-auto h-64 lg:h-80 z-10"
-                  alt=""
                 />
                 <img
                   src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
