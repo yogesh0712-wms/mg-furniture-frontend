@@ -227,9 +227,9 @@ const Collections = () => {
         </p>
       </div>
 
-      <div className="pt-10 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="pt-10 px-4 mb-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {divItems.map((item, index) => (
-          <div key={index} className="relative h-[360px] lg:h-[61vh] mb-6">
+          <div key={index} className="relative h-[360px] lg:h-[61vh] ">
             <img
               src={item.image}
               alt={item.alt}
