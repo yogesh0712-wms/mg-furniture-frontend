@@ -41,13 +41,13 @@ function Header() {
           </a>
           <a
             className="text-white bg-pink-500 p-1 rounded-full"
-            href="https://facebook.com"
+            href="https://www.instagram.com/mgfurnuture?igsh=MWJzbGVveG56cW8yMQ=="
           >
             <FaInstagram size={13} />
           </a>
           <a
             className="text-white bg-green-500 p-1 rounded-full"
-            href="https://facebook.com"
+            href="https://wa.me/918385814828"
           >
             <FaWhatsapp size={13} />
           </a>
