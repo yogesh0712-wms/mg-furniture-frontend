@@ -27,7 +27,7 @@ function Header() {
       <div className="flex items-center justify-between px-4 py-2 text-xs lg:text-sm lg:w-[75%] lg:mx-auto">
         {/* Left: Phone + Email */}
         <div className="flex flex-col leading-tight md:flex-row md:gap-6">
-          <p>+91-7878658974</p>
+          <p>+91-9928130507/ +91-8385814828</p>
           <p>hello@mgfurniture.com</p>
         </div>
 
