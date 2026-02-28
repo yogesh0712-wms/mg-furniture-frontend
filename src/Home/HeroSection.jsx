@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import home_hero_image from "../assets/images/home/home_hero_image.webp";
 
 const HeroSection = () => {
   return (
@@ -66,9 +67,9 @@ const HeroSection = () => {
           "
         >
           <img
-            src="./image_collection/home hero image.png"
-            alt="this is the tube"
-            className="h-full w-full object-cover"
+            src={home_hero_image}
+            alt="Founder of MG Furniture Jaipur"
+            className="w-full h-auto object-cover"
           />
         </div>
 
