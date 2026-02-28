@@ -22,7 +22,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 p-4 bg-white">
+    <div className="sticky top-0 z-50 pb-2 bg-white">
       {/* ================= TOP BAR ================= */}
       <div className="flex items-center justify-between px-4 py-2 text-xs lg:text-sm lg:w-[75%] lg:mx-auto">
         {/* Left: Phone + Email */}
