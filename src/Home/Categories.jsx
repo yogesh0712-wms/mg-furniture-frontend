@@ -235,7 +235,7 @@ const Collections = () => {
               alt={item.alt}
               className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="relative z-10 p-6 text-black">
+            <div className="relative z-10 p-6 text-white">
               <h1 className="font-serif text-xl lg:text-2xl">
                 {item.itemType}
               </h1>
