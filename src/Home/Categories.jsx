@@ -82,7 +82,7 @@ const Categories = () => {
                 <img
                   src={home_image2}
                   alt="Kitchen cabinet installation work in Jaipur home by MG Furniture"
-                  className="w-full lg:w-auto h-64 lg:h-80 z-10"
+                  className="w-full lg:w-auto h-64 lg:h-96 z-10"
                 />
                 <img
                   src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
