@@ -177,19 +177,19 @@ const Footer = () => {
               className="text-white bg-blue-500 p-1 rounded-full"
               href="https://facebook.com"
             >
-              <FaFacebookF size={14} />
+              <FaFacebookF size={13} />
             </a>
             <a
               className="text-white bg-pink-500 p-1 rounded-full"
-              href="https://facebook.com"
+              href="https://www.instagram.com/mgfurnuture?igsh=MWJzbGVveG56cW8yMQ=="
             >
-              <FaInstagram size={14} />
+              <FaInstagram size={13} />
             </a>
             <a
               className="text-white bg-green-500 p-1 rounded-full"
-              href="https://facebook.com"
+              href="https://wa.me/918385814828"
             >
-              <FaWhatsapp size={14} />
+              <FaWhatsapp size={13} />
             </a>
           </div>
         </div>
