@@ -2,58 +2,23 @@ import React from "react";
 
 const servicesTypes = [
   {
-    img: "/image_collection/services_image/sofa cleaning.png",
-    type: "Sofa & upholstery cleaning",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/mettress cleaning.png",
-    type: "Mattress cleaning",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/carpet cleaning.png",
-    type: "Carpet cleaning",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/furniture polishing.png",
-    type: "Furniture polishing",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/wooden surface.png",
-    type: "Wooden surface treatment",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/modular kitchen cleaning.png",
-    type: "Modular kitchen cleaning",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
     img: "/image_collection/services_image/wadobe serivce.png",
     type: "Wardrobe servicing",
+    url: "/services/wardrobe-servicing",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/cabinet service.png",
     type: "Cabinet servicing",
+    url: "/services/cabinet-service",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
-];
-const repairsTypes = [
   {
     img: "/image_collection/services_image/bed repair.png",
     type: "Bed repair",
+    url: "/services/bed-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -66,30 +31,29 @@ const repairsTypes = [
   {
     img: "/image_collection/services_image/table repair.png",
     type: "Table repair",
+    url: "/services/table-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/sofa repair.png",
     type: "Sofa frame repair",
+    url: "/services/sofa-frame-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/door repair.png",
-    type: "Door repair",
+    type: "Door & Window repair",
+    url: "/services/door-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
-  {
-    img: "/image_collection/services_image/window repair.png",
-    type: "Window Repair",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
+
   {
     img: "/image_collection/services_image/shelf repair.png",
-    type: "Shelf repair",
+    type: "Shelves repair",
+    url: "/services/shelves-wallunit-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -99,23 +63,13 @@ const repairsTypes = [
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
-  {
-    img: "/image_collection/services_image/curtain rod repair.png",
-    type: "Curtain rod repair",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/mirror fixing repair.png",
-    type: "Mirror fixing repair",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
 ];
+
 const fittingTypes = [
   {
     img: "/image_collection/services_image/modular fitting.png",
     type: "Modular kitchen installation",
+    url: "/services/modular-kitchen-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -128,36 +82,42 @@ const fittingTypes = [
   {
     img: "/image_collection/services_image/cabinet fitting.png",
     type: "Cabinet installation",
+    url: "/services/cabinet-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/beds and sofa fitting.png",
     type: "Bed & Sofa setup",
+    url: "/services/bed-sofa-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/shelves and wall unit fitting.png",
     type: "Shelves & wall units",
+    url: "/services/shelves-wallunit-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/windon fitting.png",
     type: "Doors & Windows",
+    url: "/services/door-window-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/cloth hanger fitting.png",
     type: "Clothes hanger installation",
+    url: "/services/cloth-hanger-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
     img: "/image_collection/services_image/locan handles fitting.png",
     type: "Locks & handles installation",
+    url: "/services/lock-handle-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -194,7 +154,7 @@ const FurnitureServices = () => {
       <div className="bg-[#EAEAC9] mt-5 pb-10">
         {/* SECTION TITLE */}
         <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-28 pt-10 font-poppins">
-          Complete Furniture Care & Services
+          Complete Furniture Services & Repair
         </p>
 
         {/* SERVICES GRID */}
@@ -214,49 +174,8 @@ const FurnitureServices = () => {
               </p>
 
               <div className="border-2 border-black p-3 mt-3 w-[220px] rounded-full text-center">
-                <a
-                  href="tel:917878658974"
-                  className="mr-2 text-lg font-poppins"
-                >
-                  Call
-                </a>
-                /
-                <a href={item.WhatsAppMsg} className="ml-2 text-lg font-inter">
-                  WhatsApp
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* REPAIR SECTION */}
-        <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-40 pt-12 font-poppins">
-          Furniture Repair Services
-        </p>
-
-        <div className="flex flex-wrap justify-center gap-6 mt-8 lg:grid lg:grid-cols-5 lg:w-[90%] lg:mx-auto">
-          {repairsTypes.map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <div className="w-[90%] h-56 lg:w-60 lg:h-60 rounded-3xl overflow-hidden">
-                <img
-                  src={item.img}
-                  alt=""
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <p className="text-lg font-poppins pt-3 ">{item.type}</p>
-
-              <div className="border-2 border-black p-3 mt-3 w-[220px] rounded-full ">
-                <a
-                  href="tel:917878658974"
-                  className="mr-2 text-lg font-poppins"
-                >
-                  Call
-                </a>
-                /
-                <a href={item.WhatsAppMsg} className="ml-2 text-lg font-inter">
-                  WhatsApp
+                <a href={item.url} className="mr-2 text-lg font-poppins">
+                  Book Serivce
                 </a>
               </div>
             </div>
@@ -265,7 +184,7 @@ const FurnitureServices = () => {
 
         {/* FITTING SECTION */}
         <p className="text-2xl text-center ml-1 lg:text-3xl lg:ml-40 pt-12 font-poppins">
-          Furniture Fitting Services
+          Furniture Installation Services
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 mt-8 lg:grid lg:grid-cols-5 lg:w-[90%] lg:mx-auto">
@@ -284,15 +203,8 @@ const FurnitureServices = () => {
               </p>
 
               <div className="border-2 border-black p-3 mt-3 w-[220px] rounded-full text-center">
-                <a
-                  href="tel:917878658974"
-                  className="mr-2 text-lg font-poppins"
-                >
-                  Call
-                </a>
-                /
-                <a href={item.WhatsAppMsg} className="ml-2 text-lg font-inter">
-                  WhatsApp
+                <a href={item.url} className="mr-2 text-lg font-poppins">
+                  Book Service
                 </a>
               </div>
             </div>
