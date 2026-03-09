@@ -68,12 +68,12 @@ const ServiceHeroSection = () => {
           {/* CTA BUTTONS */}
           <div
             className="
-              my-8 flex  items-center gap-4
+              my-8 flex mx-10 items-center gap-4
               lg:ml-1 lg:flex-row
             "
           >
             <a
-              href="tel:917878658974"
+              href="tel:918385814828"
               className="
                 bg-orange-400 text-white
                 inline-flex items-center gap-3
@@ -86,7 +86,7 @@ const ServiceHeroSection = () => {
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/918385814828"
               target="_blank"
               rel="noopener noreferrer"
               className="
