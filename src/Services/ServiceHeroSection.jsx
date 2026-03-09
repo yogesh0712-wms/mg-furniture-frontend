@@ -68,7 +68,7 @@ const ServiceHeroSection = () => {
           {/* CTA BUTTONS */}
           <div
             className="
-              my-8 flex flex-col items-center gap-4
+              my-8 flex  items-center gap-4
               lg:ml-1 lg:flex-row
             "
           >
