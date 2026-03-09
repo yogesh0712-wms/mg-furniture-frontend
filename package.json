@@ -18,11 +18,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "optimize-images": "squoosh-cli --webp auto --resize '{\"width\":500}' src/assets/images/original/*",
+  "build": "npm run optimize-images && react-scripts build",
+  "test": "react-scripts test"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
