@@ -19,8 +19,7 @@
   },
   "scripts": {
   "start": "react-scripts start",
-  "optimize-images": "squoosh-cli --webp auto --resize '{\"width\":500}' src/assets/images/original/*",
-  "build": "npm run optimize-images && react-scripts build",
+  "build": "react-scripts build",
   "test": "react-scripts test"
 },
   "eslintConfig": {
