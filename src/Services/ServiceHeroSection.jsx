@@ -45,37 +45,6 @@ const ServiceHeroSection = () => {
       {/* HERO CONTENT */}
       <div className="grid grid-cols-1 lg:mx-auto lg:w-full lg:gap-20 lg:flex">
         {/* IMAGE GRID */}
-        <div
-          className="
-    order-2 
-    grid grid-cols-2 gap-3 mt-6 px-4
-    lg:order-1 lg:w-[47%]
-    lg:grid lg:grid-cols-2 lg:pt-5 lg:gap-y-5 lg:gap-x-1
-  "
-        >
-          {[
-            "service hero image 1.png",
-            "service heroimage 2.png",
-            "service hero image3.png",
-            "service hero image4.png",
-          ].map((img, i) => (
-            <div
-              key={i}
-              className="
-        w-full h-40 overflow-hidden rounded-lg
-        lg:w-[42vh] lg:h-[46vh]
-        lg:rounded-tl-xl lg:rounded-tr-xl
-        lg:ml-0 lg:mt-0
-      "
-            >
-              <img
-                src={`./image_collection/services_image/${img}`}
-                alt=""
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
 
         {/* TEXT + CTA */}
         <div className="order-1 w-full lg:order-2 lg:mr-5 lg:w-[50%]">
