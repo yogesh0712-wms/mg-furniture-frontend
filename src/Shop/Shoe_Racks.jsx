@@ -35,22 +35,22 @@ const ShoeRacks = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/shoes rack/rackhero1.png",
+      url: "/image_collection/shop/shoes rack/rackhero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/shoes rack/rackhero2.png",
+      url: "/image_collection/shop/shoes rack/rackhero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/shoes rack/rackhero3.png",
+      url: "/image_collection/shop/shoes rack/rackhero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/shoes rack/rackhero4.png",
+      url: "/image_collection/shop/shoes rack/rackhero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -59,16 +59,16 @@ const ShoeRacks = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/shoes rack/rack1.jpg",
-    "/image_collection/shop/shoes rack/rack2.jpg",
-    "/image_collection/shop/shoes rack/rack3.jpg",
-    "/image_collection/shop/shoes rack/rack4.jpg",
-    "/image_collection/shop/shoes rack/rack5.png",
-    "/image_collection/shop/shoes rack/rack6.jpg",
-    "/image_collection/shop/shoes rack/rack7.jpg",
-    "/image_collection/shop/shoes rack/rack8.jpg",
-    "/image_collection/shop/shoes rack/rack9.jpg",
-    "/image_collection/shop/shoes rack/rack10.png",
+    "/image_collection/shop/shoes rack/rack1.webp",
+    "/image_collection/shop/shoes rack/rack2.webp",
+    "/image_collection/shop/shoes rack/rack3.webp",
+    "/image_collection/shop/shoes rack/rack4.webp",
+    "/image_collection/shop/shoes rack/rack5.webp",
+    "/image_collection/shop/shoes rack/rack6.webp",
+    "/image_collection/shop/shoes rack/rack7.webp",
+    "/image_collection/shop/shoes rack/rack8.webp",
+    "/image_collection/shop/shoes rack/rack9.webp",
+    "/image_collection/shop/shoes rack/rack10.webp",
   ];
 
   const changeSlide = useCallback(
@@ -212,7 +212,7 @@ const ShoeRacks = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

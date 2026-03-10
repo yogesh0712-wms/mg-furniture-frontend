@@ -6,63 +6,63 @@ import { useEffect } from "react";
 
 const popularProducts = [
   {
-    image: "image_collection/shop/chairs - Copy.png",
+    image: "image_collection/shop/chairs - Copy.webp",
     type: "Chairs",
     Descrip:
       "Crafted wooden chairs designed for everyday comfort and strength.",
     link: "/shop/chairs",
   },
   {
-    image: "image_collection/shop/Sofa.png",
+    image: "image_collection/shop/Sofa.webp",
     type: "Sofas",
     Descrip:
       "Solid wood sofas crafted for comfort, strength, and lasting style..",
     link: "/shop/sofas",
   },
   {
-    image: "image_collection/shop/Doors.png",
+    image: "image_collection/shop/Doors.webp",
     type: "Doors",
     Descrip: "Handcrafted wooden doors built for daily use!!",
     link: "/shop/doors",
   },
   {
-    image: "image_collection/shop/Windows.png",
+    image: "image_collection/shop/Windows.webp",
     type: "Windows",
     Descrip: "Premium wood windows crafted for airflow and light",
     link: "/shop/windows",
   },
   {
-    image: "image_collection/shop/Almiras.png",
+    image: "image_collection/shop/Almiras.webp",
     type: "Almiras",
     Descrip: "Strong storage furniture built with balance and care",
     link: "/shop/almiras",
   },
   {
-    image: "image_collection/shop/Beds.png",
+    image: "image_collection/shop/Beds.webp",
     type: "Beds",
     Descrip: "Solid wooden beds designed for rest and balance",
     link: "/shop/beds",
   },
   {
-    image: "image_collection/shop/dinning table.png",
+    image: "image_collection/shop/dinning table.webp",
     type: "Dinning Table",
     Descrip: "Premium wood tables built for everyday meals",
     link: "/shop/dining-table",
   },
   {
-    image: "image_collection/shop/Shoe rack.png",
+    image: "image_collection/shop/Shoe rack.webp",
     type: "Shoe Racks",
     Descrip: "Wooden shoe racks designed for neat entryways!",
     link: "/shop/shoe-racks",
   },
   {
-    image: "image_collection/shop/study table.png",
+    image: "image_collection/shop/study table.webp",
     type: "Study Table",
     Descrip: "Premium wooden desks designed for daily learning",
     link: "/shop/study-table",
   },
   {
-    image: "image_collection/shop/wooden ceiling.png",
+    image: "image_collection/shop/wooden ceiling.webp",
     type: "Wooden Ceiling",
     Descrip: "Natural wood panels designed for elegant interiors.",
     link: "/shop/wooden-ceiling",

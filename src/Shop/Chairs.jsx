@@ -4,9 +4,6 @@ import { ShoppingCart, Folder, CheckCircle } from "lucide-react";
 import { useEffect, useState, useCallback } from "react";
 import FAQSection from "../FAQSection";
 
-
-
-
 const ChairsFAQs = [
   {
     question: "Do you make furniture only on order?",
@@ -21,41 +18,40 @@ const ChairsFAQs = [
 ];
 
 const Chairs = () => {
-
   useEffect(() => {
-  document.title =
-    "Wooden Chairs in Jaipur | Custom Dining & Living Chairs | MG Furniture";
+    document.title =
+      "Wooden Chairs in Jaipur | Custom Dining & Living Chairs | MG Furniture";
 
-  const metaDescription = document.querySelector('meta[name="description"]');
-  if (metaDescription) {
-    metaDescription.setAttribute(
-      "content",
-      "Shop custom wooden chairs in Jaipur for dining rooms, living spaces, and offices. MG Furniture crafts durable and stylish chairs tailored to your needs."
-    );
-  }
-}, []);
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Shop custom wooden chairs in Jaipur for dining rooms, living spaces, and offices. MG Furniture crafts durable and stylish chairs tailored to your needs.",
+      );
+    }
+  }, []);
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
   const slides = [
     {
-      url: "/image_collection/shop/CHAIRS/chairs hero.png",
+      url: "/image_collection/shop/CHAIRS/chairs hero.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/CHAIRS/chair hero2.png",
+      url: "/image_collection/shop/CHAIRS/chair hero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/CHAIRS/chair hero3.png",
+      url: "/image_collection/shop/CHAIRS/chair hero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/CHAIRS/hero chair4.jpg",
+      url: "/image_collection/shop/CHAIRS/hero chair4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -64,17 +60,17 @@ const Chairs = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/CHAIRS/chair 1.png",
-    "/image_collection/shop/CHAIRS/chair2.png",
-    "/image_collection/shop/CHAIRS/chair3.png",
-    "/image_collection/shop/CHAIRS/chair4.png",
-    "/image_collection/shop/CHAIRS/chair5.png",
-    "/image_collection/shop/CHAIRS/chair6.png",
-    "/image_collection/shop/CHAIRS/chair7.png",
-    "/image_collection/shop/CHAIRS/chair8.png",
-    "/image_collection/shop/CHAIRS/chair10.avif",
-    "/image_collection/shop/CHAIRS/chair11.jpg",
-    "/image_collection/shop/CHAIRS/chair12.jpg",
+    "/image_collection/shop/CHAIRS/chair 1.webp",
+    "/image_collection/shop/CHAIRS/chair2.webp",
+    "/image_collection/shop/CHAIRS/chair3.webp",
+    "/image_collection/shop/CHAIRS/chair4.webp",
+    "/image_collection/shop/CHAIRS/chair5.webp",
+    "/image_collection/shop/CHAIRS/chair6.webp",
+    "/image_collection/shop/CHAIRS/chair7.webp",
+    "/image_collection/shop/CHAIRS/chair8.webp",
+    "/image_collection/shop/CHAIRS/chair10.webp",
+    "/image_collection/shop/CHAIRS/chair11.webp",
+    "/image_collection/shop/CHAIRS/chair12.webp",
   ];
   const changeSlide = useCallback(
     (direction) => {
@@ -217,7 +213,7 @@ const Chairs = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

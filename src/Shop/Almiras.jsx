@@ -34,27 +34,27 @@ const Almiras = () => {
   const [isPaused, setIsPaused] = useState(false);
 
   const slides = [
-    { url: "/image_collection/shop/Almira/almirahero1.png", alt: "Slide 1" },
-    { url: "/image_collection/shop/Almira/almirahero2.png", alt: "Slide 2" },
-    { url: "/image_collection/shop/Almira/almirahero3.png", alt: "Slide 3" },
-    { url: "/image_collection/shop/Almira/almirahero4.png", alt: "Slide 4" },
+    { url: "/image_collection/shop/Almira/almirahero1.webp", alt: "Slide 1" },
+    { url: "/image_collection/shop/Almira/almirahero2.webp", alt: "Slide 2" },
+    { url: "/image_collection/shop/Almira/almirahero3.webp", alt: "Slide 3" },
+    { url: "/image_collection/shop/Almira/almirahero4.webp", alt: "Slide 4" },
   ];
 
   const totalSlides = slides.length;
 
   const chairImage = [
-    "/image_collection/shop/Almira/almira1.jpg",
-    "/image_collection/shop/Almira/almira2.jpg",
-    "/image_collection/shop/Almira/almira3.png",
-    "/image_collection/shop/Almira/almira4.png",
-    "/image_collection/shop/Almira/almira5.png",
-    "/image_collection/shop/Almira/almira6.png",
-    "/image_collection/shop/Almira/almira7.png",
-    "/image_collection/shop/Almira/almira8.png",
-    "/image_collection/shop/Almira/almira9.png",
-    "/image_collection/shop/Almira/almira10.png",
-    "/image_collection/shop/Almira/almira11.png",
-    "/image_collection/shop/Almira/almira12.png",
+    "/image_collection/shop/Almira/almira1.webp",
+    "/image_collection/shop/Almira/almira2.webp",
+    "/image_collection/shop/Almira/almira3.webp",
+    "/image_collection/shop/Almira/almira4.webp",
+    "/image_collection/shop/Almira/almira5.webp",
+    "/image_collection/shop/Almira/almira6.webp",
+    "/image_collection/shop/Almira/almira7.webp",
+    "/image_collection/shop/Almira/almira8.webp",
+    "/image_collection/shop/Almira/almira9.webp",
+    "/image_collection/shop/Almira/almira10.webp",
+    "/image_collection/shop/Almira/almira11.webp",
+    "/image_collection/shop/Almira/almira12.webp",
   ];
 
   const changeSlide = useCallback(
@@ -198,7 +198,7 @@ const Almiras = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

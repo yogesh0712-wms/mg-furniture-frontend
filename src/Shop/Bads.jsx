@@ -36,22 +36,22 @@ const Bads = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/beds/bedshero1.png",
+      url: "/image_collection/shop/beds/bedshero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/beds/bedshero2.png",
+      url: "/image_collection/shop/beds/bedshero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/beds/bedshero3.png",
+      url: "/image_collection/shop/beds/bedshero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/beds/bedshero4.png",
+      url: "/image_collection/shop/beds/bedshero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,17 +60,17 @@ const Bads = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/beds/beds1.png",
-    "/image_collection/shop/beds/beds2.jpg",
-    "/image_collection/shop/beds/beds3.jpg",
-    "/image_collection/shop/beds/beds4.jpg",
-    "/image_collection/shop/beds/beds5.png",
-    "/image_collection/shop/beds/beds6.png",
-    "/image_collection/shop/beds/beds7.png",
-    "/image_collection/shop/beds/beds8.png",
-    "/image_collection/shop/beds/beds9.png",
-    "/image_collection/shop/beds/beds10.png",
-    "/image_collection/shop/beds/beds11.png",
+    "/image_collection/shop/beds/beds1.webp",
+    "/image_collection/shop/beds/beds2.webp",
+    "/image_collection/shop/beds/beds3.webp",
+    "/image_collection/shop/beds/beds4.webp",
+    "/image_collection/shop/beds/beds5.webp",
+    "/image_collection/shop/beds/beds6.webp",
+    "/image_collection/shop/beds/beds7.webp",
+    "/image_collection/shop/beds/beds8.webp",
+    "/image_collection/shop/beds/beds9.webp",
+    "/image_collection/shop/beds/beds10.webp",
+    "/image_collection/shop/beds/beds11.webp",
   ];
 
   const changeSlide = useCallback(
@@ -214,7 +214,7 @@ const Bads = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

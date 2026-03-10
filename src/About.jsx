@@ -76,7 +76,7 @@ const About = () => {
 
         <div className="w-full lg:w-72 h-96 lg:h-[80vh] overflow-hidden">
           <img
-            src="./image_collection/aboutus image 1.png"
+            src="./image_collection/aboutus image 1.webp"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -118,7 +118,7 @@ const About = () => {
 
         <div className="mx-auto w-[90%] lg:w-[80%] mt-10">
           <img
-            src="./image_collection/aboutus sofa image.png"
+            src="./image_collection/aboutus sofa image.webp"
             alt=""
             className="w-full object-cover"
           />

@@ -36,22 +36,22 @@ const Woodenceiling = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/ceiling/ceilinghero1.png",
+      url: "/image_collection/shop/ceiling/ceilinghero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/ceiling/ceilinghero2.png",
+      url: "/image_collection/shop/ceiling/ceilinghero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/ceiling/ceilinghero3.png",
+      url: "/image_collection/shop/ceiling/ceilinghero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/ceiling/ceilinghero4.png",
+      url: "/image_collection/shop/ceiling/ceilinghero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,15 +60,15 @@ const Woodenceiling = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/ceiling/ceiling1.jpg",
-    "/image_collection/shop/ceiling/ceiling2.jpg",
-    "/image_collection/shop/ceiling/ceiling3.jpg",
-    "/image_collection/shop/ceiling/ceiling4.png",
-    "/image_collection/shop/ceiling/ceiling6.jpg",
-    "/image_collection/shop/ceiling/ceiling7.jpg",
-    "/image_collection/shop/ceiling/ceiling8.jpg",
-    "/image_collection/shop/ceiling/ceiling9.png",
-    "/image_collection/shop/ceiling/ceiling10.png",
+    "/image_collection/shop/ceiling/ceiling1.webp",
+    "/image_collection/shop/ceiling/ceiling2.webp",
+    "/image_collection/shop/ceiling/ceiling3.webp",
+    "/image_collection/shop/ceiling/ceiling4.webp",
+    "/image_collection/shop/ceiling/ceiling6.webp",
+    "/image_collection/shop/ceiling/ceiling7.webp",
+    "/image_collection/shop/ceiling/ceiling8.webp",
+    "/image_collection/shop/ceiling/ceiling9.webp",
+    "/image_collection/shop/ceiling/ceiling10.webp",
   ];
   const changeSlide = useCallback(
     (direction) => {
@@ -211,7 +211,7 @@ const Woodenceiling = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

@@ -59,7 +59,7 @@ const ServiceHeroSection = () => {
 
           <div className="w-full pt-4 overflow-hidden">
             <img
-              src="./image_collection/services_image/MG service herso section.png"
+              src="./image_collection/services_image/MG service herso section.webp"
               alt=""
               className="w-full object-cover lg:scale-110"
             />

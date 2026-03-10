@@ -48,16 +48,6 @@ const HeroSection = () => {
           </h1>
         </div>
 
-        {/* FLOATING IMAGE */}
-        <img
-          src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c1.jpg"
-          alt="this is the sofa"
-          className="
-            hidden
-            lg:block lg:h-80 lg:absolute lg:top-0 lg:right-48
-          "
-        />
-
         {/* MAIN IMAGE */}
         <div
           className="

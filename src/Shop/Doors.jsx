@@ -36,22 +36,22 @@ const Doors = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/doors/doorhero11.png",
+      url: "/image_collection/shop/doors/doorhero11.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/doors/doorhero12.png",
+      url: "/image_collection/shop/doors/doorhero12.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/doors/doorhero13.png",
+      url: "/image_collection/shop/doors/doorhero13.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/doors/door14.png",
+      url: "/image_collection/shop/doors/door14.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,14 +60,14 @@ const Doors = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/doors/door1.jpg",
-    "/image_collection/shop/doors/door2.jpg",
-    "/image_collection/shop/doors/door3.jpg",
-    "/image_collection/shop/doors/door4.jpg",
-    "/image_collection/shop/doors/door5.jpg",
-    "/image_collection/shop/doors/door6.jpg",
-    "/image_collection/shop/doors/door7.jpg",
-    "/image_collection/shop/doors/door8.jpg",
+    "/image_collection/shop/doors/door1.webp",
+    "/image_collection/shop/doors/door2.webp",
+    "/image_collection/shop/doors/door3.webp",
+    "/image_collection/shop/doors/door4.webp",
+    "/image_collection/shop/doors/door5.webp",
+    "/image_collection/shop/doors/door6.webp",
+    "/image_collection/shop/doors/door7.webp",
+    "/image_collection/shop/doors/door8.webp",
   ];
 
   const changeSlide = useCallback(
@@ -211,7 +211,7 @@ const Doors = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

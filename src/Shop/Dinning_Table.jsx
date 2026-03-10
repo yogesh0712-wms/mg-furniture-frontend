@@ -35,22 +35,22 @@ const DinningTable = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/dinning table/herotable1.png",
+      url: "/image_collection/shop/dinning table/herotable1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/dinning table/herotable2.png",
+      url: "/image_collection/shop/dinning table/herotable2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/dinning table/herotable3.png",
+      url: "/image_collection/shop/dinning table/herotable3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/dinning table/herotable4.png",
+      url: "/image_collection/shop/dinning table/herotable4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,19 +60,19 @@ const DinningTable = () => {
 
   const chairImage = [
     "/image_collection/shop/dinning table/dinning1.jpg",
-    "/image_collection/shop/dinning table/dinning2.png",
-    "/image_collection/shop/dinning table/dinning3.jpg",
-    "/image_collection/shop/dinning table/dinning4.jpg",
-    "/image_collection/shop/dinning table/dinning5.jpg",
-    "/image_collection/shop/dinning table/dinning6.jpg",
-    "/image_collection/shop/dinning table/dinning7.jpg",
-    "/image_collection/shop/dinning table/dinning8.jpg",
-    "/image_collection/shop/dinning table/dinning9.jpg",
-    "/image_collection/shop/dinning table/dinning10.png",
-    "/image_collection/shop/dinning table/dinning11.png",
-    "/image_collection/shop/dinning table/dinning12.png",
-    "/image_collection/shop/dinning table/dinning13.png",
-    "/image_collection/shop/dinning table/dinning14.png",
+    "/image_collection/shop/dinning table/dinning2.webp",
+    "/image_collection/shop/dinning table/dinning3.webp",
+    "/image_collection/shop/dinning table/dinning4.webp",
+    "/image_collection/shop/dinning table/dinning5.webp",
+    "/image_collection/shop/dinning table/dinning6.webp",
+    "/image_collection/shop/dinning table/dinning7.webp",
+    "/image_collection/shop/dinning table/dinning8.webp",
+    "/image_collection/shop/dinning table/dinning9.webp",
+    "/image_collection/shop/dinning table/dinning10.webp",
+    "/image_collection/shop/dinning table/dinning11.webp",
+    "/image_collection/shop/dinning table/dinning12.webp",
+    "/image_collection/shop/dinning table/dinning13.webp",
+    "/image_collection/shop/dinning table/dinning14.webp",
   ];
   const changeSlide = useCallback(
     (direction) => {
@@ -215,7 +215,7 @@ const DinningTable = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

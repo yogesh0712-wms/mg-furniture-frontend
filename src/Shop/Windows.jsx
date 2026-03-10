@@ -36,22 +36,22 @@ const Windows = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/window/windowhero1.png",
+      url: "/image_collection/shop/window/windowhero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/window/windowhero2.png",
+      url: "/image_collection/shop/window/windowhero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/window/windowhero3.png",
+      url: "/image_collection/shop/window/windowhero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/window/windowhero4.png",
+      url: "/image_collection/shop/window/windowhero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,17 +60,17 @@ const Windows = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/window/window1.jpg",
-    "/image_collection/shop/window/window2.jpg",
-    "/image_collection/shop/window/window3.png",
-    "/image_collection/shop/window/window4.png",
+    "/image_collection/shop/window/window1.webp",
+    "/image_collection/shop/window/window2.webp",
+    "/image_collection/shop/window/window3.webp",
+    "/image_collection/shop/window/window4.webp",
     "/image_collection/shop/window/window5.webp",
-    "/image_collection/shop/window/window6.jpg",
-    "/image_collection/shop/window/window7.jpg",
-    "/image_collection/shop/window/window8.png",
-    "/image_collection/shop/window/window9.jpg",
-    "/image_collection/shop/window/window10.png",
-    "/image_collection/shop/window/window12.png",
+    "/image_collection/shop/window/window6.webp",
+    "/image_collection/shop/window/window7.webp",
+    "/image_collection/shop/window/window8.webp",
+    "/image_collection/shop/window/window9.webp",
+    "/image_collection/shop/window/window10.webp",
+    "/image_collection/shop/window/window12.webp",
   ];
 
   const changeSlide = useCallback(
@@ -214,7 +214,7 @@ const Windows = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

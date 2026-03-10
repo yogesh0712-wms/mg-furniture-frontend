@@ -35,22 +35,22 @@ const Sofas = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/sofas/soahero1.jpg",
+      url: "/image_collection/shop/sofas/soahero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/sofas/sofahero2.jpg",
+      url: "/image_collection/shop/sofas/sofahero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/sofas/sofahero3.jpg",
+      url: "/image_collection/shop/sofas/sofahero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/sofas/sofahero4.jpg",
+      url: "/image_collection/shop/sofas/sofahero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -59,15 +59,15 @@ const Sofas = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/sofas/sofa1.jpg",
-    "/image_collection/shop/sofas/sofa2.jpg",
-    "/image_collection/shop/sofas/sofa3.jpg",
-    "/image_collection/shop/sofas/sofa4.jpg",
-    "/image_collection/shop/sofas/sofa5.jpg",
-    "/image_collection/shop/sofas/sofa7.jpg",
-    "/image_collection/shop/sofas/sofa8.jpg",
-    "/image_collection/shop/sofas/sofa9.jpg",
-    "/image_collection/shop/sofas/sofa10.jpg",
+    "/image_collection/shop/sofas/sofa1.webp",
+    "/image_collection/shop/sofas/sofa2.webp",
+    "/image_collection/shop/sofas/sofa3.webp",
+    "/image_collection/shop/sofas/sofa4.webp",
+    "/image_collection/shop/sofas/sofa5.webp",
+    "/image_collection/shop/sofas/sofa7.webp",
+    "/image_collection/shop/sofas/sofa8.webp",
+    "/image_collection/shop/sofas/sofa9.webp",
+    "/image_collection/shop/sofas/sofa10.webp",
   ];
 
   const changeSlide = useCallback(
@@ -211,7 +211,7 @@ const Sofas = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />

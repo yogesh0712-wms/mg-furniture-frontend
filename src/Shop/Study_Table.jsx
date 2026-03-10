@@ -36,22 +36,22 @@ const StudyTable = () => {
 
   const slides = [
     {
-      url: "/image_collection/shop/study table/studyhero1.png",
+      url: "/image_collection/shop/study table/studyhero1.webp",
       alt: "Mountain Landscape",
       caption: "Majestic Mountains",
     },
     {
-      url: "/image_collection/shop/study table/studyhero2.png",
+      url: "/image_collection/shop/study table/studyhero2.webp",
       alt: "Beach Paradise",
       caption: "Tropical Paradise",
     },
     {
-      url: "/image_collection/shop/study table/studyhero3.png",
+      url: "/image_collection/shop/study table/studyhero3.webp",
       alt: "City Skyline",
       caption: "City Lights",
     },
     {
-      url: "/image_collection/shop/study table/studyhero4.png",
+      url: "/image_collection/shop/study table/studyhero4.webp",
       alt: "Forest Path",
       caption: "Enchanted Forest",
     },
@@ -60,14 +60,14 @@ const StudyTable = () => {
   const totalSlides = slides.length; // or however you're defining it
 
   const chairImage = [
-    "/image_collection/shop/study table/study1.jpg",
-    "/image_collection/shop/study table/study2.jpg",
-    "/image_collection/shop/study table/study3.png",
-    "/image_collection/shop/study table/study4.jpg",
-    "/image_collection/shop/study table/study5.jpg",
-    "/image_collection/shop/study table/study8.jpg",
-    "/image_collection/shop/study table/study9.jpg",
-    "/image_collection/shop/study table/study10.png",
+    "/image_collection/shop/study table/study1.webp",
+    "/image_collection/shop/study table/study2.webp",
+    "/image_collection/shop/study table/study3.webp",
+    "/image_collection/shop/study table/study4.webp",
+    "/image_collection/shop/study table/study5.webp",
+    "/image_collection/shop/study table/study8.webp",
+    "/image_collection/shop/study table/study9.webp",
+    "/image_collection/shop/study table/study10.webp",
   ];
 
   const changeSlide = useCallback(
@@ -211,7 +211,7 @@ const StudyTable = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.png"
+            src="/image_collection/shop/Almira/almiracenter.webp"
             alt=""
             className="w-full"
           />
