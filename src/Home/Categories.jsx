@@ -20,6 +20,9 @@ const Categories = () => {
 
             <div className="mt-5 relative">
               <img
+                loading="lazy"
+                width="662"
+                height="441"
                 src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c8.png"
                 className="hidden lg:block h-56 absolute -ml-24 mt-36"
                 alt=""
@@ -27,6 +30,9 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
+                  loading="lazy"
+                  width="662"
+                  height="441"
                   src={home_image}
                   className="w-full lg:w-auto h-64 lg:h-80 relative z-10"
                   alt="wooden furniture jaipur custom furniture jaipur best furniture jaipur mg furniture"
@@ -77,6 +83,9 @@ const Categories = () => {
 
             <div className="mt-5 relative">
               <img
+                loading="lazy"
+                width="662"
+                height="441"
                 src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c8.png"
                 className="hidden lg:block h-56 absolute -ml-24 mt-36"
                 alt=""
@@ -84,11 +93,17 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
+                  loading="lazy"
+                  width="662"
+                  height="441"
                   src={home_image2}
                   alt="Kitchen cabinet installation work in Jaipur home by MG Furniture"
                   className="w-full lg:w-auto h-96 lg:h-96 z-10"
                 />
                 <img
+                  loading="lazy"
+                  width="662"
+                  height="441"
                   src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
                   className="hidden lg:block h-48 lg:mt-32"
                   alt=""
@@ -138,6 +153,9 @@ const Categories = () => {
 
             <div className="mt-5 relative">
               <img
+                loading="lazy"
+                width="662"
+                height="441"
                 src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/c8.png"
                 className="hidden lg:block h-56 absolute -ml-24 mt-36"
                 alt=""
@@ -145,11 +163,17 @@ const Categories = () => {
 
               <div className="flex flex-wrap lg:flex-nowrap">
                 <img
+                  loading="lazy"
+                  width="662"
+                  height="441"
                   src={home_image3}
                   className="w-full lg:w-auto h-96 lg:h-80 relative z-10"
                   alt="Custom LED backlit wall panel and floating shelves installation in Jaipur home"
                 />
                 <img
+                  loading="lazy"
+                  width="662"
+                  height="441"
                   src="https://web.sociolib.com/cabinet/wp-content/uploads/sites/6/2023/01/25.jpg"
                   className="hidden lg:block h-48 lg:mt-32"
                   alt=""
@@ -231,6 +255,9 @@ const Collections = () => {
         {divItems.map((item, index) => (
           <div key={index} className="relative h-[360px] lg:h-[61vh] ">
             <img
+              loading="lazy"
+              width="662"
+              height="441"
               src={item.image}
               alt={item.alt}
               className="absolute inset-0 h-full w-full object-cover"
