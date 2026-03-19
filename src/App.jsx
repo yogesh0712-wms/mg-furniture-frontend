@@ -23,7 +23,6 @@ import Woodenceiling from "./Shop/Wooden_celing";
 import FurnitureReparation from "./Contracting/Furniture_Reparation";
 import Weddingfurniture from "./Contracting/Wedding_furniture";
 import Designconsultation from "./Contracting/Design_consultation";
-import { useEffect } from "react";
 import WarddrobeServicing from "./Services/IndivServices/WardrobeServicing";
 import BedRepair from "./Services/IndivServices/BedRepair.jsx";
 import BedSofa from "./Services/IndivServices/BedSofa.jsx";
