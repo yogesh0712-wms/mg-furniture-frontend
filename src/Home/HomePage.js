@@ -8,26 +8,26 @@ import { useEffect } from "react";
 
 const popularProducts = [
   {
-    image: "image_collection/shop/Beds.png",
+    image: "image_collection/shop/Beds.webp",
     type: "Beds",
     Descrip: "Solid wooden beds designed for rest and balance",
     link: "/shop/beds",
   },
   {
-    image: "image_collection/shop/Almiras.png",
+    image: "image_collection/shop/Almiras.webp",
     type: "Almiras",
     Descrip: "Strong storage furniture built with balance and care",
     link: "/shop/almiras",
   },
   {
-    image: "image_collection/shop/Sofa.png",
+    image: "image_collection/shop/Sofa.webp",
     type: "Sofas",
     Descrip:
       "Solid wood sofas crafted for comfort, strength, and lasting style..",
     link: "/shop/sofas",
   },
   {
-    image: "image_collection/shop/Doors.png",
+    image: "image_collection/shop/Doors.webp",
     type: "Doors",
     Descrip: "Handcrafted wooden doors built for daily use!!",
     link: "/shop/doors",

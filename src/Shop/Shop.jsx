@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const popularProducts = [
   {
-    image: "image_collection/shop/chairs - Copy.webp",
+    image: "image_collection/shop/chairs.webp",
     type: "Chairs",
     Descrip:
       "Crafted wooden chairs designed for everyday comfort and strength.",
