@@ -42,12 +42,6 @@ import TableRepair from "./Services/IndivServices/TableRepair.jsx";
 import Wardrobe from "./Services/IndivServices/Wardrobe.jsx";
 
 function App() {
-  useEffect(() => {
-    fetch("https://mg-furniture-backend.onrender.com/api/health").catch(
-      () => {},
-    );
-  }, []);
-
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
