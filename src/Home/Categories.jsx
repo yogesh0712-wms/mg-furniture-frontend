@@ -14,9 +14,9 @@ const Categories = () => {
         <div className="w-[90%] mx-auto py-10 lg:w-[75%] lg:py-20 lg:flex lg:gap-28">
           {/* IMAGE */}
           <div className="lg:w-2/4">
-            <h1 className="font-serif text-3xl lg:text-4xl font-extralight">
-              #1 Choice for High Quality Furniture
-            </h1>
+            <h2 className="font-serif text-3xl lg:text-4xl font-extralight">
+              #1 Custom Furniture in Jaipur, Made for Your Space
+            </h2>
 
             <div className="mt-5 relative">
               <img
@@ -44,24 +44,30 @@ const Categories = () => {
           {/* TEXT */}
           <div className="lg:w-2/4 mt-8 lg:mt-0">
             <p className="leading-7 text-base lg:text-lg font-poppins">
-              We create furniture only after understanding your space, usage,
-              and requirements.
+              We design and build custom furniture based on your space, your
+              needs, and your budget. Every piece is planned after understanding
+              how you use your home, so the final result fits perfectly—not just
+              in size, but in purpose.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
-              Each project starts with detailed planning and measurements.
+              From handcrafted solid wood furniture to modern wood furniture
+              designs, we focus on quality, durability, and clean finishing.
+              Whether it’s a single piece or a complete setup, everything is
+              made on order with attention to detail.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
-              Furniture that fits properly and lasts longer.
+              Our goal is simple—deliver the best quality wood furniture in
+              Jaipur that looks right, feels right, and lasts for years.
             </p>
 
             <div className="pt-6 lg:pt-10">
               <a
-                href="/about-us"
+                href="https://wa.me/919782545485"
                 className="font-serif text-lg lg:text-xl mr-5"
               >
-                ABOUT US
+                Get Custom Quote
               </a>
               <a href="/shop" className="font-serif text-lg lg:text-xl">
                 SHOP NOW
@@ -77,9 +83,9 @@ const Categories = () => {
         <div className="w-[90%] mx-auto py-10 lg:w-[75%] lg:flex lg:gap-28">
           {/* IMAGE */}
           <div className="lg:w-2/4">
-            <h1 className="font-serif text-3xl lg:text-4xl font-extralight">
-              #1 Complete Home Repair & Installation Services
-            </h1>
+            <h2 className="font-serif text-3xl lg:text-4xl font-extralight">
+              #1 Complete Furniture Services in Jaipur, When You Need Them
+            </h2>
 
             <div className="mt-5 relative">
               <img
@@ -115,11 +121,17 @@ const Categories = () => {
           {/* TEXT */}
           <div className="lg:w-2/4 mt-8 lg:mt-0">
             <p className="leading-7 text-base lg:text-lg font-poppins">
-              Reliable on-demand home repair and installation services.
+              We provide reliable, on-demand furniture services across Jaipur
+              for homes and offices. Whether you need quick repairs,
+              professional installation, or regular servicing, our team ensures
+              the work is done properly and on time.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
-              End-to-end execution with trained professionals.
+              From fixing damaged furniture to installing new setups, we handle
+              everything with care and precision. If you’re searching for
+              furniture installation services near me, you can count on us for
+              fast response and dependable results.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
@@ -128,10 +140,10 @@ const Categories = () => {
 
             <div className="pt-6 lg:pt-10">
               <a
-                href="/contact-us"
+                href="https://wa.me/919782545485"
                 className="font-serif text-lg lg:text-xl mr-5"
               >
-                CONTACT US
+                Book Service Now
               </a>
               <a href="/services" className="font-serif text-lg lg:text-xl">
                 SERVICES
@@ -147,9 +159,9 @@ const Categories = () => {
         <div className="w-[90%] mx-auto py-10 lg:w-[75%] lg:flex lg:gap-28">
           {/* IMAGE */}
           <div className="lg:w-2/4">
-            <h1 className="font-serif text-3xl lg:text-4xl font-extralight">
-              #1 Contract-Based Furniture Projects
-            </h1>
+            <h2 className="font-serif text-3xl lg:text-4xl font-extralight">
+              #1 Complete Home & Office Furnishing Services in Jaipur
+            </h2>
 
             <div className="mt-5 relative">
               <img
@@ -185,20 +197,32 @@ const Categories = () => {
           {/* TEXT */}
           <div className="lg:w-2/4 mt-8 lg:mt-0">
             <p className="leading-7 text-base lg:text-lg font-poppins">
-              Complete home, office, and large-scale furnishing projects.
+              We handle complete home furnishing and office furnishing projects
+              across Jaipur, from planning and design to final installation.
+              Whether you're setting up a new home, upgrading your workspace, or
+              furnishing an entire property, we deliver quality home furnishing
+              tailored to your space and budget.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
-              Single-team execution from planning to installation.
+              Our team creates complete home furniture setups, including
+              bedrooms, living areas, kitchens, and storage solutions. For
+              businesses, we design and build office furniture custom to your
+              layout and workflow.
             </p>
 
             <p className="leading-7 text-base lg:text-lg pt-5 font-poppins">
-              Predictable timelines and reliable outcomes.
+              We also provide furniture sets for marriage and banquet furniture,
+              crafted with attention to detail and durability—perfect for
+              gifting or large-scale use.
             </p>
 
             <div className="pt-6 lg:pt-10">
-              <a href="/about" className="font-serif text-lg lg:text-xl mr-5">
-                ABOUT US
+              <a
+                href="https://wa.me/919782545485"
+                className="font-serif text-lg lg:text-xl mr-5"
+              >
+                Discuss Your Project
               </a>
               <a href="/contracting" className="font-serif text-lg lg:text-xl">
                 CONTRACTING

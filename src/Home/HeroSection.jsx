@@ -25,7 +25,15 @@ const HeroSection = () => {
             lg:pt-24 lg:text-lg
           "
         >
-          <p>Custom Furniture on Order</p>
+          <h1
+            className="
+              text-3xl font-serif leading-tight
+              lg:text-[56px] lg:font-normal lg:leading-[1.1] lg:tracking-[-0.5px]
+              relative z-10
+            "
+          >
+            Custom Furniture on Order in Jaipur
+          </h1>
 
           <h2
             className="
@@ -34,18 +42,12 @@ const HeroSection = () => {
             "
           >
             Furniture Made for Your Space.
-            <br /> Handled Completely.
+            <br /> designed, built, and installed without hassle.
           </h2>
 
-          <h1
-            className="
-              text-3xl font-serif leading-tight
-              lg:text-[56px] lg:font-normal lg:leading-[1.1] lg:tracking-[-0.5px]
-              relative z-10
-            "
-          >
+          <p>
             Explore Furniture Designed <br /> for Real Spaces
-          </h1>
+          </p>
         </div>
 
         {/* MAIN IMAGE */}
@@ -71,14 +73,14 @@ const HeroSection = () => {
           "
         >
           <a
-            href="/shop"
+            href="https://wa.me/919782545485"
             className="
               border-2 border-black
               px-6 py-3 mb-2 rounded-full text-base font-medium
               lg:p-4 lg:px-9 lg:text-lg lg:leading-loose
             "
           >
-            Plan Your Furniture
+            Book a Free Site Visit
           </a>
         </div>
       </div>
@@ -91,7 +93,7 @@ const items = [
   { type: "Chairs", number: 25 },
   { type: "Wardrobe", number: 14 },
   { type: "Sofas", number: 72 },
-  { type: "Dinning Table", number: 16 },
+  { type: "Modluar Kitchen", number: 16 },
   { type: "Dinning Table", number: 16 },
 ];
 

@@ -57,8 +57,8 @@ const HomePage = () => {
       <Collections />
       <ProductsQuality />
       <Products
-        title="Popular Products"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        title="Popular Furniture Designs in Jaipur"
+        subtitle="Explore some of our most requested custom furniture designs, crafted for real homes and spaces in Jaipur. Each piece is made to order with quality materials and precise finishing."
         products={popularProducts}
         showAllLink
       />
