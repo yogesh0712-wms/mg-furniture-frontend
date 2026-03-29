@@ -35,19 +35,19 @@ function Header() {
         <div className="flex gap-2">
           <a
             className="text-white bg-blue-500 p-1 rounded-full"
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=100090159824874"
           >
             <FaFacebookF size={13} />
           </a>
           <a
             className="text-white bg-pink-500 p-1 rounded-full"
-            href="https://www.instagram.com/mgfurnuture?igsh=MWJzbGVveG56cW8yMQ=="
+            href="https://www.instagram.com/mgfurniture.in/"
           >
             <FaInstagram size={13} />
           </a>
           <a
             className="text-white bg-green-500 p-1 rounded-full"
-            href="https://wa.me/918385814828"
+            href="https://wa.me/919782545485"
           >
             <FaWhatsapp size={13} />
           </a>
@@ -175,19 +175,19 @@ const Footer = () => {
           <div className="flex mt-5 gap-4 lg:gap-3">
             <a
               className="text-white bg-blue-500 p-1 rounded-full"
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=100090159824874"
             >
               <FaFacebookF size={13} />
             </a>
             <a
               className="text-white bg-pink-500 p-1 rounded-full"
-              href="https://www.instagram.com/mgfurnuture?igsh=MWJzbGVveG56cW8yMQ=="
+              href="https://www.instagram.com/mgfurniture.in/"
             >
               <FaInstagram size={13} />
             </a>
             <a
               className="text-white bg-green-500 p-1 rounded-full"
-              href="https://wa.me/918385814828"
+              href="https://wa.me/919782545485"
             >
               <FaWhatsapp size={13} />
             </a>

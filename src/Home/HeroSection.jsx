@@ -93,7 +93,7 @@ const items = [
   { type: "Chairs", number: 25 },
   { type: "Wardrobe", number: 14 },
   { type: "Sofas", number: 72 },
-  { type: "Modluar Kitchen", number: 16 },
+  { type: "Modular Kitchen", number: 20 },
   { type: "Dinning Table", number: 16 },
 ];
 

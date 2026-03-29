@@ -62,15 +62,16 @@ const Categories = () => {
               Jaipur that looks right, feels right, and lasts for years.
             </p>
 
-            <div className="pt-6 lg:pt-10">
+            <div className="pt-6 flex gap-6 items-center lg:pt-10">
               <a
                 href="https://wa.me/919782545485"
-                className="font-serif text-lg lg:text-xl mr-5"
+                class="font-inter relative inline-flex items-center gap-2 px-4 py-4 bg-[#a7a8a3] text-black font-bold text-sm tracking-wider rounded-full overflow-hidden active:scale-95 transition-transform duration-150"
               >
+                <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full active:translate-x-full transition-transform duration-500 pointer-events-none"></span>
                 Get Custom Quote
               </a>
               <a href="/shop" className="font-serif text-lg lg:text-xl">
-                SHOP NOW
+                <u>SHOP NOW</u>
               </a>
             </div>
           </div>
@@ -138,15 +139,16 @@ const Categories = () => {
               Consistent and dependable outcomes.
             </p>
 
-            <div className="pt-6 lg:pt-10">
+            <div className="pt-6 flex gap-6 items-center lg:pt-10">
               <a
                 href="https://wa.me/919782545485"
-                className="font-serif text-lg lg:text-xl mr-5"
+                class="font-inter relative inline-flex items-center gap-2 px-4 py-4 bg-[#a7a8a3] text-black font-bold text-sm tracking-wider rounded-full overflow-hidden active:scale-95 transition-transform duration-150"
               >
+                <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full active:translate-x-full transition-transform duration-500 pointer-events-none"></span>
                 Book Service Now
               </a>
-              <a href="/services" className="font-serif text-lg lg:text-xl">
-                SERVICES
+              <a href="/services" className="font-serif text-xl lg:text-xl">
+                <u>SERVICES</u>
               </a>
             </div>
           </div>
@@ -217,15 +219,17 @@ const Categories = () => {
               gifting or large-scale use.
             </p>
 
-            <div className="pt-6 lg:pt-10">
+            <div className="pt-6 flex gap-2 justify-center items-center lg:pt-10">
               <a
                 href="https://wa.me/919782545485"
-                className="font-serif text-lg lg:text-xl mr-5"
+                class="font-inter relative inline-flex items-center gap-2 px-4 py-4 bg-[#a7a8a3] text-black font-bold text-sm tracking-wider rounded-full overflow-hidden active:scale-95 transition-transform duration-150"
               >
+                <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full active:translate-x-full transition-transform duration-500 pointer-events-none"></span>
                 Discuss Your Project
               </a>
+
               <a href="/contracting" className="font-serif text-lg lg:text-xl">
-                CONTRACTING
+                <u> CONTRACTING</u>
               </a>
             </div>
           </div>

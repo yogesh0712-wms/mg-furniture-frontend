@@ -6,14 +6,29 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide custom wooden chairs in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and build custom wooden chairs based on your space, style, and requirements across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "What type of wood is used for chairs?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "We use high-quality solid wood to ensure durability, strength, and long-term use.",
+  },
+  {
+    question: "How long does it take to complete an order?",
+    answer:
+      "The timeline depends on the design and quantity, but we ensure timely delivery for all custom orders in Jaipur.",
+  },
+  {
+    question: "Can I customize the design and size of the chairs?",
+    answer:
+      "Yes, all our chairs are made on order, so you can customize the design, size, and finish according to your needs.",
+  },
+  {
+    question: "Are these chairs suitable for dining and office use?",
+    answer:
+      "Yes, our chairs are designed for multiple uses including dining areas, living rooms, and office spaces.",
   },
 ];
 
@@ -162,14 +177,13 @@ const Chairs = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Wooden Chairs for Home in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Comfortable and durable wooden chairs designed for everyday use in
+            your home. Built with quality wood and clean finishing, each chair
+            can be customized based on your space, style, and budget in Jaipur.
           </p>
 
           {/* Buttons */}
@@ -187,12 +201,12 @@ const Chairs = () => {
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
           {/* Tags */}
-          <div className="flex flex-wrap gap-3 mt-8 px-4 md:ml-10 items-center">
+          <div className="flex gap-2 mt-8 px-4 md:ml-10 items-center">
             <Folder size={20} />
             <p>Furniture</p>
             <ShoppingCart size={20} />
@@ -209,12 +223,29 @@ const Chairs = () => {
           </p>
 
           <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+            <p>
+              Our wooden chairs are designed to bring comfort, durability, and a
+              clean look to your home. Whether you need chairs for dining,
+              living spaces, or work setups, we create designs that fit
+              perfectly into your space.
+            </p>{" "}
+            <br />
+            <p>
+              Each piece is made using solid wood and crafted with attention to
+              detail, ensuring long-lasting performance. From modern styles to
+              classic designs, we build custom chairs based on your exact
+              requirements.,
+            </p>
+            <br /> If you’re looking for comfort chairs that match your interior
+            and usage needs, we provide fully customizable options in Jaipur
+            with a focus on quality and finishing.
           </p>
 
           <img
             src="/image_collection/shop/Almira/almiracenter.webp"
-            alt=""
+            alt="custom wooden chairs for home in Jaipur
+                   solid wood comfort chairs design
+                  modern wooden chairs for dining and living space"
             className="w-full"
           />
 
@@ -223,17 +254,29 @@ const Chairs = () => {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4">
-            <div className="flex gap-3">
+            <div className="flex  gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality solid wood</p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex items-center gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Fully customizable design, size, and finish</p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex items-center gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Suitable for dining, living, and workspaces</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle size={24} />
+              <p>Strong, durable, and long-lasting build</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with attention to detail</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle size={24} />
+              <p>Made on order in Jaipur</p>
             </div>
           </div>
         </div>

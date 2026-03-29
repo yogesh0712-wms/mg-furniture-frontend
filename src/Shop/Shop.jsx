@@ -7,64 +7,72 @@ import { useEffect } from "react";
 const popularProducts = [
   {
     image: "image_collection/shop/chairs.webp",
-    type: "Chairs",
+    type: "Wooden Chairs for Home",
     Descrip:
-      "Crafted wooden chairs designed for everyday comfort and strength.",
+      "Comfortable and durable wooden chairs designed for everyday use in your home. Built with quality wood and clean finishing, each chair can be customized based on your space, style, and budget in Jaipur.",
     link: "/shop/chairs",
   },
   {
     image: "image_collection/shop/Sofa.webp",
-    type: "Sofas",
+    type: "Wooden Sofa Set ",
     Descrip:
-      "Solid wood sofas crafted for comfort, strength, and lasting style..",
+      "Comfortable and durable solid wood sofa designed for everyday use in your home. Built with quality wood and clean finishing, each wooden sofa set can be customized based on your space, style, and budget in Jaipur.",
     link: "/shop/sofas",
   },
   {
     image: "image_collection/shop/Doors.webp",
-    type: "Doors",
-    Descrip: "Handcrafted wooden doors built for daily use!!",
+    type: "Custom Wooden Doors",
+    Descrip:
+      "Strong and durable wooden doors designed for everyday use in your home. Built with quality wood and clean finishing, each piece can be customized based on your space, design preference, and budget in Jaipur.",
     link: "/shop/doors",
   },
   {
     image: "image_collection/shop/Windows.webp",
-    type: "Windows",
-    Descrip: "Premium wood windows crafted for airflow and light",
+    type: "Custom Wooden Windows",
+    Descrip:
+      "Strong and durable wooden windows designed for everyday use in your home. Built with quality wood and clean finishing, each piece can be customized based on your space, design style, and budget in Jaipur.",
     link: "/shop/windows",
   },
   {
     image: "image_collection/shop/Almiras.webp",
-    type: "Almiras",
-    Descrip: "Strong storage furniture built with balance and care",
+    type: "Customized Wooden Almirah",
+    Descrip:
+      "Spacious and durable customized wooden almirah designed for everyday use in your home. Built with quality wood and clean finishing, each unit can be customized based on your space, storage needs, and budget in Jaipur.",
     link: "/shop/almiras",
   },
   {
     image: "image_collection/shop/Beds.webp",
-    type: "Beds",
-    Descrip: "Solid wooden beds designed for rest and balance",
+    type: "Solid Wood Beds with Storage",
+    Descrip:
+      "Strong and comfortable solid wood beds designed for everyday use in your home. Built with quality wood and clean finishing, each bed can be customized with storage options based on your space, style, and budget in Jaipur.",
     link: "/shop/beds",
   },
   {
     image: "image_collection/shop/dinning table.webp",
-    type: "Dinning Table",
-    Descrip: "Premium wood tables built for everyday meals",
+    type: "Handmade Dining Tables",
+    Descrip:
+      "Strong and elegant handmade dining tables designed for everyday use in your home. Built with quality wood and clean finishing, each table can be customized based on your space, seating needs, and budget in Jaipur.",
     link: "/shop/dining-table",
   },
   {
     image: "image_collection/shop/Shoe rack.webp",
-    type: "Shoe Racks",
-    Descrip: "Wooden shoe racks designed for neat entryways!",
+    type: "Wooden Shoe Racks for Home",
+    Descrip:
+      "Compact and durable wooden shoe racks designed for everyday use in your home. Built with quality wood and clean finishing, each unit can be customized based on your space, storage needs, and budget in Jaipur.",
     link: "/shop/shoe-racks",
   },
   {
     image: "image_collection/shop/study table.webp",
-    type: "Study Table",
-    Descrip: "Premium wooden desks designed for daily learning",
+    type: "Study Table Design with Storage",
+    Descrip:
+      "Functional and durable study tables designed for everyday use in your home. Built with quality wood and clean finishing, each study table with storage design can be customized based on your space, usage needs, and budget in Jaipur.",
     link: "/shop/study-table",
   },
   {
     image: "image_collection/shop/wooden ceiling.webp",
-    type: "Wooden Ceiling",
-    Descrip: "Natural wood panels designed for elegant interiors.",
+    type: "Custom Wooden Ceiling Design",
+    Descrip:
+      "Stylish and durable wooden ceiling designs crafted to enhance your interior space. Built with quality wood and clean finishing, each ceiling can be customized based on your layout, design preference, and budget in Jaipur.",
     link: "/shop/wooden-ceiling",
   },
 ];
