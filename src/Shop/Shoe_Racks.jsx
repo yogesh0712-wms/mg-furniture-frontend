@@ -6,14 +6,28 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide custom wooden shoe racks in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and build custom wooden shoe racks based on your space and storage needs across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "Can I customize the size and design of the shoe rack?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "Yes, all shoe racks are made on order, so you can customize the design, size, and finish.",
+  },
+  {
+    question: "Do you offer compact shoe rack designs for small spaces?",
+    answer:
+      "Yes, we create space-saving shoe rack designs that are perfect for small areas.",
+  },
+  {
+    question: "What type of wood is used for shoe racks?",
+    answer: "We use high-quality wood to ensure durability and long-term use.",
+  },
+  {
+    question: "How long does it take to complete a shoe rack?",
+    answer:
+      "The timeline depends on the design and size, but we ensure timely delivery across Jaipur.",
   },
 ];
 
@@ -61,7 +75,7 @@ const ShoeRacks = () => {
   const chairImage = [
     "/image_collection/shop/shoes rack/rack1.webp",
     "/image_collection/shop/shoes rack/rack2.webp",
-    "/image_collection/shop/shoes rack/rack3.webp",
+
     "/image_collection/shop/shoes rack/rack4.webp",
     "/image_collection/shop/shoes rack/rack5.webp",
     "/image_collection/shop/shoes rack/rack6.webp",
@@ -161,14 +175,14 @@ const ShoeRacks = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Wooden Shoe Racks for Home in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Compact and durable wooden shoe racks designed for everyday use in
+            your home. Built with quality wood and clean finishing, each unit
+            can be customized based on your space, storage needs, and budget in
+            Jaipur.
           </p>
 
           {/* Buttons */}
@@ -181,12 +195,12 @@ const ShoeRacks = () => {
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20looking%20for%20a%20custom%20wooden%20shoe%20rack%20for%20my%20home%20in%20Jaipur.%20Can%20you%20share%20design%20options%20and%20pricing%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
@@ -204,15 +218,31 @@ const ShoeRacks = () => {
       <div className="mt-16 bg-[#f8ffe2]">
         <div className="mx-auto w-[95%] md:w-[50%] pt-10 md:pt-14">
           <p className="text-2xl md:text-3xl text-center font-poppins">
-            Product Description
+            Custom Wooden Shoe Racks Designed for Smart Storage
           </p>
 
-          <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+          <p className="flex flex-col gap-3 mt-5 mb-8 text-sm md:text-base">
+            <p>
+              Our wooden shoe racks are designed to keep your space organized
+              while maintaining a clean and simple look. Whether you need a
+              compact rack for a small area or a larger storage unit, we create
+              designs that fit perfectly into your home.
+            </p>
+            <p>
+              Each shoe rack is built using high-quality wood, ensuring
+              durability and long-term use. From open racks to closed storage
+              designs, we offer custom options based on your space and storage
+              requirements
+            </p>
+            <p>
+              If you're looking for wooden shoe racks for home in Jaipur, we
+              focus on practical design, proper space utilization, and clean
+              finishing.
+            </p>
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.webp"
+            src="/image_collection/shop/shoes rack/rack3.webp"
             alt=""
             className="w-full"
           />
@@ -224,15 +254,31 @@ const ShoeRacks = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality solid wood</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Fully customizable size, design, and finish</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Compact and space-saving designs available</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Suitable for entryways, bedrooms, and storage areas</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Strong, durable, and long-lasting build</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with attention to detail</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Made on order in Jaipur</p>
             </div>
           </div>
         </div>
@@ -250,7 +296,7 @@ const ShoeRacks = () => {
           {chairImage.map((item, index) => (
             <div
               key={index}
-              className="w-[45%] sm:w-56 h-64 md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
+              className="w-full sm:w-56 h-full md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
             >
               <img src={item} alt="" className="w-full h-full object-cover" />
             </div>

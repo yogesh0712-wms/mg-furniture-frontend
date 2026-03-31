@@ -63,7 +63,7 @@ const popularProducts = [
   },
   {
     image: "image_collection/shop/study table.webp",
-    type: "Study Table Design with Storage",
+    type: "Study and Computer Table",
     Descrip:
       "Functional and durable study tables designed for everyday use in your home. Built with quality wood and clean finishing, each study table with storage design can be customized based on your space, usage needs, and budget in Jaipur.",
     link: "/shop/study-table",

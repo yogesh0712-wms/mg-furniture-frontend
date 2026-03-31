@@ -6,14 +6,29 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide custom wooden ceiling design in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and install custom wooden ceilings based on your space and requirements across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "Can I customize the ceiling design and pattern?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "Yes, all ceiling designs are made based on your preference, including patterns, layout, and finishing.",
+  },
+  {
+    question: "Are wooden ceilings durable for long-term use?",
+    answer:
+      "Yes, we use high-quality materials and finishing to ensure durability and long-lasting performance.",
+  },
+  {
+    question: "Do you handle installation as well?",
+    answer:
+      "Yes, we provide complete service including design, making, and installation across Jaipur.",
+  },
+  {
+    question: "Is wooden ceiling suitable for all types of spaces?",
+    answer:
+      "Yes, it can be used in homes, offices, and commercial spaces to enhance the overall interior.",
   },
 ];
 
@@ -67,7 +82,7 @@ const Woodenceiling = () => {
     "/image_collection/shop/ceiling/ceiling6.webp",
     "/image_collection/shop/ceiling/ceiling7.webp",
     "/image_collection/shop/ceiling/ceiling8.webp",
-    "/image_collection/shop/ceiling/ceiling9.webp",
+
     "/image_collection/shop/ceiling/ceiling10.webp",
   ];
   const changeSlide = useCallback(
@@ -160,14 +175,14 @@ const Woodenceiling = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Custom Wooden Ceiling Design in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Stylish and durable custom wooden ceiling designs crafted to enhance
+            your interior space. Built with quality wood and clean finishing,
+            each ceiling can be customized based on your layout, design
+            preference, and budget in Jaipur.
           </p>
 
           {/* Buttons */}
@@ -180,12 +195,12 @@ const Woodenceiling = () => {
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20interested%20in%20a%20custom%20wooden%20ceiling%20design%20for%20my%20space%20in%20Jaipur.%20Can%20you%20share%20design%20options%20and%20pricing%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
@@ -203,15 +218,31 @@ const Woodenceiling = () => {
       <div className="mt-16 bg-[#f8ffe2]">
         <div className="mx-auto w-[95%] md:w-[50%] pt-10 md:pt-14">
           <p className="text-2xl md:text-3xl text-center font-poppins">
-            Product Description
+            Custom Wooden Ceiling Designs for Modern Interiors
           </p>
 
-          <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+          <p className="flex flex-col gap-3 mt-5 mb-8 text-sm md:text-base">
+            <p>
+              Our custom wooden ceiling designs are created to add depth, style,
+              and a premium feel to your interiors. Whether it’s for homes,
+              offices, or commercial spaces, we design ceilings that complement
+              your overall space perfectly.
+            </p>
+            <p>
+              Each ceiling is built using high-quality wood with precise
+              finishing to ensure durability and a clean look. From simple
+              patterns to more detailed designs, we offer custom wooden ceiling
+              solutions based on your layout and design preference.
+            </p>
+            <p>
+              If you're looking for a wooden ceiling design in Jaipur that
+              enhances your interior while maintaining quality and durability,
+              we focus on clean execution and long-lasting results.
+            </p>
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.webp"
+            src="/image_collection/shop/ceiling/ceiling9.webp"
             alt=""
             className="w-full"
           />
@@ -223,15 +254,31 @@ const Woodenceiling = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality wood materials</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Fully customizable design, pattern, and finish</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Suitable for homes, offices, and commercial spaces</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Enhances interior aesthetics and space feel</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Strong, durable, and long-lasting build</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with precise installation</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Made and installed in Jaipur</p>
             </div>
           </div>
         </div>
@@ -249,7 +296,7 @@ const Woodenceiling = () => {
           {chairImage.map((item, index) => (
             <div
               key={index}
-              className="w-[45%] sm:w-56 h-64 md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
+              className="w-full sm:w-56 h-full md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
             >
               <img src={item} alt="" className="w-full h-full object-cover" />
             </div>

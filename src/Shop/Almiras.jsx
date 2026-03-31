@@ -5,14 +5,29 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide customized wooden almirah in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and build customized wooden almirahs based on your space and storage requirements across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "Can I choose the design and layout of the almirah?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "Yes, all almirahs are made on order, so you can customize the design, size, and internal layout.",
+  },
+  {
+    question: "Do you make wall almirah designs?",
+    answer:
+      "Yes, we provide wall almirah designs that are perfect for saving space and improving storage.",
+  },
+  {
+    question: "Are these almirahs suitable for office use?",
+    answer:
+      "Yes, we also create almirah design for office spaces with practical storage solutions.",
+  },
+  {
+    question: "How long does it take to complete a custom almirah?",
+    answer:
+      "The timeline depends on the design and size, but we ensure timely delivery across Jaipur.",
   },
 ];
 
@@ -147,14 +162,14 @@ const Almiras = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Customized Wooden Almirah in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Spacious and durable customized wooden almirah designed for everyday
+            use in your home. Built with quality wood and clean finishing, each
+            unit can be customized based on your space, storage needs, and
+            budget in Jaipur.
           </p>
 
           {/* Buttons */}
@@ -167,12 +182,12 @@ const Almiras = () => {
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20looking%20for%20a%20customized%20wooden%20almirah%20for%20my%20home%20in%20Jaipur.%20Can%20you%20share%20design%20options%20and%20pricing%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
@@ -190,11 +205,27 @@ const Almiras = () => {
       <div className="mt-16 bg-[#f8ffe2]">
         <div className="mx-auto w-[95%] md:w-[50%] pt-10 md:pt-14">
           <p className="text-2xl md:text-3xl text-center font-poppins">
-            Product Description
+            Custom Wooden Almirah Designs for Home and Office
           </p>
 
-          <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+          <p className="flex flex-col gap-4 mt-5 mb-8 text-sm md:text-base">
+            <p>
+              Our customized wooden almirahs are designed to provide smart
+              storage and a clean look for your space. Whether you need a wall
+              almirah design for compact areas or a larger storage unit for
+              bedrooms and offices, we create solutions that fit perfectly.
+            </p>
+            <p>
+              Each almirah is built using high-quality wood, ensuring durability
+              and long-term use. From modern layouts to practical storage
+              designs, we offer custom options based on your space and usage
+              requirements.
+            </p>
+            <p>
+              If you're looking for almirah design for office or home in Jaipur,
+              we focus on functionality, proper space utilization, and clean
+              finishing in every piece.
+            </p>
           </p>
 
           <img
@@ -210,15 +241,31 @@ const Almiras = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality solid wood</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Fully customizable design, size, and layout</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Wall almirah and full-size storage options available</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Suitable for home and office use</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Smart storage design for better space utilization</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with durable build</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Made on order in Jaipur</p>
             </div>
           </div>
         </div>
@@ -236,7 +283,7 @@ const Almiras = () => {
           {chairImage.map((item, index) => (
             <div
               key={index}
-              className="w-[45%] sm:w-56 h-64 md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
+              className="w-full sm:w-56 h-full md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
             >
               <img src={item} alt="" className="w-full h-full object-cover" />
             </div>

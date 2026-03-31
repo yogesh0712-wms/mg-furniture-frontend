@@ -6,14 +6,29 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide solid wood beds with storage in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and build custom solid wood beds with storage based on your space and requirements across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "What storage options are available in beds?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "We offer multiple storage options including box storage, drawer storage, and hydraulic storage.",
+  },
+  {
+    question: "Can I customize the size and design of the bed?",
+    answer:
+      "Yes, all beds are made on order, so you can customize the size, design, and finish.",
+  },
+  {
+    question: "Are these beds durable for long-term use?",
+    answer:
+      "Yes, our beds are built with high-quality solid wood to ensure strength and long-lasting performance.",
+  },
+  {
+    question: "How long does it take to complete a custom bed?",
+    answer:
+      "The timeline depends on the design and requirements, but we ensure timely delivery across Jaipur.",
   },
 ];
 
@@ -65,7 +80,6 @@ const Bads = () => {
     "/image_collection/shop/beds/beds3.webp",
     "/image_collection/shop/beds/beds4.webp",
     "/image_collection/shop/beds/beds5.webp",
-    "/image_collection/shop/beds/beds6.webp",
     "/image_collection/shop/beds/beds7.webp",
     "/image_collection/shop/beds/beds8.webp",
     "/image_collection/shop/beds/beds9.webp",
@@ -163,14 +177,14 @@ const Bads = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Solid Wood Beds with Storage in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Strong and comfortable solid wood beds designed for everyday use in
+            your home. Built with quality wood and clean finishing, each bed can
+            be customized with storage options based on your space, style, and
+            budget in Jaipur.
           </p>
 
           {/* Buttons */}
@@ -183,12 +197,12 @@ const Bads = () => {
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20interested%20in%20solid%20wood%20beds%20with%20storage%20for%20my%20home%20in%20Jaipur.%20Can%20you%20share%20design%20options%20and%20pricing%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
@@ -206,15 +220,30 @@ const Bads = () => {
       <div className="mt-16 bg-[#f8ffe2]">
         <div className="mx-auto w-[95%] md:w-[50%] pt-10 md:pt-14">
           <p className="text-2xl md:text-3xl text-center font-poppins">
-            Product Description
+            Custom Solid Wood Beds Designed for Comfort and Storage
           </p>
 
-          <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+          <p className="flex flex-col gap-3 mt-5 mb-8 text-sm md:text-base">
+            <p>
+              Our solid wood beds are designed to provide comfort, durability,
+              and smart storage for your home. Whether you need a simple bed or
+              a design with built-in storage, we create solutions that fit
+              perfectly into your bedroom.
+            </p>
+            <p>
+              Each bed is built using high-quality solid wood, ensuring strength
+              and long-term use. From modern styles to practical storage
+              designs, we offer custom beds based on your space and daily needs.
+            </p>
+            <p>
+              If you're looking for the best solid wood beds in Jaipur, we focus
+              on strong structure, clean finishing, and designs that make your
+              space more functional.
+            </p>
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.webp"
+            src="/image_collection/shop/beds/beds6.webp"
             alt=""
             className="w-full"
           />
@@ -226,15 +255,31 @@ const Bads = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality solid wood</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Storage options available</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Fully customizable size, design, and finish</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Strong, durable, and long-lasting build</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Comfortable and practical for daily use</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with attention to detail</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Made on order in Jaipur</p>
             </div>
           </div>
         </div>
@@ -248,11 +293,11 @@ const Bads = () => {
           Gallery
         </p>
 
-        <div className="flex flex-wrap w-[95%] md:w-[85%] mx-auto gap-6 md:gap-10 justify-center">
+        <div className="flex flex-wrap  w-[95%] md:w-[85%] mx-auto gap-6 md:gap-10 justify-center">
           {chairImage.map((item, index) => (
             <div
               key={index}
-              className="w-[45%] sm:w-56 h-64 md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
+              className="w-full sm:w-56 h-full md:h-96 overflow-hidden transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
             >
               <img src={item} alt="" className="w-full h-full object-cover" />
             </div>

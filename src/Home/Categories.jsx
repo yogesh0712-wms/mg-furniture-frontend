@@ -219,7 +219,7 @@ const Categories = () => {
               gifting or large-scale use.
             </p>
 
-            <div className="pt-6 flex gap-2 justify-center items-center lg:pt-10">
+            <div className="pt-6 flex gap-4  items-center lg:pt-10">
               <a
                 href="https://wa.me/919782545485"
                 class="font-inter relative inline-flex items-center gap-2 px-4 py-4 bg-[#a7a8a3] text-black font-bold text-sm tracking-wider rounded-full overflow-hidden active:scale-95 transition-transform duration-150"
@@ -228,7 +228,7 @@ const Categories = () => {
                 Discuss Your Project
               </a>
 
-              <a href="/contracting" className="font-serif text-lg lg:text-xl">
+              <a href="/contracting" className="font-serif text-xl lg:text-xl">
                 <u> CONTRACTING</u>
               </a>
             </div>

@@ -6,14 +6,29 @@ import FAQSection from "../FAQSection";
 
 const ChairsFAQs = [
   {
-    question: "Do you make furniture only on order?",
+    question: "Do you provide custom wooden doors in Jaipur?",
     answer:
-      "Yes, all our furniture is custom-made based on your space and requirements.",
+      "Yes, we design and build custom wooden doors based on your space, style, and requirements across Jaipur.",
   },
   {
-    question: "Do you take complete furnishing projects?",
+    question: "What type of wood is used for doors?",
     answer:
-      "Yes, we handle full home, office, and building-level furnishing contracts.",
+      "We use high-quality solid wood to ensure strength, durability, and long-term use.",
+  },
+  {
+    question: "Can I customize the design of the doors?",
+    answer:
+      "Yes, all doors are made on order, so you can choose the design, size, and finish as per your needs.",
+  },
+  {
+    question: "Do you install the doors as well?",
+    answer:
+      "Yes, we provide complete service including design, making, and installation across Jaipur.",
+  },
+  {
+    question: "How long does it take to complete a door project?",
+    answer:
+      "The timeline depends on the design and quantity, but we ensure timely delivery and proper installation.",
   },
 ];
 
@@ -160,32 +175,32 @@ const Doors = () => {
         {/* Product Info */}
         <div className="w-full md:w-[40%]">
           <p className="font-serif text-2xl md:text-4xl px-4 md:pl-10 pt-8 md:pt-20">
-            Modern Wooden Chair
+            Wooden Furniture Doors in Jaipur
           </p>
 
           <p className="px-4 md:pl-10 pt-6 md:pt-10 text-sm md:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            voluptatibus natus, id consequuntur, cum dolor ab a, saepe in minima
-            corrupti totam temporibus. Odit quae, pariatur ullam expedita
-            consequatur aliquid!
+            Strong and durable wooden furniture doors designed for everyday use
+            in your home. Built with quality wood and clean finishing, each door
+            can be customized based on your space, design preference, and budget
+            in Jaipur.
           </p>
 
           {/* Buttons */}
           <div className="mt-8 md:mt-10 px-4 md:ml-10 flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:917878658974"
+              href="tel:919782545485"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
               Call Now
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20looking%20for%20custom%20wooden%20doors%20for%20my%20home%20in%20Jaipur.%20Can%20you%20share%20design%20options%20and%20pricing%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
-              Order Now
+              👉 Get Custom Quote
             </a>
           </div>
 
@@ -203,11 +218,27 @@ const Doors = () => {
       <div className="mt-16 bg-[#f8ffe2]">
         <div className="mx-auto w-[95%] md:w-[50%] pt-10 md:pt-14">
           <p className="text-2xl md:text-3xl text-center font-poppins">
-            Product Description
+            Custom Wooden Doors Designed for Strength and Style
           </p>
 
-          <p className="mt-5 mb-8 text-sm md:text-base">
-            Ac ut consequat semper viverra nam libero justo laoreet...
+          <p className="flex flex-col gap-3 mt-5 mb-8 text-sm md:text-base">
+            <p>
+              Our wooden furniture doors are designed to provide both durability
+              and a clean, finished look to your home. Whether you need doors
+              for rooms, main entrances, or storage spaces, we create designs
+              that match your interiors perfectly.
+            </p>
+            <p>
+              Each door is built using high-quality wood, ensuring long-term
+              strength and reliable performance. From simple designs to more
+              detailed patterns, we offer custom wooden doors based on your
+              space and style requirements.
+              <p>
+                If you're looking for strong and well-finished wooden doors in
+                Jaipur, we focus on quality craftsmanship, proper fitting, and
+                long-lasting results.
+              </p>
+            </p>
           </p>
 
           <img
@@ -223,15 +254,27 @@ const Doors = () => {
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Good quality furniture</p>
+              <p>Made with high-quality solid wood</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Quick delivery</p>
+              <p>Fully customizable design, size, and finish</p>
             </div>
             <div className="flex gap-3">
               <CheckCircle size={24} />
-              <p>Various payment methods</p>
+              <p>Suitable for room doors, main doors, and storage</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Strong, durable, and long-lasting build</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Clean finishing with precise fitting</p>
+            </div>
+            <div className="flex gap-3">
+              <CheckCircle size={24} />
+              <p>Made on order in Jaipur</p>
             </div>
           </div>
         </div>

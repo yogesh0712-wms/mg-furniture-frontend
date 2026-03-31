@@ -189,14 +189,14 @@ const Chairs = () => {
           {/* Buttons */}
           <div className="mt-8 md:mt-10 px-4 md:ml-10 flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:917878658974"
+              href="tel:919782545485"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
             >
               Call Now
             </a>
 
             <a
-              href="https://wa.me/917878658974"
+              href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20interested%20in%20wooden%20chairs%20for%20home.%20I%20want%20a%20custom%20design%20in%20Jaipur.%20Please%20share%20details."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center border-2 border-black px-6 py-3 rounded-full text-sm md:text-lg"
@@ -242,7 +242,7 @@ const Chairs = () => {
           </p>
 
           <img
-            src="/image_collection/shop/Almira/almiracenter.webp"
+            src="/image_collection/shop/CHAIRS/chairs hero.webp"
             alt="custom wooden chairs for home in Jaipur
                    solid wood comfort chairs design
                   modern wooden chairs for dining and living space"
