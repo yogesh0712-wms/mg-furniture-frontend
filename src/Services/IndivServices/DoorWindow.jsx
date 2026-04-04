@@ -8,24 +8,26 @@ import FAQSection from "../../FAQSection";
 
 const servicesFAQs = [
   {
-    question: "What does a complete furniture contract include?",
+    question: "Do you provide door and window installation in Jaipur?",
     answer:
-      "It covers design, manufacturing, delivery, and installation of all furniture as per the agreed scope.",
+      "Yes, we provide installation services for doors and windows across Jaipur.",
   },
   {
-    question: "Do you handle end-to-end execution for full projects?",
-    answer:
-      "Yes, we manage everything from measurements and design to final installation and finishing.",
+    question: "What types of doors and windows do you install?",
+    answer: "We install wooden doors, windows, and different frame types..",
   },
   {
-    question: "Can you take up large-scale residential or commercial projects?",
-    answer:
-      "Yes, we undertake full furnishing contracts for homes, offices, showrooms, and commercial spaces.",
+    question: "Do you install locks and fittings as well?",
+    answer: "Yes, we install hinges, handles, locks, and other fittings.",
   },
   {
-    question: "Do you coordinate with interior designers or architects?",
+    question: "Can you replace old doors and windows?",
+    answer: "Yes, we handle both new installations and replacements.",
+  },
+  {
+    question: "How long does installation take?",
     answer:
-      "Yes, we work closely with designers and architects to ensure the furniture aligns perfectly with the overall plan.",
+      "The time depends on the setup, but most installations are completed efficiently.",
   },
 ];
 
@@ -38,7 +40,7 @@ const DoorWindow = () => {
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <h1 className="text-lg pt-14 text-center">
-          Door and Window Installation
+          Door and Window Installation in Jaipur
         </h1>
         <div className="flex gap-2 justify-center mt-2">
           <a href="/" className="flex gap-1 items-center">
@@ -49,14 +51,14 @@ const DoorWindow = () => {
         </div>
         <div className="mt-4 px-4 flex flex-col  gap-2">
           <a
-            href="tel:918385814828"
+            href="tel:919782545485"
             className="inline-flex justify-center items-center border bg-orange-500 border-black px-3 py-2 rounded-full text-sm md:text-lg"
           >
             Call Now
           </a>
 
           <a
-            href="https://wa.me/918385814828"
+            href="https://wa.me/919782545485?text=Hi%2C%20I%20am%20looking%20for%20door%20and%20window%20installation%20service%20in%20Jaipur.%20Can%20you%20share%20details%20and%20availability%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex justify-center items-center border bg-green-500 border-black px-3 py-3 rounded-full text-sm md:text-lg"
@@ -66,22 +68,20 @@ const DoorWindow = () => {
         </div>
       </div>
       <div className="mt-5 p-2">
-        <h1 className="text-[#3b3b39] text-2xl py-2">
-          Appropriately engage leading-edge
-        </h1>
+        <h2 className="text-[#3b3b39] text-2xl py-2">
+          Expert Door and Window Installation for Home
+        </h2>
         <p className="">
-          Alternative innovation to ethical network environmental whiteboard
-          pursue compelling results premier methods empowerment. Dramatically
-          architect go forward opportunities before user-centric partner
-          Credibly implement exceptional Continually fashion orthogonal
-          leadership skills whereas wireless metrics.
+          Our door and window installation service focuses on proper alignment,
+          secure fitting, and long-term durability. Whether you are installing
+          new doors and windows or replacing old ones, we ensure every component
+          is fixed correctly.
         </p>
         <p className="pt-2">
-          Uniquely syndicate exceptio opportunities with interdependent users.
-          Globally enhance fully tested meta-services rather than pan solutions.
-          Proactively integrate client-integrate go forward architectures and
-          turnkey meta-services. Interactively harness integrated ROI whereas
-          frictionless products.
+          We handle wooden doors, windows, frames, and fittings with precision
+          to ensure smooth operation and a perfect fit. If you're setting up
+          doors and windows in Jaipur, our team ensures a hassle-free and
+          professional installation process.
         </p>
       </div>
       <div
@@ -90,8 +90,8 @@ const DoorWindow = () => {
       >
         <FaWhatsapp className="w-8 h-8 text-blue-600" />
         <h4 className="text-lg">Call Us Anytime</h4>
-        <a href="tel:918385814828">
-          <h2 className="text-2xl">+91-8385814828</h2>
+        <a href="tel:919782545485">
+          <h2 className="text-2xl">+91-9782545485</h2>
         </a>
         <a href="/contact">
           <div className=" mt-2 rounded-md text-lg font-bold bg-blue-500 w-40 py-2 text-center">
@@ -102,12 +102,12 @@ const DoorWindow = () => {
       <div className="mt-5 p-2">
         <h2 className="text-[#3b3b39] text-2xl py-2">What the Benifits?</h2>
         <p>
-          Alternative innovation to ethical network environmental whiteboard
-          pursue compelling results for premier methods empowerment.
-          Dramatically architect go forward opportunities credibly revolutionize
-          front-end initiatives for interoperable outsourcing. Conveniently
-          repurpose market-driven deliverables without holistic potentialitiess
-          distinctively integrate
+          <p>✔ Strong and secure installation</p>
+          <p>✔ Experienced installation team</p>
+          <p>✔ Smooth opening and closing functionality</p>
+          <p>✔ Clean and precise work</p>
+          <p>✔ Long-lasting fitting and durability</p>
+          <p>✔ On-site service across Jaipur</p>
         </p>
       </div>
       <FAQSection title="Common Questions" faqs={servicesFAQs} />

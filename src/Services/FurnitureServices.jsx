@@ -25,6 +25,7 @@ const servicesTypes = [
   {
     img: "/image_collection/services_image/chair repair.webp",
     type: "Chair repair",
+    url: "/services/chair-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -45,21 +46,15 @@ const servicesTypes = [
   {
     img: "/image_collection/services_image/door repair.webp",
     type: "Door & Window repair",
-    url: "/services/door-repair",
+    url: "/services/door-window-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
 
   {
     img: "/image_collection/services_image/shelf repair.webp",
-    type: "Shelves repair",
+    type: "Shelves & Wall-unit repair",
     url: "/services/shelves-wallunit-repair",
-    WhatsAppMsg:
-      "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
-  },
-  {
-    img: "/image_collection/services_image/wall unit repair.webp",
-    type: "Wall unit repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -76,6 +71,7 @@ const fittingTypes = [
   {
     img: "/image_collection/services_image/warddrobe fitting.webp",
     type: "Wardrobe installation",
+    url: "/services/wardrobe-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
