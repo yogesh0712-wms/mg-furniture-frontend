@@ -47,8 +47,6 @@ const ContrractingType = [
       "Complete wedding furniture sets designed for gifting, combining style, practicality, and long-lasting quality for your home.",
     to: "/contracting/wedding-furniture",
   },
-
-  ,
 ];
 
 const ContractingSection = () => {

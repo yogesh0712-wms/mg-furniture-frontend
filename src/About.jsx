@@ -1,7 +1,7 @@
 import React from "react";
 import Header, { Footer } from "./Header";
 import ContractingHeroSection from "./Contracting/ContractingHeroSection";
-import { ArrowUp } from "lucide-react";
+
 import FAQSection from "./FAQSection";
 import { useEffect } from "react";
 
