@@ -5,26 +5,53 @@ import { ArrowUp } from "lucide-react";
 import FAQSection from "./FAQSection";
 import { useEffect } from "react";
 
+const statsData = [
+  { number: "557+", text: "Clients Believe Us" },
+  { number: "250+", text: "Projects Done" },
+  { number: "560+", text: "Orders All Delivered" },
+  { number: "15+", text: "Reward Received" },
+];
+
 const contractFAQs = [
   {
-    question: "What does a complete furniture contract include?",
+    question: "What does MG Furniture do?",
     answer:
-      "It covers design, manufacturing, delivery, and installation of all furniture as per the agreed scope.",
+      "We provide custom furniture, complete home and office furnishing, and furniture repair and installation services in Jaipur.",
   },
   {
-    question: "Do you handle end-to-end execution for full projects?",
+    question: "Do you make furniture on order?",
     answer:
-      "Yes, we manage everything from measurements and design to final installation and finishing.",
+      "Yes, all furniture is made based on your space, requirements, and budget. We do not focus on ready-made products.",
   },
   {
-    question: "Can you take up large-scale residential or commercial projects?",
+    question: "Do you handle complete furnishing projects?",
     answer:
-      "Yes, we undertake full furnishing contracts for homes, offices, showrooms, and commercial spaces.",
+      "Yes, we take full furnishing contracts for homes, offices, and other spaces, including design, manufacturing, and installation.",
   },
   {
-    question: "Do you coordinate with interior designers or architects?",
+    question: "Do you provide repair and installation services?",
     answer:
-      "Yes, we work closely with designers and architects to ensure alignment with the overall plan.",
+      "Yes, we offer on-demand services like furniture repair, installation, and servicing across Jaipur.",
+  },
+  {
+    question: "Is the furniture customizable?",
+    answer:
+      "Yes, every piece is customized based on your needs, space, and design preference.",
+  },
+  {
+    question: "What areas do you serve?",
+    answer:
+      "You can contact us directly through call or WhatsApp, and we will guide you based on your requirement.",
+  },
+  {
+    question: "How can I get a quote?",
+    answer:
+      "Yes, we offer on-demand services like furniture repair, installation, and servicing across Jaipur.",
+  },
+  {
+    question: "Do you work on small and large projects?",
+    answer:
+      "Yes, we handle everything from single furniture pieces to complete furnishing projects.",
   },
 ];
 
@@ -47,10 +74,9 @@ const About = () => {
       <Header />
 
       <ContractingHeroSection
-        hollowTitle="Our Services"
-        line1="The Best Service For"
-        line2="Your Home Living"
-        description="Lorem ipsum dolor sit amet..."
+        hollowTitle="About MG Furniture – "
+        line1="Custom Furniture in Jaipur"
+        description="We design, build, and install custom furniture for homes and offices in Jaipur, along with complete furnishing and on-demand services."
         imageSrc="https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/the-interior-has-a-armchair-on-empty-white-wall-ba-2021-09-04-06-48-51-utc_isolated.png"
       />
 
@@ -62,15 +88,20 @@ const About = () => {
           </p>
 
           <p className="pt-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            MG Furniture is a Jaipur-based furniture service focused on custom
+            furniture, complete furnishing projects, and repair and installation
+            services. We don’t sell ready-made furniture. Every project is
+            planned based on your space, usage, and budget to ensure the final
+            result fits properly and lasts long.
           </p>
 
           <ul className="pt-10 space-y-4">
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Lorem ipsum dolor sit amet</li>
+            <li>✔ Custom furniture on order</li>
+            <li>✔ Complete home furnishing</li>
+            <li>✔ Office furnishing solutions</li>
+            <li>✔ Wedding furniture sets</li>
+            <li>✔ Furniture repair and servicing</li>
+            <li>✔ Installation and setup services</li>
           </ul>
         </div>
 
@@ -93,24 +124,20 @@ const About = () => {
               Trusted To Give The Best Interior Design
             </p>
 
-            <p className="text-lg text-white pb-5">
-              Lorem ipsum dolor sit amet...
-            </p>
+            <p className="text-lg text-white pb-5">Why Choose MG Furniture</p>
           </div>
 
           <div className="w-full">
-            {[
-              "Clients Believe Us",
-              "Projects Done",
-              "Orders All Delivered",
-              "Reward Received",
-            ].map((text, index) => (
+            {statsData.map((item, index) => (
               <div
                 key={index}
                 className="h-20 w-full lg:w-[60vh] bg-white rounded-r-full p-5 flex items-center gap-4 mb-6"
               >
-                <p className="text-3xl font-bold text-[#6b6b6b]">557+</p>
-                <p className="text-lg font-bold text-[#6b6b6b]">{text}</p>
+                <p className="text-3xl font-bold text-[#6b6b6b]">
+                  {item.number}
+                </p>
+
+                <p className="text-lg font-bold text-[#6b6b6b]">{item.text}</p>
               </div>
             ))}
           </div>
@@ -126,34 +153,7 @@ const About = () => {
       </div>
 
       {/* Process Section */}
-      <section className="mt-20 lg:mt-32 mb-14 lg:mb-24">
-        <div className="text-center mx-auto w-[90%] lg:w-[45%]">
-          <p className="font-poppins font-semibold text-2xl text-[#83857d]">
-            Experience
-          </p>
-          <p className="text-4xl mt-4 font-bold">Trust The Process We Do</p>
-          <p className="text-lg mt-8">Lorem ipsum dolor sit amet.</p>
-        </div>
 
-        <div className="mx-auto w-[90%] mt-16 grid grid-cols-1 md:grid-cols-2 lg:flex gap-8 justify-center">
-          {[1, 2, 3, 4].map((num, index) => (
-            <div key={index} className="relative h-[308px] w-full md:w-[308px]">
-              <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
-                0{num}.
-              </p>
-              <p className="text-2xl font-bold mt-3 pl-6">Brainstorming</p>
-              <p className="pl-6 pt-8 w-[80%]">Lorem ipsum dolor sit amet.</p>
-              {num !== 4 && (
-                <ArrowUp
-                  size={40}
-                  strokeWidth={3}
-                  className="rotate-90 absolute right-6 top-10"
-                />
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
       <FAQSection title="Common Questions" faqs={contractFAQs} />
 
       <Footer />

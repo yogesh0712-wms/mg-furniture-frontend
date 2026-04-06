@@ -4,6 +4,24 @@ import ContractingHeroSection from "./Contracting/ContractingHeroSection";
 import { LucideLocationEdit, Phone, Mail } from "lucide-react";
 import { useEffect } from "react";
 
+const contactData = [
+  {
+    icon: LucideLocationEdit,
+    title: "Our Office Address",
+    content: "Vaishali Nagar Jaipur, Rajasthan ",
+  },
+  {
+    icon: Phone,
+    title: "Our Phone Number",
+    content: "+91 9782545485",
+  },
+  {
+    icon: Mail,
+    title: "Our Email Address",
+    content: "mgfurniture.services@gmail.com",
+  },
+];
+
 const Contact = () => {
   useEffect(() => {
     document.title =
@@ -79,23 +97,16 @@ const Contact = () => {
       <Header />
 
       <ContractingHeroSection
-        hollowTitle="Contact Us"
+        hollowTitle="Contact MG Furniture"
         line1="Get In Touch For "
         line2="Your Furniture"
-        description="We design and build custom furniture based on your space, needs, and ideas. Share your requirements and we’ll turn them into crafted, functional pieces."
+        description="Looking for custom furniture or furnishing services in Jaipur? Contact us for quick assistance, pricing, and project discussion."
         imageSrc="https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/the-interior-has-a-armchair-on-empty-white-wall-ba-2021-09-04-06-48-51-utc_isolated.png"
       />
 
       {/* FORM SECTION */}
       <div className="mx-auto w-[95%] lg:w-[80%] mt-16 lg:mt-40 flex flex-col lg:flex-row gap-12 lg:gap-32">
         {/* LEFT SIDE IMAGE */}
-        <div className="h-[70vh] lg:h-[90vh] w-full lg:w-96 rounded-t-full bg-gradient-to-b from-[#8F9286] via-[#9A9D91] to-[#12140e] relative">
-          <img
-            src="./image_collection/phone_swirrel_cable.webp "
-            alt=""
-            className="absolute -top-24 lg:-top-40 left-1/2 -translate-x-1/2 lg:translate-x-0"
-          />
-        </div>
 
         {/* FORM SIDE */}
         <div className="w-full lg:w-[55%]">
@@ -104,7 +115,7 @@ const Contact = () => {
           </p>
 
           <p className="pt-6 lg:pt-10 text-base lg:text-lg leading-normal">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Send Your Requirement
           </p>
 
           <form onSubmit={handleSubmit}>
@@ -193,30 +204,31 @@ const Contact = () => {
           Our Contact Information
         </p>
         <p className="text-3xl lg:text-4xl font-bold pt-5 text-gray-700">
-          Our Quick Support
+          Serving Across Jaipur
         </p>
         <p className="w-full lg:w-[55%] pt-5 text-base lg:text-lg leading-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          We provide furniture services across Jaipur, including homes,
+          apartments, villas, offices, and commercial spaces.
         </p>
       </div>
 
       <div className="mx-auto w-[95%] lg:w-[80%] mt-10 grid grid-cols-1 sm:grid-cols-2 lg:flex gap-6 mb-16">
-        {[LucideLocationEdit, Phone, Mail].map((Icon, i) => (
-          <div
-            key={i}
-            className="w-full lg:w-96 h-64 border-8 border-b-16 border-[#9fa296] bg-[#6f706a] p-6 rounded-t-xl"
-          >
-            <Icon size={40} strokeWidth={2} color="#D6D6B5" />
-            <p className="text-xl font-bold text-white pt-5">
-              {i === 0
-                ? "Our Office Address"
-                : i === 1
-                  ? "Our Phone Number"
-                  : "Our Email Address"}
-            </p>
-            <p className="pt-4 text-white">Sample content here</p>
-          </div>
-        ))}
+        {contactData.map((item, i) => {
+          const Icon = item.icon;
+
+          return (
+            <div
+              key={i}
+              className="w-full lg:w-96 h-64 border-8 border-b-16 border-[#9fa296] bg-[#6f706a] p-6 rounded-t-xl"
+            >
+              <Icon size={40} strokeWidth={2} color="#D6D6B5" />
+
+              <p className="text-xl font-bold text-white pt-5">{item.title}</p>
+
+              <p className="pt-4 text-white">{item.content}</p>
+            </div>
+          );
+        })}
       </div>
 
       <Footer />

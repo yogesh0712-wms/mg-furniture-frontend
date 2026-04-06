@@ -3,6 +3,11 @@ import Header, { Footer } from "../Header";
 import ContractingSinglePageContntSection from "./ContractingSinglePageContntSection";
 import ContractingHeroSection from "./ContractingHeroSection";
 import FAQSection from "../FAQSection";
+import homehero from "../assets/images/contracting/homefurnishing/home-furnishing-hero-image.jpg";
+import home1 from "../assets/images/contracting/homefurnishing/home-image1.jpg";
+import home2 from "../assets/images/contracting/homefurnishing/home-image-2.jpg";
+import home3 from "../assets/images/contracting/homefurnishing/home-image3.jpg";
+import home4 from "../assets/images/contracting/homefurnishing/home-image5.webp";
 
 const interiorFAQs = [
   {
@@ -28,47 +33,24 @@ const interiorFAQs = [
 ];
 
 const Home_livingItem = {
-  image1:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Descrip1: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Tristique senectus et netus et malesuada fames ac. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit. Convallis a cras
-            semper auctor neque. Orci dapibus ultrices in iaculis. Pharetra
-            magna ac placerat vestibulum lectus mauris. Quam vulputate dignissim
-            suspendisse in est ante in nibh mauris. Phasellus vestibulum lorem
-            sed risus. Sem fringilla ut morbi tincidunt augue interdum velit
-            euismod in. Volutpat odio facilisis mauris sit. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Tristique senectus et
-            netus et malesuada fames ac. Volutpat consequat mauris nunc congue
-            nisi vitae suscipit. Convallis a cras semper auctor neque. Orci
-            dapibus ultrices in iaculis. Pharetra magna ac placerat vestibulum
-            lectus mauris. Quam vulputate dignissim suspendisse in est.`,
-  Grp4img1:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img2:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img3:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img4:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Descrip2: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Tristique senectus et netus et malesuada fames ac. Volutpat
-                consequat mauris nunc congue nisi vitae suscipit. Convallis a
-                cras semper auctor neque. Orci dapibus ultrices in iaculis.
-                Pharetra magna ac placerat vestibulum lectus mauris. Quam
-                vulputate dignissim suspendisse in est ante in nibh mauris.
-                Phasellus vestibulum lorem sed risus. Sem fringilla ut morbi
-                tincidunt augue interdum velit euismod in. Volutpat odio
-                facilisis mauris sit. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Tristique senectus et netus et malesuada
-                fames ac. Volutpat consequat mauris nunc congue nisi vitae
-                suscipit. Convallis a cras semper auctor neque. Orci dapibus
-                ultrices in iaculis. Pharetra magna ac placerat vestibulum
-                lectus mauris. Quam vulputate dignissim suspendisse in est."`,
+  image1: homehero,
+  heading2: "Custom Furniture and Full Setup for Homes, Flats, and Villas",
+  Descrip1: `Our home furnishing service covers complete setup for homes, flats, apartments, and villas in Jaipur. From planning to final installation, we handle everything required to create a functional and well-designed living space.
+
+We focus on understanding your space, requirements, and budget to deliver customized solutions. Whether you need a modern home furnishing setup or a complete furniture package, our team ensures quality work, proper alignment, and clean finishing.`,
+  Grp4img1: home1,
+  Grp4img2: home2,
+  Grp4img3: home3,
+  Grp4img4: home4,
+  Descrip2: `"We deliver complete home furnishing solutions that combine design, functionality, and durability. Our team ensures every piece of furniture is customized to fit your space perfectly while maintaining a clean and modern look.
+
+From living rooms and bedrooms to dining areas and storage solutions, we handle the entire process with attention to detail and quality craftsmanship. If you're looking for the best home furniture and modern home furnishing in Jaipur, we provide a complete and hassle-free solution."`,
+  p1: "✔ Complete home furniture setup",
+  p2: "✔ Living room, bedroom, and dining furnishing",
+  p3: "✔ Custom wardrobe and storage solutions",
+  p4: "✔ Modular and space-saving furniture design",
+  p5: "✔ End-to-end project handling",
+  p6: "✔ On-site execution across Jaipur",
 };
 
 const Headitem = [
@@ -93,9 +75,9 @@ const HomeLivingDesign = () => {
       <ContractingHeroSection
         Headitem={Headitem}
         hollowTitle="Contract Work"
-        line1="Full Furniture For"
-        line2="Homes & Offices"
-        description="We handle complete furniture work for homes, offices, apartments, and buildings under a single contract, from planning and manufacturing to final installation."
+        line1="Complete Home Furnishing "
+        line2="Services in Jaipur"
+        description="We handle complete home furnishing for flats, apartments, and villas, covering everything from planning and furniture design to manufacturing and final installation."
         imageSrc="https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/the-interior-has-a-armchair-on-empty-white-wall-ba-2021-09-04-06-48-51-utc_isolated.png"
       />
       <ContractingSinglePageContntSection products={Home_livingItem} />

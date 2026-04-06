@@ -12,16 +12,11 @@ const Contact = lazy(() => import("./Contact"));
 const Testimonials = lazy(() => import("./Testimonials"));
 
 // Contracting
-const InteriorDesign = lazy(() => import("./Contracting/Interior_Design"));
+
 const HomeLivingDesign = lazy(() => import("./Contracting/Home_Living_Design"));
 const OfficeDesign = lazy(() => import("./Contracting/Office_Design"));
-const FurnitureReparation = lazy(
-  () => import("./Contracting/Furniture_Reparation"),
-);
+
 const Weddingfurniture = lazy(() => import("./Contracting/Wedding_furniture"));
-const Designconsultation = lazy(
-  () => import("./Contracting/Design_consultation"),
-);
 
 // Shop pages (IMPORTANT)
 const Chairs = lazy(() => import("./Shop/Chairs"));
@@ -102,25 +97,15 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
 
         <Route
-          path="/contracting/interior-design"
-          element={<InteriorDesign />}
-        />
-        <Route
           path="/contracting/home-living-design"
           element={<HomeLivingDesign />}
         />
-        <Route
-          path="/contracting/furniture-repair"
-          element={<FurnitureReparation />}
-        />
+
         <Route
           path="/contracting/wedding-furniture"
           element={<Weddingfurniture />}
         />
-        <Route
-          path="/contracting/design-consultation"
-          element={<Designconsultation />}
-        />
+
         <Route path="/contracting/office-design" element={<OfficeDesign />} />
 
         <Route path="/shop/chairs" element={<Chairs />} />

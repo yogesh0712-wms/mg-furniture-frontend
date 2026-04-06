@@ -37,7 +37,7 @@ const ContractingHeroSection = ({
               {line1}
             </p>
 
-            <p className="font-poppins text-3xl lg:text-5xl font-semibold text-white pt-4 lg:pl-8">
+            <p className="font-poppins text-3xl lg:text-5xl font-semibold text-white  lg:pl-8">
               {line2}
             </p>
 

@@ -1,56 +1,54 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowUp } from "lucide-react";
+import homefurnishing from "../assets/images/contracting/contracting-home-furnishing.webp";
+import officefurnishing from "../assets/images/contracting/office-furnishing.webp";
+import weddingfurnishing from "../assets/images/contracting/contracting-wedding-set.webp";
+
+const processData = [
+  {
+    title: "Planning & Understanding",
+    desc: "We start by understanding your space, requirements, and budget to plan the right furniture solution.",
+  },
+  {
+    title: "Design & Customization",
+    desc: "Based on your needs, we create designs that match your style, space, and functionality.",
+  },
+  {
+    title: "Manufacturing",
+    desc: "All furniture is crafted with quality materials and proper finishing for long-term durability.",
+  },
+  {
+    title: "Delivery & Installation",
+    desc: "We handle delivery and complete setup at your location to ensure everything fits perfectly.",
+  },
+];
 
 const ContrractingType = [
   {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/simple-living-room-interior-2021-08-26-15-45-30-utc-e1666835136843.jpg",
-    type: "Interior Design",
+    image: homefurnishing,
+    type: "Complete Home Furnishing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
-    to: "/contracting/interior-design",
-  },
-  {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-12-55-utc-e1666836611328.jpg",
-    type: "Home Living Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
+      "Complete home furnishing solutions designed for comfort, style, and long-term durability in your space.",
     to: "/contracting/home-living-design",
   },
   {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/poster-above-green-bench-between-lamp-and-yellow-a-2021-08-26-15-45-35-utc-e1666836542450.jpg",
-    type: "Office Design",
+    image: officefurnishing,
+    type: "Corporate Office Furniture",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
+      "Complete office furnishing solutions designed for productivity, efficiency, and long-term durability in modern workspaces",
     to: "/contracting/office-design",
   },
+
   {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/3d-office-design-interior-2021-12-09-02-43-06-utc-e1666836581658.jpg",
-    type: "Furniture Reparation",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
-    to: "/contracting/furniture-reparation",
-  },
-  {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/wedding-ceremony-area-2022-03-15-18-06-27-utc-e1666836404468.jpg",
+    image: weddingfurnishing,
     type: "Wedding Furniture",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
+      "Complete wedding furniture sets designed for gifting, combining style, practicality, and long-lasting quality for your home.",
     to: "/contracting/wedding-furniture",
   },
-  {
-    image:
-      "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/green-armchair-on-patterned-carpet-in-bright-livin-2021-08-26-15-45-36-utc-e1666836488485.jpg",
-    type: "Design Consultation",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore",
-    to: "/contracting/design-consultation",
-  },
+
+  ,
 ];
 
 const ContractingSection = () => {
@@ -69,7 +67,8 @@ const ContractingSection = () => {
             Start From Here
           </p>
           <p className="text-slate-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Discover furniture designs that combine clean aesthetics, smart
+            functionality, and premium finishes for modern living.
           </p>
         </div>
 
@@ -78,7 +77,7 @@ const ContractingSection = () => {
           {ContrractingType.map((item, index) => (
             <div
               key={index}
-              className="w-full lg:w-[53vh] lg:mr-8 pt-12 lg:pt-20"
+              className="w-full lg:w-[53vh] lg:mr-8 pt-5 lg:pt-20"
             >
               <div className="h-40 lg:h-32 w-full rounded-t-3xl overflow-hidden">
                 <img
@@ -107,18 +106,24 @@ const ContractingSection = () => {
             Experience
           </p>
           <p className="text-4xl mt-4 font-bold">Trust The Process We Do</p>
-          <p className="text-lg mt-8">Lorem ipsum dolor sit amet.</p>
+          <p className="text-lg mt-8">
+            From idea to final setup, we follow a clear process to deliver
+            quality furniture that fits your space perfectly.
+          </p>
         </div>
 
-        <div className="mx-auto w-[90%] mt-16 grid grid-cols-1 md:grid-cols-2 lg:flex gap-8 justify-center">
-          {[1, 2, 3, 4].map((num, index) => (
+        <div className="mx-auto w-[90%] mt-5 grid grid-cols-1  justify-center">
+          {processData.map((item, index) => (
             <div key={index} className="relative h-[308px] w-full md:w-[308px]">
               <p className="text-5xl text-hollow-black font-bold pt-8 pl-6">
-                0{num}.
+                0{index + 1}.
               </p>
-              <p className="text-2xl font-bold mt-3 pl-6">Brainstorming</p>
-              <p className="pl-6 pt-8 w-[80%]">Lorem ipsum dolor sit amet.</p>
-              {num !== 4 && (
+
+              <p className="text-2xl font-bold mt-3 pl-6">{item.title}</p>
+
+              <p className="pl-6 pt-4 w-[80%]">{item.desc}</p>
+
+              {index !== processData.length - 1 && (
                 <ArrowUp
                   size={40}
                   strokeWidth={3}

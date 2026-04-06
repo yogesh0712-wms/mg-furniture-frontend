@@ -3,6 +3,10 @@ import Header, { Footer } from "../Header";
 import ContractingSinglePageContntSection from "./ContractingSinglePageContntSection";
 import ContractingHeroSection from "./ContractingHeroSection";
 import FAQSection from "../FAQSection";
+import officehero from "../assets/images/contracting/officefurnishing/office-herosection.webp";
+import home1 from "../assets/images/contracting/officefurnishing/office1.webp";
+import home2 from "../assets/images/contracting/officefurnishing/office2.webp";
+import home3 from "../assets/images/contracting/officefurnishing/office3.webp";
 
 const interiorFAQs = [
   {
@@ -26,48 +30,26 @@ const interiorFAQs = [
       "Absolutely. Every design is planned according to your space, functional needs, and budget.",
   },
 ];
-const Office_DesignItem = {
-  image1:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Descrip1: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Tristique senectus et netus et malesuada fames ac. Volutpat
-            consequat mauris nunc congue nisi vitae suscipit. Convallis a cras
-            semper auctor neque. Orci dapibus ultrices in iaculis. Pharetra
-            magna ac placerat vestibulum lectus mauris. Quam vulputate dignissim
-            suspendisse in est ante in nibh mauris. Phasellus vestibulum lorem
-            sed risus. Sem fringilla ut morbi tincidunt augue interdum velit
-            euismod in. Volutpat odio facilisis mauris sit. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Tristique senectus et
-            netus et malesuada fames ac. Volutpat consequat mauris nunc congue
-            nisi vitae suscipit. Convallis a cras semper auctor neque. Orci
-            dapibus ultrices in iaculis. Pharetra magna ac placerat vestibulum
-            lectus mauris. Quam vulputate dignissim suspendisse in est.`,
-  Grp4img1:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img2:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img3:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Grp4img4:
-    "https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2017/06/luxurious-kitchen-with-white-furniture-2022-03-02-19-09-47-utc.jpg",
-  Descrip2: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Tristique senectus et netus et malesuada fames ac. Volutpat
-                consequat mauris nunc congue nisi vitae suscipit. Convallis a
-                cras semper auctor neque. Orci dapibus ultrices in iaculis.
-                Pharetra magna ac placerat vestibulum lectus mauris. Quam
-                vulputate dignissim suspendisse in est ante in nibh mauris.
-                Phasellus vestibulum lorem sed risus. Sem fringilla ut morbi
-                tincidunt augue interdum velit euismod in. Volutpat odio
-                facilisis mauris sit. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Tristique senectus et netus et malesuada
-                fames ac. Volutpat consequat mauris nunc congue nisi vitae
-                suscipit. Convallis a cras semper auctor neque. Orci dapibus
-                ultrices in iaculis. Pharetra magna ac placerat vestibulum
-                lectus mauris. Quam vulputate dignissim suspendisse in est."`,
+
+const Home_livingItem = {
+  image1: officehero,
+  heading2: "Complete Office Furniture Setup for Workspaces",
+  Descrip1: `We provide complete office furnishing solutions in Jaipur, covering workspaces, cabins, meeting areas, and storage setups. From planning to final installation, we handle the entire project with a focus on functionality and clean design.
+
+Our team works closely with your layout and requirements to deliver efficient and well-organized office furniture setups. Whether you need luxury office furniture or practical workspace solutions, we ensure quality, durability, and a professional finish.`,
+  Grp4img1: home1,
+  Grp4img2: home2,
+  Grp4img3: home3,
+
+  Descrip2: `"Our office furnishing service focuses on creating functional and professional workspaces. We design and install complete office setups that support productivity while maintaining a clean and modern look.
+
+From workstations and executive cabins to meeting rooms and storage solutions, we handle every aspect of the project. If you're looking for corporate office furniture design in Jaipur, we deliver solutions that combine durability, design, and efficient space utilization."`,
+  p1: "✔ Complete office furniture setup",
+  p2: "✔ Workstations and desk design",
+  p3: "✔ Executive cabin furniture",
+  p4: "✔ Conference and meeting room setup",
+  p5: "✔ Storage and filing solutions",
+  p6: "✔ End-to-end project execution in Jaipur",
 };
 
 const Headitem = [
@@ -85,23 +67,23 @@ const Headitem = [
   "Wooden Ceiling",
 ];
 
-const OfficeDesign = () => {
+const HomeLivingDesign = () => {
   return (
     <div>
       <Header />
       <ContractingHeroSection
         Headitem={Headitem}
         hollowTitle="Contract Work"
-        line1="Full Furniture For"
-        line2="Homes & Offices"
-        description="We handle complete furniture work for homes, offices, apartments, and buildings under a single contract, from planning and manufacturing to final installation."
+        line1="Corporate Office Furniture  "
+        line2="Design in Jaipur"
+        description="We handle complete office furnishing for workspaces, studios, and corporate setups covering everything from planning and furniture design to manufacturing and final installation"
         imageSrc="https://elementorkits.nathatype.com/phapan/wp-content/uploads/sites/32/2022/06/the-interior-has-a-armchair-on-empty-white-wall-ba-2021-09-04-06-48-51-utc_isolated.png"
       />
-      <ContractingSinglePageContntSection products={Office_DesignItem} />
+      <ContractingSinglePageContntSection products={Home_livingItem} />
       <FAQSection title="Common Questions" faqs={interiorFAQs} />
       <Footer />
     </div>
   );
 };
 
-export default OfficeDesign;
+export default HomeLivingDesign;
