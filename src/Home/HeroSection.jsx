@@ -18,6 +18,17 @@ const HeroSection = () => {
           lg:w-[70%]
         "
       >
+        <div className="flex gap-5 justify-center ">
+          <a href="/shop">
+            <u>Shop</u>
+          </a>
+          <a href="services">
+            <u>Services</u>
+          </a>
+          <a href="contracting">
+            <u>Contracting</u>
+          </a>
+        </div>
         {/* TEXT CONTENT */}
         <div
           className="

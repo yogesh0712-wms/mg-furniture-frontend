@@ -68,7 +68,7 @@ const ShopHeroSection = () => {
         {/* BREADCRUMB */}
         <div
           className="
-            mt-4 flex justify-center
+            mt-4 flex gap-2 justify-center
             lg:pl-10 lg:justify-start
           "
         >
@@ -77,6 +77,18 @@ const ShopHeroSection = () => {
             className="text-white flex text-base lg:text-xl items-center"
           >
             Home
+            <ArrowUp
+              size={18}
+              strokeWidth={3}
+              color="#FFFFFF"
+              className="rotate-90 ml-1"
+            />
+          </NavLink>
+          <NavLink
+            to="/services"
+            className="text-white flex text-base lg:text-xl items-center"
+          >
+            Services
             <ArrowUp
               size={18}
               strokeWidth={3}

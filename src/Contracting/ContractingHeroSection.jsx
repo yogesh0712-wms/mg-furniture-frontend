@@ -26,6 +26,17 @@ const ContractingHeroSection = ({
 
       {/* HERO AREA */}
       <div className="w-full mt-2 lg:mt-0 bg-[#83857d] h-auto lg:h-[68vh]">
+        <div className="flex gap-5 justify-center text-white">
+          <a href="/">
+            <u>Home</u>
+          </a>
+          <a href="/shop">
+            <u>Shop</u>
+          </a>
+          <a href="/services">
+            <u>Services</u>
+          </a>
+        </div>
         <div className="flex flex-col items-center text-center lg:flex-row lg:justify-between lg:items-start lg:mx-auto lg:w-[80%]">
           {/* TEXT SECTION */}
           <div className="pt-12 px-6 lg:px-0 lg:pt-20 lg:w-[45%] text-center lg:text-left">
