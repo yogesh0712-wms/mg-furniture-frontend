@@ -16,6 +16,7 @@ const navItems = [
   { label: "CONTRACTING", to: "/contracting" },
   { label: "ABOUT US", to: "/about-us" },
   { label: "CONTACT", to: "/contact" },
+  { label: "BLOGS", to: "/blogs" },
 ];
 
 function Header() {

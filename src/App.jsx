@@ -9,6 +9,7 @@ const Services = lazy(() => import("./Services/Services"));
 const Contracting = lazy(() => import("./Contracting/Contracting"));
 const About = lazy(() => import("./About"));
 const Contact = lazy(() => import("./Contact"));
+const BlogPage = lazy(() => import("./SEOCONTENT/BlogPage.jsx"));
 const Testimonials = lazy(() => import("./Testimonials"));
 
 // Contracting
@@ -74,6 +75,16 @@ const TableRepair = lazy(
 );
 const Wardrobe = lazy(() => import("./Services/IndivServices/Wardrobe.jsx"));
 
+//Pillar Pges
+const CustomWoodFPillar = lazy(
+  () => import("./SEOCONTENT/Pillar Pages/CustomWoodFPillar.jsx"),
+);
+
+//SEO CONTENT
+const CustomFurnitureGuide = lazy(
+  () => import("./SEOCONTENT/Contents/CustomWoodFurnitureGuide.jsx"),
+);
+
 function App() {
   return (
     <Suspense
@@ -94,20 +105,17 @@ function App() {
         <Route path="/contracting" element={<Contracting />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<BlogPage />} />
         <Route path="/testimonials" element={<Testimonials />} />
-
         <Route
           path="/contracting/home-living-design"
           element={<HomeLivingDesign />}
         />
-
         <Route
           path="/contracting/wedding-furniture"
           element={<Weddingfurniture />}
         />
-
         <Route path="/contracting/office-design" element={<OfficeDesign />} />
-
         <Route path="/shop/chairs" element={<Chairs />} />
         <Route path="/shop/sofas" element={<Sofas />} />
         <Route path="/shop/doors" element={<Doors />} />
@@ -118,7 +126,6 @@ function App() {
         <Route path="/shop/shoe-racks" element={<ShoeRacks />} />
         <Route path="/shop/study-table" element={<StudyTable />} />
         <Route path="/shop/wooden-ceiling" element={<Woodenceiling />} />
-
         <Route
           path="/services/wardrobe-servicing"
           element={<WarddrobeServicing />}
@@ -162,6 +169,20 @@ function App() {
         />
         <Route path="/services/table-repair" element={<TableRepair />} />
         <Route path="/services/wardrobe-installation" element={<Wardrobe />} />
+
+        {"Pillar pages"}
+
+        <Route
+          path="/blogs/custom-wood-furniture-in-jaipur"
+          element={<CustomWoodFPillar />}
+        />
+
+        {"SEO CONTENT"}
+
+        <Route
+          path="/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide"
+          element={<CustomFurnitureGuide />}
+        />
       </Routes>
     </Suspense>
   );
