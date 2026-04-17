@@ -469,10 +469,6 @@ export default function CustomWoodFurnitureTutorial() {
               </a>
             </section>
           </FadeSection>
-
-          <footer className="mt-12 text-center text-xs text-gray-400 pb-6">
-            © 2025 Custom Wood Furniture Jaipur · All rights reserved
-          </footer>
         </div>
       </main>
       <Footer />
