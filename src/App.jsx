@@ -85,6 +85,10 @@ const CustomFurnitureGuide = lazy(
   () => import("./SEOCONTENT/Contents/CustomWoodFurnitureGuide.jsx"),
 );
 
+const CustomFurnitureTutorial = lazy(
+  () => import("./SEOCONTENT/Contents/CustomWoodFurnitureTutorial.jsx"),
+);
+
 function App() {
   return (
     <Suspense
@@ -182,6 +186,10 @@ function App() {
         <Route
           path="/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide"
           element={<CustomFurnitureGuide />}
+        />
+        <Route
+          path="/blogs/custom-wood-furniture-in-jaipur/how-to-order-custom-wood-furniture-jaipur"
+          element={<CustomFurnitureTutorial />}
         />
       </Routes>
     </Suspense>

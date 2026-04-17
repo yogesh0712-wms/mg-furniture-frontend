@@ -1,6 +1,7 @@
 import React from "react";
 import Header, { Footer } from "../../Header";
 import PillarPage from "./PillarPage";
+import { useEffect } from "react";
 
 const customFurnitureData = {
   title: "Custom Wood Furniture Near You in Jaipur — Design, Build & Install",
@@ -74,11 +75,12 @@ const customFurnitureData = {
       link: "/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide",
     },
     {
-      title: "Custom vs Ready-Made Furniture — Which is Better?",
+      title: "How to Order Custom Wood Furniture Near You ?",
       description: "Understand the real difference before making a decision.",
-      category: "Guide",
-      image: "https://images.unsplash.com/photo-1582582494700-7f7b0c1a9c1a",
-      link: "/blogs/custom-vs-ready-furniture",
+      category: "Tutorial",
+      image:
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
+      link: "/blogs/custom-wood-furniture-in-jaipur/how-to-order-custom-wood-furniture-jaipur",
     },
     {
       title: "3BHK Full Home Custom Furniture in Jaipur (Case Study)",
@@ -157,6 +159,23 @@ const customFurnitureData = {
 };
 
 const CustomWoodFPillar = () => {
+  useEffect(() => {
+    document.title =
+      "Custom Wood Furniture Near You in Jaipur | Design, Build & Install";
+
+    let meta = document.querySelector("meta[name='description']");
+
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.name = "description";
+      document.head.appendChild(meta);
+    }
+
+    meta.setAttribute(
+      "content",
+      "Looking for custom wood furniture near you in Jaipur? Get made-to-order beds, wardrobes & full home furniture with design, build, and installation services.",
+    );
+  }, []);
   return (
     <>
       <Header />

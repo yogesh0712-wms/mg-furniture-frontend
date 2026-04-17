@@ -369,7 +369,7 @@ export default function CustomFurnitureGuide() {
               <SubSection title="Typical Price Ranges (Jaipur Market)">
                 <div className="grid grid-cols-3 gap-4 mt-4">
                   {[
-                    { item: "Beds", range: "₹8,000 – ₹60,000" },
+                    { item: "Beds", range: "₹10,000 – ₹60,000" },
                     { item: "Dining Tables", range: "₹12,000 – ₹70,000" },
                     { item: "Wardrobes", range: "₹5,000 – ₹40,000" },
                   ].map((r) => (
