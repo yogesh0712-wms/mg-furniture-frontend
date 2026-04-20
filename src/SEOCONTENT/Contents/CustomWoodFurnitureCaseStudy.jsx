@@ -563,7 +563,8 @@ export default function CustomWoodFurnitureCaseStudy() {
               within budget. No catalogue. No compromises.
             </p>
             <a
-              href="#"
+              href="https://wa.me/919782545485?
+"
               className="inline-block bg-amber-500 hover:bg-amber-400 transition-colors text-stone-900 font-bold font-sans text-base px-10 py-4 rounded-full shadow-lg"
             >
               Get Free Quote
