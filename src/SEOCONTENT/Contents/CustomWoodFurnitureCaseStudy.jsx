@@ -2,12 +2,12 @@ import { useEffect, useRef } from "react";
 
 const BEFORE_IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    src: "https://images.openai.com/static-rsc-4/9-ZBUKR8tMlLFQVt6dXWPeWF9n4LFoP7G0jUMXJfzXJSti0joqq5E6DR4CUh4xQqzj_knWQugJt3oAFjsCrUwlVDSTkDiDSVVHeKg4Kx9Y1BaVRTlIwll8WqhWMTclVOJVxrCIP6Gb06jWnMe9PyKRXkxgDC2xl7Zch3msab8d5JSO3YFq9ub-0Nl2Y737I_?purpose=fullsize",
     alt: "Empty room in Indian apartment",
     label: "Master Bedroom – Before",
   },
   {
-    src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80",
+    src: "https://images.openai.com/static-rsc-4/wYO3yMvaxhm3S9wKuZy4II03Wvop8RdXSwAF1baf2qXCRk8uuNZ9KJcTrfPHzUEhuAl75VB-A44iWtwNG_1rKVGoX3W9AjDPmrP6jAAtmKDQrQfFU4oN86rV8bC_yGK_R8niYGuRjgvAxAUl67cbE5Kclx3OyLo_j4PVwbDBONgn_8wRnW99OIBmXsu_cmbr?purpose=fullsize",
     alt: "Bare walls and unfinished floor",
     label: "Living Area – Before",
   },
@@ -15,12 +15,12 @@ const BEFORE_IMAGES = [
 
 const AFTER_IMAGES = [
   {
-    src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    src: "https://images.openai.com/static-rsc-4/egurtTGyVWOBNhija0OOkYvPE-5QQCNom7CyL8KQnxN-TWGAfYRnoFmDnya-daciZvjoOS9nNd6f22buiGbp3t_zd_4laFR4dhBInuI2NPBBl8Qc-lWCVAqf_jOEMR3vjpYsajw52okWbB32FG0iDJIYZCHx2QIQjYatZlykI7amGSTVVcABvf8gTdvZNTED?purpose=fullsize",
     alt: "Indian bedroom with luxury wooden furniture",
     label: "Master Bedroom – After",
   },
   {
-    src: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+    src: "https://images.openai.com/static-rsc-4/o88TAndzYwQGV7U_njFHMgJWgVIiVC0JI2ua1UeJUuZhy_E9dQuaW6DrsUq3mAJqySE_kTBa6nvVQhJTDIzbZKvzC3611IxMeDSnveIO8CL7VZKei75nCkqJn2XbeTwBfXmHoDQQL7HdVNDmIOxADm-FmtUySiBZ2vxXu7aAOeufV1HlXxBahslCfZvSNyJE?purpose=fullsize",
     alt: "Elegant wooden living room setup",
     label: "Living Area – After",
   },
