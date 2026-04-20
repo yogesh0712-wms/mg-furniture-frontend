@@ -94,6 +94,24 @@ function SubSection({ title, children }) {
 }
 
 export default function CustomFurnitureGuide() {
+  useEffect(() => {
+    document.title =
+      "How to Order Custom Wood Furniture Near You in Jaipur (Step-by-Step Guide)";
+
+    let meta = document.querySelector('meta[name="description"]');
+
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.name = "description";
+      document.head.appendChild(meta);
+    }
+
+    meta.setAttribute(
+      "content",
+      "Learn how to order custom wood furniture near you in Jaipur step by step. From measuring space to choosing materials, pricing, and delivery—complete practical guide.",
+    );
+  }, []);
+
   return (
     <>
       <Header />

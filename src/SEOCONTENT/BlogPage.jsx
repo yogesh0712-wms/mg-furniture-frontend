@@ -1,6 +1,6 @@
 import Header from "../Header";
 import { Footer } from "../Header";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const pillars = [
   {
@@ -190,6 +190,27 @@ const areas = [
   "Sanganer",
 ];
 const BlogPage = () => {
+  useEffect(() => {
+    // Set title
+    document.title =
+      "How to Order Custom Wood Furniture Near You in Jaipur (Step-by-Step Guide)";
+
+    // Get or create meta description
+    let meta = document.querySelector("meta[name='description']");
+
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "description");
+      document.head.appendChild(meta);
+    }
+
+    // Set content
+    meta.setAttribute(
+      "content",
+      "Learn how to order custom wood furniture in Jaipur step by step. From measuring space to pricing, materials, and delivery—complete practical guide.",
+    );
+  }, []);
+
   const [activeCategory, setActiveCategory] = useState("All");
 
   const filteredPosts =

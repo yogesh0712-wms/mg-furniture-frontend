@@ -88,7 +88,7 @@ const customFurnitureData = {
         "See how we designed and installed furniture for a complete home.",
       category: "Case Study",
       image: "https://images.unsplash.com/photo-1631679706909-1844bbd07221",
-      link: "/blogs/3bhk-case-study",
+      link: "/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-jaipur-before-after",
     },
     {
       title: "Top 10 Mistakes to Avoid When Buying Custom Furniture",
