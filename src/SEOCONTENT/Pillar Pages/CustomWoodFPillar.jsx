@@ -91,11 +91,12 @@ const customFurnitureData = {
       link: "/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-jaipur-before-after",
     },
     {
-      title: "Top 10 Mistakes to Avoid When Buying Custom Furniture",
+      title:
+        "How a Jaipur Family Transformed Their Home with Custom Wood Furniture",
       description: "Avoid common mistakes that can cost you time and money.",
-      category: "Checklist",
+      category: "Success-Story",
       image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
-      link: "/blogs/furniture-mistakes",
+      link: "/blogs/custom-wood-furniture-in-jaipur/jaipur-home-success-story",
     },
   ],
 

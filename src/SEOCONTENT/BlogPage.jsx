@@ -75,12 +75,13 @@ const allPosts = [
   {
     id: 1,
     category: "Guides",
-    title: "How to Choose the Right Wood for Custom Furniture in Jaipur",
+    title:
+      "How to Order Custom Wood Furniture Near You in Jaipur (Step-by-Step Guide)",
     description:
-      "Teak, sheesham, mango, or pine? We break down the best wood types for Jaipur's climate and your budget.",
+      "Learn how to order custom wood furniture near you in Jaipur step by step. From measuring space to choosing materials, pricing, and delivery—complete practical guide.",
     image:
       "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80",
-    slug: "#wood-guide",
+    slug: "http://localhost:3001/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide",
   },
   {
     id: 2,
@@ -166,7 +167,7 @@ const CATEGORIES = [
 const internalLinks = [
   {
     label: "Custom Wood Furniture in Jaipur",
-    href: "/blogs/custome-wood-furniture-in-jaipur",
+    href: "/blogs/custom-wood-furniture-in-jaipur",
   },
   { label: "Furniture Repair & Restoration Jaipur", href: "#repair" },
   { label: "Modular Kitchen Furniture Jaipur", href: "#modular-kitchen" },
