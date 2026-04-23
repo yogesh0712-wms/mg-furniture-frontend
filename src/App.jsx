@@ -112,9 +112,12 @@ function App() {
     >
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contracting" element={<Contracting />} />
+        <Route path="/furniture-shop-in-jaipur" element={<Shop />} />
+        <Route path="/furniture-services-in-jaipur" element={<Services />} />
+        <Route
+          path="/furniture-contracting-in-jaipur"
+          element={<Contracting />}
+        />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<BlogPage />} />
