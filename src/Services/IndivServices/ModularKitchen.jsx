@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -34,6 +35,19 @@ const servicesFAQs = [
 ];
 
 const ModularKitchen = () => {
+  useEffect(() => {
+    document.title =
+      "Modular Kitchen Installation in Jaipur | Custom Kitchen Setup | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get modular kitchen installation in Jaipur with expert design, fitting & setup. MG Furniture delivers durable, space-efficient kitchens tailored to your home. Book your installation today!",
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

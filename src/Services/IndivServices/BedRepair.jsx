@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -35,6 +36,19 @@ const servicesFAQs = [
 ];
 
 const BedRepair = () => {
+  useEffect(() => {
+    document.title =
+      "Bed Repair in Jaipur | Wooden Bed Fix & Maintenance | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get expert bed repair in Jaipur for wooden beds, storage beds & frames. Fix noise, damage, joints & support issues with MG Furniture. Reliable service near you. Book today!",
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

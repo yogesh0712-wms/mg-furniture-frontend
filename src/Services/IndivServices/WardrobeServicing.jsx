@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -34,6 +35,18 @@ const servicesFAQs = [
 ];
 
 const WardrobeServicing = () => {
+  useEffect(() => {
+    document.title =
+      "Wardrobe Servicing in Jaipur | Repair, Sliding Fix & Maintenance | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get professional wardrobe servicing in Jaipur with expert repair, sliding door fixing, hinge replacement & maintenance. MG Furniture ensures smooth, long-lasting performance. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

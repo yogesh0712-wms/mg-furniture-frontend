@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -34,6 +35,18 @@ const servicesFAQs = [
 ];
 
 const ShelvesInstallation = () => {
+  useEffect(() => {
+    document.title =
+      "Shelves & Wall Unit Installation in Jaipur | Wooden Shelf Setup | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get shelves & wall unit installation in Jaipur with precise fitting and durable setup. MG Furniture installs wooden shelves & wall units for homes and offices. Book your service today!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -31,6 +32,18 @@ const servicesFAQs = [
 ];
 
 const ClothHanger = () => {
+  useEffect(() => {
+    document.title =
+      "Cloth Hanger Installation in Jaipur | Wall & Wardrobe Hanger Setup | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get cloth hanger installation in Jaipur for wall-mounted & wardrobe hangers. MG Furniture ensures strong, space-saving setup with precise fitting. Fast service near you. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

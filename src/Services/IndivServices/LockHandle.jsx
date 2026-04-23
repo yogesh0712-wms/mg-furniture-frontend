@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -32,6 +33,18 @@ const servicesFAQs = [
 ];
 
 const LockHandle = () => {
+  useEffect(() => {
+    document.title =
+      "Lock & Handle Installation in Jaipur | Door Hardware Fitting | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get lock & handle installation in Jaipur for doors, windows & cabinets. MG Furniture provides secure fitting, precise alignment & durable hardware setup. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

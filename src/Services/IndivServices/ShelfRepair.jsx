@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -34,6 +35,18 @@ const servicesFAQs = [
 ];
 
 const ShelfRepair = () => {
+  useEffect(() => {
+    document.title =
+      "Shelves & Wall Unit Repair in Jaipur | Wooden Shelf Fix | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Expert shelves & wall unit repair in Jaipur. Fix damaged wooden shelves, loose fittings, alignment & support issues with MG Furniture. Reliable service near you. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

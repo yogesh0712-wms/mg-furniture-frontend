@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -33,6 +34,18 @@ const servicesFAQs = [
 ];
 
 const TableRepair = () => {
+  useEffect(() => {
+    document.title =
+      "Table Repair in Jaipur | Wooden & Dining Table Fix | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Expert table repair in Jaipur for wooden, dining & office tables. Fix damage, polish issues, joints & structure with MG Furniture. Reliable service near you. Book today!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

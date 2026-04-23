@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -31,6 +32,18 @@ const servicesFAQs = [
 ];
 
 const Wardobe = () => {
+  useEffect(() => {
+    document.title =
+      "Wardrobe Installation in Jaipur | Custom Wardrobe Setup | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get wardrobe installation in Jaipur with expert fitting for sliding & hinged wardrobes. MG Furniture ensures durable, space-efficient setup tailored to your home. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -33,6 +34,18 @@ const servicesFAQs = [
 ];
 
 const DoorRepair = () => {
+  useEffect(() => {
+    document.title =
+      "Door & Window Repair in Jaipur | Wooden Door Fix & Service | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get professional door & window repair in Jaipur. Fix wooden doors, windows, hinges, locks & alignment issues with MG Furniture. Fast, reliable service near you. Book today!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />

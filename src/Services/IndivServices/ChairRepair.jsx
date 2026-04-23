@@ -5,7 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
-
+import { useEffect } from "react";
 const servicesFAQs = [
   {
     question: "Do you provide chair repair service in Jaipur?",
@@ -33,6 +33,19 @@ const servicesFAQs = [
 ];
 
 const ChairRepair = () => {
+  useEffect(() => {
+    document.title =
+      "Chair Repair in Jaipur | Wooden & Office Chair Fix | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get professional chair repair in Jaipur for wooden, office & dining chairs. Fix broken legs, joints, cushions & structure with MG Furniture. Fast service near you. Book now!",
+      );
+    }
+  }, []);
+
   return (
     <div>
       <Header />

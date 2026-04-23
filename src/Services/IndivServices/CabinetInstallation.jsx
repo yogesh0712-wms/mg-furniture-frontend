@@ -5,6 +5,7 @@ import ServiceImage from "../../assets/images/services/ServiceImage.webp";
 import { Home, ArrowUpIcon } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import FAQSection from "../../FAQSection";
+import { useEffect } from "react";
 
 const servicesFAQs = [
   {
@@ -32,6 +33,18 @@ const servicesFAQs = [
 ];
 
 const CabinetInstallation = () => {
+  useEffect(() => {
+    document.title =
+      "Cabinet Installation in Jaipur | Kitchen & Storage Cabinets | MG Furniture";
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute(
+        "content",
+        "Get cabinet installation in Jaipur for kitchen, office & storage spaces. MG Furniture offers precise fitting, durable setup & custom solutions. Reliable service near you. Book now!",
+      );
+    }
+  }, []);
   return (
     <div>
       <Header />
