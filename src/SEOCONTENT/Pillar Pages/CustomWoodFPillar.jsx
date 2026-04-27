@@ -98,6 +98,15 @@ const customFurnitureData = {
       image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
       link: "/blogs/custom-wood-furniture-in-jaipur/jaipur-home-success-story",
     },
+    {
+      title: "Custom Wood Furniture in jaipur – FAQs for Jaipur Buyers",
+      description:
+        "Everything you need to know before ordering custom wood furniture in Jaipur — costs, materials, timelines, and how to avoid common mistakes.",
+      category: "FAQs",
+      image:
+        "https://th.bing.com/th/id/OIP.0saGyzat10lMIxUox0Ax5QHaJO?w=203&h=252&c=7&r=0&o=7&pid=1.7&rm=3",
+      link: "/blogs/custom-wood-furniture-in-jaipur/faqs-jaipur-buyers-guide",
+    },
   ],
 
   trustPoints: [

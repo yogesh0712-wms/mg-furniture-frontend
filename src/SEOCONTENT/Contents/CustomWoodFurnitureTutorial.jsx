@@ -378,8 +378,8 @@ export default function CustomWoodFurnitureTutorial() {
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed max-w-xl mx-auto">
                 A practical, step-by-step guide for homeowners looking for
-                custom wood furniture near me in Jaipur — from first measurement
-                to final delivery.
+                custom wood furniture in Jaipur — from first measurement to
+                final delivery.
               </p>
               <div
                 className="mt-8 w-16 mx-auto"

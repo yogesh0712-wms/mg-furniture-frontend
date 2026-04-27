@@ -176,7 +176,7 @@ export default function CustomFurnitureGuide() {
               <p className="text-stone-600 leading-relaxed">
                 When you search for{" "}
                 <strong className="text-stone-800">
-                  custom wood furniture near me in Jaipur
+                  custom wood furniture in Jaipur
                 </strong>
                 , you're not just looking for a piece that fits in a corner.
                 You're looking for something built around your space, your
