@@ -30,10 +30,10 @@ const ContractingHeroSection = ({
           <a href="/">
             <u>Home</u>
           </a>
-          <a href="/furniture-shop-in-jaipur">
+          <a href="/custom-wood-furniture">
             <u>Shop</u>
           </a>
-          <a href="/furniture-services-in-jaipur">
+          <a href="/furniture-services">
             <u>Services</u>
           </a>
         </div>

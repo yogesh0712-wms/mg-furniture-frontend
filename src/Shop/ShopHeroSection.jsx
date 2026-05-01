@@ -85,7 +85,7 @@ const ShopHeroSection = () => {
             />
           </NavLink>
           <NavLink
-            to="/services"
+            to="/furniture-services"
             className="text-white flex text-base lg:text-xl items-center"
           >
             Services

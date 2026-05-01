@@ -11,9 +11,9 @@ import "./Header.css";
 
 const navItems = [
   { label: "HOME", to: "/" },
-  { label: "SHOP", to: "/furniture-shop-in-jaipur" },
-  { label: "SERVICES", to: "/furniture-services-in-jaipur" },
-  { label: "CONTRACTING", to: "/furniture-contracting-in-jaipur" },
+  { label: "SHOP", to: "/custom-wood-furniture" },
+  { label: "SERVICES", to: "/furniture-services" },
+  { label: "CONTRACTING", to: "/complete-furnishing-work" },
   { label: "ABOUT US", to: "/about-us" },
   { label: "CONTACT", to: "/contact" },
   { label: "BLOGS", to: "/blogs" },

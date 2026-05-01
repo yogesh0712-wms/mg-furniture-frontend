@@ -19,13 +19,13 @@ const HeroSection = () => {
         "
       >
         <div className="flex gap-5 justify-center ">
-          <a href="/furniture-shop-in-jaipur">
+          <a href="/custom-wood-furniture">
             <u>Shop</u>
           </a>
-          <a href="/furniture-services-in-jaipur">
+          <a href="/furniture-services">
             <u>Services</u>
           </a>
-          <a href="/furniture-contracting-in-jaipur">
+          <a href="/complete-furnishing-work">
             <u>Contracting</u>
           </a>
         </div>
