@@ -133,21 +133,6 @@ const btnPrimary = {
   boxShadow: `0 4px 18px rgba(200,155,60,0.35)`,
   transition: "background 0.25s, transform 0.2s",
 };
-const btnOutline = {
-  display: "inline-block",
-  background: "transparent",
-  color: C.gold,
-  padding: "13px 30px",
-  borderRadius: 6,
-  fontWeight: 700,
-  fontSize: 15,
-  textDecoration: "none",
-  fontFamily: "'Lato', sans-serif",
-  letterSpacing: 0.5,
-  cursor: "pointer",
-  border: `2px solid ${C.gold}`,
-  transition: "background 0.25s, color 0.25s, transform 0.2s",
-};
 
 // ─── Unsplash image helpers ──────────────────────────────────────────────────
 const IMG = {
