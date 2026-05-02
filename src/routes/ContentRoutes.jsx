@@ -3,12 +3,14 @@ import { Route } from "react-router-dom";
 
 const BlogPage = lazy(() => import("../SEOCONTENT/BlogPage.jsx"));
 
-// Pillar
+// Pillar PAGES
+
 const CustomWoodFPillar = lazy(
   () => import("../SEOCONTENT/Pillar Pages/CustomWoodFPillar.jsx"),
 );
 
-// Content
+// CONTENT PAGES
+
 const CustomFurnitureGuide = lazy(
   () => import("../SEOCONTENT/Contents/CustomWoodFurnitureGuide.jsx"),
 );
@@ -29,19 +31,30 @@ const CustomWoodFurnitureFAQs = lazy(
   () => import("../SEOCONTENT/Contents/CustomeWoodFurnitureFAQs.jsx"),
 );
 
+// LANDING PAGE
+
+const JaipurFurnitureLanding = lazy(
+  () => import("../LANDINGPAGES/CustomWoodFurnitureLP.jsx"),
+);
+const FurnishingJaipur = lazy(() => import("../LANDINGPAGES/FurnishingLP.jsx"));
+
+const FurnitureRepairJaipur = lazy(
+  () => import("../LANDINGPAGES/FurnitureServicesLP.jsx"),
+);
+
 export default function ContentRoutes() {
   return (
     <>
       <Route path="/blogs" element={<BlogPage />} />
 
-      {/* Pillar */}
+      {/* Pillar PAGES*/}
 
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur"
         element={<CustomWoodFPillar />}
       />
 
-      {/* Cluster Content */}
+      {/* CONTENT PAGES*/}
 
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide"
@@ -66,6 +79,20 @@ export default function ContentRoutes() {
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur/faqs-jaipur-buyers-guide"
         element={<CustomWoodFurnitureFAQs />}
+      />
+
+      {/* LANDING PAGE*/}
+      <Route
+        path="/custom-wood-furniture/custom-furniture-makers-jaipur"
+        element={<JaipurFurnitureLanding />}
+      />
+      <Route
+        path="/furniture-services/furniture-installation-repair-jaipur"
+        element={<FurnishingJaipur />}
+      />
+      <Route
+        path="/complete-furnishing-work/full-furnishing-jaipur"
+        element={<FurnitureRepairJaipur />}
       />
     </>
   );

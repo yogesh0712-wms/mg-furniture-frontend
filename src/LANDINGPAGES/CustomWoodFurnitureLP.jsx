@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Header, { Footer } from "../Header";
 
 // ─── SEO Meta via react-helmet alternative (injected manually) ───────────────
 function SEOMeta() {
@@ -133,7 +134,7 @@ function CTAButtons({ size = "md" }) {
   return (
     <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
       <a
-        href="tel:+919999999999"
+        href="tel:+919782545485"
         style={{
           background: C.teak,
           color: C.white,
@@ -153,7 +154,7 @@ function CTAButtons({ size = "md" }) {
         📞 Call Now
       </a>
       <a
-        href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20custom%20wood%20furniture%20in%20Jaipur"
+        href="https://wa.me/919782545485?text=Hi%2C%20I%20want%20custom%20wood%20furniture%20in%20Jaipur"
         target="_blank"
         rel="noreferrer"
         style={{
@@ -301,6 +302,7 @@ export default function JaipurFurnitureLanding() {
         overflowX: "hidden",
       }}
     >
+      <Header />
       <SEOMeta />
 
       {/* Google Fonts */}
@@ -311,52 +313,6 @@ export default function JaipurFurnitureLanding() {
         body { background: ${C.cream}; }
         ::selection { background: ${C.oak}; color: white; }
       `}</style>
-
-      {/* ── NAV ─────────────────────────────────────────────────────────────── */}
-      <nav
-        style={{
-          position: "sticky",
-          top: 0,
-          zIndex: 100,
-          background: "rgba(250,245,237,0.95)",
-          backdropFilter: "blur(8px)",
-          borderBottom: `2px solid ${C.sand}`,
-          padding: "14px 24px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <div
-          style={{
-            fontFamily: "'Playfair Display', Georgia, serif",
-            fontSize: "1.2rem",
-            color: C.walnut,
-            fontWeight: 700,
-          }}
-        >
-          🪵 WoodCraft Jaipur
-        </div>
-        <div style={{ display: "flex", gap: 20 }}>
-          {["Services", "Process", "FAQ"].map((label) => (
-            <a
-              key={label}
-              href={`#${label.toLowerCase()}`}
-              style={{
-                color: C.teak,
-                textDecoration: "none",
-                fontSize: "0.9rem",
-                letterSpacing: "0.04em",
-                transition: "color 0.2s",
-              }}
-              onMouseEnter={(e) => (e.target.style.color = C.walnut)}
-              onMouseLeave={(e) => (e.target.style.color = C.teak)}
-            >
-              {label}
-            </a>
-          ))}
-        </div>
-      </nav>
 
       {/* ── HERO ────────────────────────────────────────────────────────────── */}
       <section
@@ -1124,6 +1080,7 @@ export default function JaipurFurnitureLanding() {
           C-Scheme · Bani Park & all of Jaipur
         </p>
       </footer>
+      <Footer />
     </div>
   );
 }

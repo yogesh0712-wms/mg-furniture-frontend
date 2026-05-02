@@ -96,6 +96,49 @@ const Shop = () => {
       <Header />
       <ShopHeroSection />
       <Products products={popularProducts} />
+      {/* =========================================
+CUSTOM WOOD FURNITURE PAGE
+/custom-wood-furniture
+Tailwind Animated Internal Link Section
+========================================= */}
+
+      <section className="py-24 px-6 bg-[#f8f5f0] overflow-hidden">
+        <div className="max-w-6xl mx-auto text-center animate-[fadeUp_1s_ease]">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#3e2c23] mb-6 leading-tight">
+            Custom Furniture Services Available Across Jaipur
+          </h2>
+
+          <p className="text-lg text-gray-600 leading-8 max-w-4xl mx-auto mb-10">
+            We provide made-to-order wooden furniture solutions for homes,
+            offices, apartments, and commercial spaces across Jaipur including
+            Vaishali Nagar, Mansarovar, Malviya Nagar, and Jagatpura.
+          </p>
+
+          <a
+            href="/custom-wood-furniture/custom-furniture-makers-jaipur"
+            className="inline-block bg-[#6d4c41] hover:bg-[#4e342e]
+      text-white text-lg font-semibold px-8 py-4 rounded-full
+      shadow-xl transition-all duration-500 hover:-translate-y-2 hover:scale-105"
+          >
+            Explore Custom Furniture Makers in Jaipur
+          </a>
+        </div>
+
+        <style>
+          {`
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    `}
+        </style>
+      </section>
       <ProductsQuality />
       <Footer />
     </div>
