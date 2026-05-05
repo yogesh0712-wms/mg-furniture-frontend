@@ -807,8 +807,7 @@ export default function JaipurFurnitureLanding() {
                     fontFamily: "'Georgia','Times New Roman',serif",
                   }}
                 >
-                  Custom vs Ready-Made Furniture: What Actually Makes Sense for
-                  You
+                  Best Custom Wood Furniture Options for Homes in Jaipur
                 </h3>
                 <p
                   style={{
@@ -819,9 +818,9 @@ export default function JaipurFurnitureLanding() {
                     flex: 1,
                   }}
                 >
-                  Cost, lead time, fit, and finish — we break down every factor
-                  honestly so you can make the right call for your space and
-                  budget.
+                  A practical guide to choosing the right custom wood furniture
+                  in Jaipur — from bedroom storage to modular living rooms, wood
+                  types, pricing, and what actually works in Indian homes.
                 </p>
                 <div
                   style={{

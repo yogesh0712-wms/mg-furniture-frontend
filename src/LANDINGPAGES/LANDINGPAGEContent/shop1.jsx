@@ -76,7 +76,8 @@ export default function BestFurnitureOptionsJaipur() {
       }}
     >
       {/* ── Hero / H1 ── */}
-      <header
+      <Header />
+      <div
         style={{
           background: "#faf8f4",
           borderBottom: "1px solid #e8dfd0",
@@ -138,7 +139,7 @@ export default function BestFurnitureOptionsJaipur() {
             <span>12 min read</span>
           </div>
         </div>
-      </header>
+      </div>
 
       {/* ── Main content ── */}
       <main
@@ -786,6 +787,7 @@ export default function BestFurnitureOptionsJaipur() {
           </section>
         </FadeSection>
       </main>
+      <Footer />
     </div>
   );
 }
