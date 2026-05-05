@@ -42,6 +42,12 @@ const FurnitureRepairJaipur = lazy(
   () => import("../LANDINGPAGES/FurnitureServicesLP.jsx"),
 );
 
+// LANDING PAGE CONTENT
+
+const BestFurnitureOptionsJaipur = lazy(
+  () => import("../LANDINGPAGES/LANDINGPAGEContent/shop1"),
+);
+
 export default function ContentRoutes() {
   return (
     <>
@@ -88,11 +94,17 @@ export default function ContentRoutes() {
       />
       <Route
         path="/furniture-services/furniture-installation-repair-jaipur"
-        element={<FurnishingJaipur />}
+        element={<FurnitureRepairJaipur />}
       />
       <Route
         path="/complete-furnishing-work/full-furnishing-jaipur"
-        element={<FurnitureRepairJaipur />}
+        element={<FurnishingJaipur />}
+      />
+
+      {/*LANDINGPAGEContent */}
+      <Route
+        path="/custom-furniture-makers-jaipur/best-furniture-options-jaipur-homes"
+        element={<BestFurnitureOptionsJaipur />}
       />
     </>
   );

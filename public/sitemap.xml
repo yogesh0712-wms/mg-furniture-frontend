@@ -24,7 +24,10 @@
   <url>
     <loc>https://www.mgfurniture.in/services</loc>
   </url>
-
+  <url>
+    <loc>https://www.mgfurniture.in/blogs</loc>
+  </url>
+// SHOP PAGES
   <url>
     <loc>https://www.mgfurniture.in/shop/chairs</loc>
   </url>
@@ -65,6 +68,60 @@
     <loc>https://www.mgfurniture.in/shop/wooden-ceiling</loc>
   </url>
 
+// SERVICES PAGES
+
+<url>
+    <loc>https://www.mgfurniture.in/services/wardrobe-servicing</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/cabinet-service</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/bed-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/chair-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/table-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/sofa-frame-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/door-window-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/shelves-wallunit-repair</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/modular-kitchen-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/wardrobe-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/cabinet-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/bed-sofa-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/shelves-wallunit-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/door-window-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/cloth-hanger-installation</loc>
+  </url>
+<url>
+    <loc>https://www.mgfurniture.in/services/lock-handle-installation</loc>
+  </url>
+
+
+// CONTRACTING PAGES
+
   <url>
     <loc>https://www.mgfurniture.in/contracting/interior-design</loc>
   </url>
@@ -87,6 +144,39 @@
 
   <url>
     <loc>https://www.mgfurniture.in/contracting/office-design</loc>
+  </url>
+
+  //CONTENT PAGES LINK
+// Landing pages
+  <url>
+    <loc>https://www.mgfurniture.in/custom-wood-furniture/custom-furniture-makers-jaipur</loc>
+  </url>
+  <url>
+    <loc>https://www.mgfurniture.in/furniture-services/furniture-installation-repair-jaipur</loc>
+  </url>
+
+
+//  Pillar Pages
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur</loc>
+  </url>
+
+//content 
+
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-guide</loc>
+  </url>
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur/how-to-order-custom-wood-furniture-jaipur</loc>
+  </url>
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur/custom-wood-furniture-jaipur-before-after</loc>
+  </url>
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur/jaipur-home-success-story</loc>
+  </url>
+  <url>
+    <loc>https://www.mgfurniture.in/blogs/custom-wood-furniture-in-jaipur/faqs-jaipur-buyers-guide</loc>
   </url>
 
 </urlset>

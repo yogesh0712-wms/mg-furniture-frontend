@@ -1,6 +1,82 @@
 import { useEffect, useRef, useState } from "react";
 import Header, { Footer } from "../Header";
 
+<style>{`
+  .ww-card {
+    display: flex;
+    flex-direction: column;
+    background: #FDFAF6;
+    border: 1px solid #E8DFD0;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(101,67,33,.06);
+    transition: transform .3s cubic-bezier(.22,.68,0,1.2), box-shadow .3s ease;
+  }
+  .ww-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(101,67,33,.14);
+  }
+  .ww-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform .5s ease;
+  }
+  .ww-card:hover .ww-card-img {
+    transform: scale(1.07);
+  }
+  .ww-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(60,30,5,.06);
+    transition: background .3s ease;
+  }
+  .ww-card:hover .ww-card-overlay {
+    background: rgba(60,30,5,.18);
+  }
+  .ww-card-arrow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #8B4513;
+    transition: gap .2s ease;
+  }
+  .ww-card:hover .ww-card-arrow {
+    gap: 8px;
+  }
+  .ww-card-arrow svg {
+    transform: translateX(0);
+    transition: transform .2s ease;
+  }
+  .ww-card:hover .ww-card-arrow svg {
+    transform: translateX(3px);
+  }
+  .ww-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 36px;
+    background: #2D1A0E;
+    color: #FAF0E0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 100px;
+    text-decoration: none;
+    letter-spacing: .02em;
+    transition: background .2s, transform .15s;
+  }
+  .ww-cta-btn:hover {
+    background: #8B4513;
+    transform: scale(1.03);
+  }
+`}</style>;
+
 // ─── SEO Meta via react-helmet alternative (injected manually) ───────────────
 function SEOMeta() {
   useEffect(() => {
@@ -584,6 +660,210 @@ export default function JaipurFurnitureLanding() {
           </div>
         </div>
       </Section>
+      {/* ───────────────────────────────────────────────────────────────
+  PASTE THIS BLOCK INSIDE YOUR COMPONENT'S return()
+  Only requirement: useState must be imported at the top of your file
+  e.g.  import { useState } from "react";
+─────────────────────────────────────────────────────────────── */}
+
+      <section
+        style={{
+          background: "linear-gradient(180deg,#FAF6F0 0%,#F5EDE0 100%)",
+          padding: "96px 24px",
+          fontFamily: "'Segoe UI',system-ui,sans-serif",
+        }}
+      >
+        <div style={{ maxWidth: "1160px", margin: "0 auto" }}>
+          {/* Section header */}
+          <div style={{ textAlign: "center", marginBottom: "64px" }}>
+            <p
+              style={{
+                margin: "0 0 12px",
+                fontSize: "12px",
+                fontWeight: 700,
+                letterSpacing: "0.12em",
+                textTransform: "uppercase",
+                color: "#8B4513",
+              }}
+            >
+              Custom Wood Furniture
+            </p>
+            <h2
+              style={{
+                margin: "0 0 18px",
+                fontSize: "clamp(28px,4vw,44px)",
+                fontWeight: 700,
+                lineHeight: 1.2,
+                color: "#2D1A0E",
+                fontFamily: "'Georgia','Times New Roman',serif",
+              }}
+            >
+              Guides, Stories &amp; Inspiration
+            </h2>
+            <p
+              style={{
+                margin: "0 auto",
+                maxWidth: "520px",
+                fontSize: "16px",
+                lineHeight: 1.7,
+                color: "#7A5C44",
+              }}
+            >
+              Everything you need to know before, during, and after
+              commissioning a piece of custom wood furniture.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "12px",
+                marginTop: "28px",
+              }}
+            >
+              <div
+                style={{ height: "1px", width: "60px", background: "#C9A87A" }}
+              />
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                  d="M9 1C9 1 5 5 5 9C5 13 9 17 9 17C9 17 13 13 13 9C13 5 9 1 9 1Z"
+                  fill="#C9A87A"
+                />
+              </svg>
+              <div
+                style={{ height: "1px", width: "60px", background: "#C9A87A" }}
+              />
+            </div>
+          </div>
+
+          {/* Cards grid */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill,minmax(320px,1fr))",
+              gap: "28px",
+            }}
+          >
+            {/* Card 1 – Buying Guide */}
+
+            {/* Card 2 – Process */}
+
+            {/* Card 3 – Care Guide */}
+
+            {/* Card 4 – Inspiration */}
+
+            {/* Card 5 – Comparison */}
+            <a
+              href="/custom-furniture-makers-jaipur/best-furniture-options-jaipur-homes"
+              className="ww-card"
+            >
+              <div
+                style={{
+                  position: "relative",
+                  height: "200px",
+                  overflow: "hidden",
+                  flexShrink: 0,
+                }}
+              >
+                <img
+                  className="ww-card-img"
+                  src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
+                  alt="Custom vs readymade furniture"
+                />
+                <div className="ww-card-overlay" />
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "14px",
+                    left: "14px",
+                    padding: "4px 12px",
+                    borderRadius: "100px",
+                    fontSize: "11px",
+                    fontWeight: 600,
+                    letterSpacing: ".04em",
+                    textTransform: "uppercase",
+                    background: "#EDE9FE",
+                    color: "#5B21B6",
+                  }}
+                >
+                  Comparison
+                </span>
+              </div>
+              <div
+                style={{
+                  padding: "24px 24px 20px",
+                  display: "flex",
+                  flexDirection: "column",
+                  flex: 1,
+                }}
+              >
+                <h3
+                  style={{
+                    margin: "0 0 10px",
+                    fontSize: "17px",
+                    fontWeight: 700,
+                    lineHeight: 1.35,
+                    color: "#2D1A0E",
+                    fontFamily: "'Georgia','Times New Roman',serif",
+                  }}
+                >
+                  Custom vs Ready-Made Furniture: What Actually Makes Sense for
+                  You
+                </h3>
+                <p
+                  style={{
+                    margin: "0 0 20px",
+                    fontSize: "14px",
+                    lineHeight: 1.65,
+                    color: "#7A5C44",
+                    flex: 1,
+                  }}
+                >
+                  Cost, lead time, fit, and finish — we break down every factor
+                  honestly so you can make the right call for your space and
+                  budget.
+                </p>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    borderTop: "1px solid #EDE4D8",
+                    paddingTop: "14px",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      color: "#A0856B",
+                      fontWeight: 500,
+                    }}
+                  >
+                    5 min read
+                  </span>
+                  <span className="ww-card-arrow flex items-center">
+                    <p>Read article </p>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="#8B4513"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            {/* Card 6 – Sustainability */}
+          </div>
+          {/* end grid */}
+
+          {/* View all CTA */}
+        </div>
+      </section>
 
       {/* ── LOCAL SEO SECTION ────────────────────────────────────────────────── */}
       <Section bg={C.sand}>
