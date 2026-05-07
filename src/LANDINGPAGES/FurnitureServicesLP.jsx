@@ -73,7 +73,7 @@ const IMAGES = {
   trust4:
     "https://images.pexels.com/photos/5691632/pexels-photo-5691632.jpeg?auto=compress&cs=tinysrgb&w=600",
   cityPalace:
-    "https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://th.bing.com/th/id/R.59adbbc78cab7fcbb49a081c028e2e48?rik=ARZhC5wKUtGQLg&riu=http%3a%2f%2fs3.india.com%2ftravel%2fwp-content%2fuploads%2f2014%2f09%2fCity-Palace-Jaipur1.jpg&ehk=J6%2fRFxXeOoOQNMsFx3oBwZc45smrClu6R9RDFteH4q0%3d&risl=&pid=ImgRaw&r=0",
   before:
     "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600",
   after:
@@ -1289,49 +1289,6 @@ export default function FurnitureRepairJaipur() {
   return (
     <>
       <style>{GLOBAL_STYLE}</style>
-
-      {/* Sticky top bar */}
-      <div
-        style={{
-          position: "sticky",
-          top: 0,
-          zIndex: 1000,
-          background: "rgba(29,12,2,0.96)",
-          backdropFilter: "blur(8px)",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "12px 24px",
-          borderBottom: "1px solid rgba(212,168,67,0.25)",
-        }}
-      >
-        <div
-          style={{
-            fontFamily: "'Playfair Display', serif",
-            color: "#fff",
-            fontSize: "1.1rem",
-            fontWeight: 700,
-          }}
-        >
-          🛠️ <span style={{ color: "#f0c96a" }}>FurniCraft</span> Jaipur
-        </div>
-        <div style={{ display: "flex", gap: 10 }}>
-          <a
-            href="tel:+919782545485"
-            className="btn-primary"
-            style={{ padding: "9px 20px", fontSize: "0.88rem" }}
-          >
-            📞 Call
-          </a>
-          <a
-            href="https://wa.me/919782545485"
-            className="btn-whatsapp"
-            style={{ padding: "9px 20px", fontSize: "0.88rem" }}
-          >
-            💬 WhatsApp
-          </a>
-        </div>
-      </div>
 
       <main>
         <Header />
