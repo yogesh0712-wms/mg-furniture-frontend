@@ -33,6 +33,9 @@ const CustomWoodFurnitureFAQs = lazy(
 const JaipurFurnitureReport = lazy(
   () => import("../SEOCONTENT/Contents/CustomWoodFurnitureReport.jsx"),
 );
+const CustomFurnitureCheckList = lazy(
+  () => import("../SEOCONTENT/Contents/CustomWoodFurnitureCheckList.jsx"),
+);
 
 // LANDING PAGE
 
@@ -92,6 +95,10 @@ export default function ContentRoutes() {
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur/jaipur-furniture-market-report-2026"
         element={<JaipurFurnitureReport />}
+      />
+      <Route
+        path="/blogs/custom-wood-furniture-in-jaipur/furniture-buying-checklist-jaipur"
+        element={<CustomFurnitureCheckList />}
       />
 
       {/* LANDING PAGE*/}
