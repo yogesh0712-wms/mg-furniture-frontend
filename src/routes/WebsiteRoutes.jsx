@@ -120,16 +120,25 @@ export default function WebsiteRoutes() {
 
       {/* Shop */}
 
-      <Route path="/shop/chairs" element={<Chairs />} />
-      <Route path="/shop/sofas" element={<Sofas />} />
-      <Route path="/shop/doors" element={<Doors />} />
-      <Route path="/shop/windows" element={<Windows />} />
-      <Route path="/shop/almiras" element={<Almiras />} />
-      <Route path="/shop/beds" element={<Bads />} />
-      <Route path="/shop/dining-table" element={<DinningTable />} />
-      <Route path="/shop/shoe-racks" element={<ShoeRacks />} />
-      <Route path="/shop/study-table" element={<StudyTable />} />
-      <Route path="/shop/wooden-ceiling" element={<Woodenceiling />} />
+      <Route path="/custom-wood-furniture/chairs" element={<Chairs />} />
+      <Route path="/custom-wood-furniture/sofas" element={<Sofas />} />
+      <Route path="/custom-wood-furniture/doors" element={<Doors />} />
+      <Route path="/custom-wood-furniture/windows" element={<Windows />} />
+      <Route path="/custom-wood-furniture/almiras" element={<Almiras />} />
+      <Route path="/custom-wood-furniture/beds" element={<Bads />} />
+      <Route
+        path="/custom-wood-furniture/dining-table"
+        element={<DinningTable />}
+      />
+      <Route path="/custom-wood-furniture/shoe-racks" element={<ShoeRacks />} />
+      <Route
+        path="/custom-wood-furniture/study-table"
+        element={<StudyTable />}
+      />
+      <Route
+        path="/custom-wood-furniture/wooden-ceiling"
+        element={<Woodenceiling />}
+      />
 
       {/* Services */}
 
