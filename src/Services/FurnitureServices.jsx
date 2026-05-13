@@ -2,59 +2,59 @@ import React from "react";
 
 const servicesTypes = [
   {
-    img: "/image_collection/services_image/wadobe serivce.webp",
+    img: "/image_collection/furniture-services_image/wadobe serivce.webp",
     type: "Wardrobe servicing",
-    url: "/services/wardrobe-servicing",
+    url: "/furniture-services/wardrobe-servicing",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/cabinet service.webp",
+    img: "/image_collection/furniture-services_image/cabinet service.webp",
     type: "Cabinet servicing",
-    url: "/services/cabinet-service",
+    url: "/furniture-services/cabinet-service",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/bed repair.webp",
+    img: "/image_collection/furniture-services_image/bed repair.webp",
     type: "Bed repair",
-    url: "/services/bed-repair",
+    url: "/furniture-services/bed-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/chair repair.webp",
+    img: "/image_collection/furniture-services_image/chair repair.webp",
     type: "Chair repair",
-    url: "/services/chair-repair",
+    url: "/furniture-services/chair-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/table repair.webp",
+    img: "/image_collection/furniture-services_image/table repair.webp",
     type: "Table repair",
-    url: "/services/table-repair",
+    url: "/furniture-services/table-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/sofa repair.webp",
+    img: "/image_collection/furniture-services_image/sofa repair.webp",
     type: "Sofa frame repair",
-    url: "/services/sofa-frame-repair",
+    url: "/furniture-services/sofa-frame-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/door repair.webp",
+    img: "/image_collection/furniture-services_image/door repair.webp",
     type: "Door & Window repair",
-    url: "/services/door-window-repair",
+    url: "/furniture-services/door-window-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
 
   {
-    img: "/image_collection/services_image/shelf repair.webp",
+    img: "/image_collection/furniture-services_image/shelf repair.webp",
     type: "Shelves & Wall-unit repair",
-    url: "/services/shelves-wallunit-repair",
+    url: "/furniture-services/shelves-wallunit-repair",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
@@ -62,58 +62,58 @@ const servicesTypes = [
 
 const fittingTypes = [
   {
-    img: "/image_collection/services_image/modular fitting.webp",
+    img: "/image_collection/furniture-services_image/modular fitting.webp",
     type: "Modular kitchen installation",
-    url: "/services/modular-kitchen-installation",
+    url: "/furniture-services/modular-kitchen-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/warddrobe fitting.webp",
+    img: "/image_collection/furniture-services_image/warddrobe fitting.webp",
     type: "Wardrobe installation",
-    url: "/services/wardrobe-installation",
+    url: "/furniture-services/wardrobe-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/cabinet fitting.webp",
+    img: "/image_collection/furniture-services_image/cabinet fitting.webp",
     type: "Cabinet installation",
-    url: "/services/cabinet-installation",
+    url: "/furniture-services/cabinet-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/beds and sofa fitting.webp",
+    img: "/image_collection/furniture-services_image/beds and sofa fitting.webp",
     type: "Bed & Sofa setup",
-    url: "/services/bed-sofa-installation",
+    url: "/furniture-services/bed-sofa-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/shelves and wall unit fitting.webp",
+    img: "/image_collection/furniture-services_image/shelves and wall unit fitting.webp",
     type: "Shelves & wall units",
-    url: "/services/shelves-wallunit-installation",
+    url: "/furniture-services/shelves-wallunit-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/windon fitting.webp",
+    img: "/image_collection/furniture-services_image/windon fitting.webp",
     type: "Doors & Windows",
-    url: "/services/door-window-installation",
+    url: "/furniture-services/door-window-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/cloth hanger fitting.webp",
+    img: "/image_collection/furniture-services_image/cloth hanger fitting.webp",
     type: "Clothes hanger installation",
-    url: "/services/cloth-hanger-installation",
+    url: "/furniture-services/cloth-hanger-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },
   {
-    img: "/image_collection/services_image/locan handles fitting.webp",
+    img: "/image_collection/furniture-services_image/locan handles fitting.webp",
     type: "Locks & handles installation",
-    url: "/services/lock-handle-installation",
+    url: "/furniture-services/lock-handle-installation",
     WhatsAppMsg:
       "https://wa.me/917878658974?text=Hello%20I%20want%20to%20discuss%20a%20custom%20furniture%20order",
   },

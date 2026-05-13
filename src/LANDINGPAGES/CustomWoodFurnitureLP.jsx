@@ -744,15 +744,6 @@ export default function JaipurFurnitureLanding() {
               gap: "28px",
             }}
           >
-            {/* Card 1 – Buying Guide */}
-
-            {/* Card 2 – Process */}
-
-            {/* Card 3 – Care Guide */}
-
-            {/* Card 4 – Inspiration */}
-
-            {/* Card 5 – Comparison */}
             <a
               href="/custom-furniture-makers-jaipur/best-furniture-options-jaipur-homes"
               className="ww-card"
@@ -856,7 +847,108 @@ export default function JaipurFurnitureLanding() {
               </div>
             </a>
 
-            {/* Card 6 – Sustainability */}
+            <a
+              href="/custom-furniture-makers-jaipur/top-areas-jaipur-custom-furniture-demand"
+              className="ww-card"
+            >
+              <div
+                style={{
+                  position: "relative",
+                  height: "200px",
+                  overflow: "hidden",
+                  flexShrink: 0,
+                }}
+              >
+                <img
+                  className="ww-card-img"
+                  src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80"
+                  alt="Custom vs readymade furniture"
+                />
+                <div className="ww-card-overlay" />
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "14px",
+                    left: "14px",
+                    padding: "4px 12px",
+                    borderRadius: "100px",
+                    fontSize: "11px",
+                    fontWeight: 600,
+                    letterSpacing: ".04em",
+                    textTransform: "uppercase",
+                    background: "#EDE9FE",
+                    color: "#5B21B6",
+                  }}
+                >
+                  Comparison
+                </span>
+              </div>
+              <div
+                style={{
+                  padding: "24px 24px 20px",
+                  display: "flex",
+                  flexDirection: "column",
+                  flex: 1,
+                }}
+              >
+                <h3
+                  style={{
+                    margin: "0 0 10px",
+                    fontSize: "17px",
+                    fontWeight: 700,
+                    lineHeight: 1.35,
+                    color: "#2D1A0E",
+                    fontFamily: "'Georgia','Times New Roman',serif",
+                  }}
+                >
+                  Best Custom Wood Furniture Options for Homes in Jaipur
+                </h3>
+                <p
+                  style={{
+                    margin: "0 0 20px",
+                    fontSize: "14px",
+                    lineHeight: 1.65,
+                    color: "#7A5C44",
+                    flex: 1,
+                  }}
+                >
+                  A practical guide to choosing the right custom wood furniture
+                  in Jaipur — from bedroom storage to modular living rooms, wood
+                  types, pricing, and what actually works in Indian homes.
+                </p>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    borderTop: "1px solid #EDE4D8",
+                    paddingTop: "14px",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      color: "#A0856B",
+                      fontWeight: 500,
+                    }}
+                  >
+                    5 min read
+                  </span>
+                  <span className="ww-card-arrow flex items-center">
+                    <p>Read article </p>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="#8B4513"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
           </div>
           {/* end grid */}
 

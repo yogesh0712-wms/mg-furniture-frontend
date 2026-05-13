@@ -126,6 +126,15 @@ const customFurnitureData = {
         "https://www.millerwaldrop.com/wp-content/uploads/2025/11/featured-image-0c934ab2-b3ac-495c-bb6c-b66e6e9747bd.jpg",
       link: "/blogs/custom-wood-furniture-in-jaipur/furniture-buying-checklist-jaipur",
     },
+    {
+      title: "Why Custom Wood Furniture is Trending in Jaipur Homes in 2026",
+      description:
+        "From Rajasthan's centuries-old craft workshops to sleek modern apartments, handcrafted wooden furniture is reshaping how Jaipur families furnish their spaces — one bespoke piece at a time.",
+      category: "Article",
+      image:
+        "https://vaastvikdesigngroup.com/wp-content/uploads/2025/05/ChatGPT-Image-May-22-2025-12_34_52-PM-1024x683.png",
+      link: "/blogs/custom-wood-furniture-in-jaipur/why-custom-wood-furniture-is-trending-in-jaipur-homes-2026",
+    },
   ],
 
   trustPoints: [

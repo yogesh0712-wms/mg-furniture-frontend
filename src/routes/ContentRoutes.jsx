@@ -36,6 +36,9 @@ const JaipurFurnitureReport = lazy(
 const CustomFurnitureCheckList = lazy(
   () => import("../SEOCONTENT/Contents/CustomWoodFurnitureCheckList.jsx"),
 );
+const CustomWoodFurnitureArticle = lazy(
+  () => import("../SEOCONTENT/Contents/CustomWoodFurnitureArticle.jsx"),
+);
 
 // LANDING PAGE
 
@@ -52,6 +55,9 @@ const FurnitureRepairJaipur = lazy(
 
 const BestFurnitureOptionsJaipur = lazy(
   () => import("../LANDINGPAGES/LANDINGPAGEContent/shop1"),
+);
+const TopAreasJaipurFurniture = lazy(
+  () => import("../LANDINGPAGES/LANDINGPAGEContent/shop2"),
 );
 
 export default function ContentRoutes() {
@@ -100,6 +106,10 @@ export default function ContentRoutes() {
         path="/blogs/custom-wood-furniture-in-jaipur/furniture-buying-checklist-jaipur"
         element={<CustomFurnitureCheckList />}
       />
+      <Route
+        path="/blogs/custom-wood-furniture-in-jaipur/why-custom-wood-furniture-is-trending-in-jaipur-homes-2026"
+        element={<CustomWoodFurnitureArticle />}
+      />
 
       {/* LANDING PAGE*/}
       <Route
@@ -119,6 +129,10 @@ export default function ContentRoutes() {
       <Route
         path="/custom-furniture-makers-jaipur/best-furniture-options-jaipur-homes"
         element={<BestFurnitureOptionsJaipur />}
+      />
+      <Route
+        path="/custom-furniture-makers-jaipur/top-areas-jaipur-custom-furniture-demand"
+        element={<TopAreasJaipurFurniture />}
       />
     </>
   );
