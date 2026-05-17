@@ -8,6 +8,9 @@ const BlogPage = lazy(() => import("../SEOCONTENT/BlogPage.jsx"));
 const CustomWoodFPillar = lazy(
   () => import("../SEOCONTENT/Pillar Pages/CustomWoodFPillar.jsx"),
 );
+const CompleteHomeFurnishingPillar = lazy(
+  () => import("../SEOCONTENT/Pillar Pages/CompleteHomeFurnishing.jsx"),
+);
 
 // CONTENT PAGES
 
@@ -38,6 +41,9 @@ const CustomFurnitureCheckList = lazy(
 );
 const CustomWoodFurnitureArticle = lazy(
   () => import("../SEOCONTENT/Contents/CustomWoodFurnitureArticle.jsx"),
+);
+const CompleteHomeFurnishing1 = lazy(
+  () => import("../SEOCONTENT/Contents/CompleteHomeFurnishing1.jsx"),
 );
 
 // LANDING PAGE
@@ -70,6 +76,10 @@ export default function ContentRoutes() {
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur"
         element={<CustomWoodFPillar />}
+      />
+      <Route
+        path="/blogs/complete-home-furnishing-in-jaipur"
+        element={<CompleteHomeFurnishingPillar />}
       />
 
       {/* CONTENT PAGES*/}
@@ -109,6 +119,10 @@ export default function ContentRoutes() {
       <Route
         path="/blogs/custom-wood-furniture-in-jaipur/why-custom-wood-furniture-is-trending-in-jaipur-homes-2026"
         element={<CustomWoodFurnitureArticle />}
+      />
+      <Route
+        path="/blogs/complete-home-furnishing-in-jaipur/custom-wood-furnishing"
+        element={<CompleteHomeFurnishing1 />}
       />
 
       {/* LANDING PAGE*/}

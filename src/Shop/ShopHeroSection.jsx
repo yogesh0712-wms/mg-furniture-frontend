@@ -57,12 +57,12 @@ const ShopHeroSection = () => {
         {/* TITLE */}
         <h1
           className="
-            text-3xl font-serif text-white font-light
+            text-2xl font-serif text-white font-light
             text-center pt-24
             lg:text-6xl lg:pl-[47%] lg:pt-28 lg:text-left
           "
         >
-          Shop
+          Custom Wood Furniture Shop
         </h1>
 
         {/* BREADCRUMB */}
