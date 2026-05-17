@@ -16,9 +16,10 @@ const pillars = [
   },
   {
     id: 2,
-    title: "Furniture Repair & Restoration in Jaipur",
+    title:
+      "Complete Home Furnishing in Jaipur — Design, Furniture & Interior Setup",
     description:
-      "Breathe new life into old, damaged, or worn-out furniture with expert repair services available across Jaipur.",
+      "Looking for complete home furnishing in Jaipur? We help homeowners furnish their entire home with custom furniture, modular solutions, décor styling, and space planning tailored to their lifestyle. From bedrooms and living rooms to kitchens and storage spaces, our Jaipur-based team handles everything from design to installation.",
     badge: "Local Guide",
     badgeColor: "bg-green-100 text-green-800",
     image:
