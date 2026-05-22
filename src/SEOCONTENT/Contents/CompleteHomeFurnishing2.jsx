@@ -771,20 +771,6 @@ function CTASection() {
   );
 }
 
-function footer() {
-  return (
-    <footer className="bg-stone-800 text-stone-400 py-10 px-6 text-center text-sm">
-      <p className="mb-1 text-stone-300 font-medium">
-        Furniture for Jaipur Homes
-      </p>
-      <p>Handcrafted guidance for real homes, real families, real lives.</p>
-      <p className="mt-4 text-stone-600 text-xs">
-        © {new Date().getFullYear()} · complete-home-furnishing-guide-jaipur
-      </p>
-    </footer>
-  );
-}
-
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function CompleteHomeFurnishing2() {
