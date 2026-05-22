@@ -8,6 +8,7 @@
  */
 
 import { useEffect, useRef, useState } from "react";
+import Header, { Footer } from "../../Header";
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -770,7 +771,7 @@ function CTASection() {
   );
 }
 
-function Footer() {
+function footer() {
   return (
     <footer className="bg-stone-800 text-stone-400 py-10 px-6 text-center text-sm">
       <p className="mb-1 text-stone-300 font-medium">
@@ -821,6 +822,7 @@ export default function CompleteHomeFurnishing2() {
       className="font-sans antialiased text-stone-700"
       style={{ fontFamily: "'Lato', 'Segoe UI', sans-serif" }}
     >
+      <Header />
       <Hero />
       <Introduction />
       <FurnishingOrder />
@@ -830,6 +832,7 @@ export default function CompleteHomeFurnishing2() {
       <SmallHomeSolutions />
       <EmotionalSection />
       <CTASection />
+      <footer />
       <Footer />
     </div>
   );
