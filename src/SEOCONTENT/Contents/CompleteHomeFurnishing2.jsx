@@ -818,7 +818,7 @@ export default function CompleteHomeFurnishing2() {
       <SmallHomeSolutions />
       <EmotionalSection />
       <CTASection />
-      <footer />
+
       <Footer />
     </div>
   );
