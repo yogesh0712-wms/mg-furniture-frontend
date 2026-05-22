@@ -23,7 +23,7 @@ const pillars = [
     badge: "Local Guide",
     badgeColor: "bg-green-100 text-green-800",
     image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80",
+      "https://i.pinimg.com/originals/c3/7d/a5/c37da5d81cc0139f91124ffd1c536732.jpg",
     slug: "/blogs/complete-home-furnishing-in-jaipur",
   },
   {

@@ -45,6 +45,9 @@ const CustomWoodFurnitureArticle = lazy(
 const CompleteHomeFurnishing1 = lazy(
   () => import("../SEOCONTENT/Contents/CompleteHomeFurnishing1.jsx"),
 );
+const CompleteHomeFurnishing2 = lazy(
+  () => import("../SEOCONTENT/Contents/CompleteHomeFurnishing2.jsx"),
+);
 
 // LANDING PAGE
 
@@ -123,6 +126,10 @@ export default function ContentRoutes() {
       <Route
         path="/blogs/complete-home-furnishing-in-jaipur/custom-wood-furnishing"
         element={<CompleteHomeFurnishing1 />}
+      />
+      <Route
+        path="/blogs/complete-home-furnishing-in-jaipur/complete-home-furnishing-guide-jaipur"
+        element={<CompleteHomeFurnishing2 />}
       />
 
       {/* LANDING PAGE*/}

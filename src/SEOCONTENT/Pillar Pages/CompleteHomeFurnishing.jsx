@@ -84,10 +84,10 @@ const completeHomeFurnishingData = {
     {
       title: "How to Plan Complete Home Furnishing in Jaipur",
       description:
-        "Learn how to plan furniture, storage, and interior styling for a complete home setup.",
-      category: "Tutorial",
+        "A complete, honest guide to furnishing your Jaipur home — room by room, budget by budget, without the overwhelm.",
+      category: "Guide",
       image: "https://images.unsplash.com/photo-1484154218962-a197022b5858",
-      link: "/blogs/complete-home-furnishing-jaipur/how-to-plan-home-furnishing",
+      link: "/blogs/complete-home-furnishing-in-jaipur/complete-home-furnishing-guide-jaipur",
     },
 
     {
