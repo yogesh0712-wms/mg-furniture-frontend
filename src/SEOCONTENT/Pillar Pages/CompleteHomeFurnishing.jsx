@@ -91,10 +91,10 @@ const completeHomeFurnishingData = {
     },
 
     {
-      title: "3BHK Complete Furnishing Project in Jaipur",
+      title: "Modern Home Furnishing Ideas for Jaipur Homes",
       description:
-        "Explore a sample case study of how an empty apartment was transformed into a fully furnished home.",
-      category: "Case Study",
+        "Furniture should do more than fill a room. In modern Jaipur homes, every piece should create comfort, save space, and make daily living feel easier and more organised.",
+      category: "Modern Home",
       image: "https://images.unsplash.com/photo-1494526585095-c41746248156",
       link: "/blogs/complete-home-furnishing-in-jaipur/modern-home-furnishing-jaipur",
     },
