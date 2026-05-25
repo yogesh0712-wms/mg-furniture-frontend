@@ -96,7 +96,7 @@ const completeHomeFurnishingData = {
         "Explore a sample case study of how an empty apartment was transformed into a fully furnished home.",
       category: "Case Study",
       image: "https://images.unsplash.com/photo-1494526585095-c41746248156",
-      link: "/blogs/complete-home-furnishing-jaipur/3bhk-home-furnishing-case-study",
+      link: "/blogs/complete-home-furnishing-in-jaipur/modern-home-furnishing-jaipur",
     },
 
     {
